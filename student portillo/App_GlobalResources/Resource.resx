@@ -1,0 +1,1589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="sip_acac_nav" xml:space="preserve">
+    <value>Academic Navigator</value>
+  </data>
+  <data name="sip_attendance" xml:space="preserve">
+    <value>Attendance</value>
+  </data>
+  <data name="sip_big" xml:space="preserve">
+    <value>Big</value>
+  </data>
+  <data name="sip_class" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="sip_class_cancel" xml:space="preserve">
+    <value>Class Cancellation</value>
+  </data>
+  <data name="sip_class_time" xml:space="preserve">
+    <value>Class Time</value>
+  </data>
+  <data name="sip_contacts" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="sip_course_and_tech_eval" xml:space="preserve">
+    <value>Courses and Teaching Evaluation</value>
+  </data>
+  <data name="sip_enrol" xml:space="preserve">
+    <value>Enrollment Form</value>
+  </data>
+  <data name="sip_ePortfolio" xml:space="preserve">
+    <value>ePortfolio</value>
+  </data>
+  <data name="sip_eServices" xml:space="preserve">
+    <value>eServices</value>
+  </data>
+  <data name="sip_exam_time" xml:space="preserve">
+    <value>Examination Time</value>
+  </data>
+  <data name="sip_fav" xml:space="preserve">
+    <value>My Favourites</value>
+  </data>
+  <data name="sip_finance" xml:space="preserve">
+    <value>Finance</value>
+  </data>
+  <data name="sip_home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="sip_medium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="sip_news" xml:space="preserve">
+    <value>MPI News</value>
+  </data>
+  <data name="sip_notices" xml:space="preserve">
+    <value>Notices</value>
+  </data>
+  <data name="sip_resit_time" xml:space="preserve">
+    <value>Re-sit Examination Time</value>
+  </data>
+  <data name="sip_settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="sip_signout" xml:space="preserve">
+    <value>Sign Out</value>
+  </data>
+  <data name="sip_small" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="sip_typs_and_rains" xml:space="preserve">
+    <value>Typhoons and Heavy Rain</value>
+  </data>
+  <data name="sip_venue_time" xml:space="preserve">
+    <value>Venue Timetable</value>
+  </data>
+  <data name="sip_welcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="sip_acad_results" xml:space="preserve">
+    <value>Academic Results</value>
+  </data>
+  <data name="sip_app_cert" xml:space="preserve">
+    <value>Application For Certificate</value>
+  </data>
+  <data name="sip_CIDP_agree" xml:space="preserve">
+    <value>CIDP Agreement</value>
+  </data>
+  <data name="sip_cv" xml:space="preserve">
+    <value>Curriculum Vitae</value>
+  </data>
+  <data name="sip_debit_note" xml:space="preserve">
+    <value>Debit Note</value>
+  </data>
+  <data name="sip_ePay" xml:space="preserve">
+    <value>ePayment</value>
+  </data>
+  <data name="sip_ex_active" xml:space="preserve">
+    <value>Extracurricular Activities</value>
+  </data>
+  <data name="sip_instrutor_comments" xml:space="preserve">
+    <value>Instructors' Comments</value>
+  </data>
+  <data name="sip_learn_record" xml:space="preserve">
+    <value>Learning Record</value>
+  </data>
+  <data name="sip_locker" xml:space="preserve">
+    <value>Locker Application</value>
+  </data>
+  <data name="sip_pay_and_receipt" xml:space="preserve">
+    <value>Payment &amp; receipt</value>
+  </data>
+  <data name="sip_reg_gift" xml:space="preserve">
+    <value>Register Gift</value>
+  </data>
+  <data name="sip_result_analysis" xml:space="preserve">
+    <value>Result Analysis</value>
+  </data>
+  <data name="sip_smart_card" xml:space="preserve">
+    <value>Smart Card</value>
+  </data>
+  <data name="sip_std_profile" xml:space="preserve">
+    <value>Student Profile</value>
+  </data>
+  <data name="sip_acad_year" xml:space="preserve">
+    <value>Academic Year</value>
+  </data>
+  <data name="sip_acad_year_req" xml:space="preserve">
+    <value>Academic Year is required！</value>
+  </data>
+  <data name="sip_advice_class_code" xml:space="preserve">
+    <value>Subject Code</value>
+  </data>
+  <data name="sip_advice_dear" xml:space="preserve">
+    <value>Dear</value>
+  </data>
+  <data name="sip_advice_details" xml:space="preserve">
+    <value>Advice Details</value>
+  </data>
+  <data name="sip_advice_instructor" xml:space="preserve">
+    <value>Instructor</value>
+  </data>
+  <data name="sip_advice_msg1" xml:space="preserve">
+    <value>You have</value>
+  </data>
+  <data name="sip_advice_msg2" xml:space="preserve">
+    <value>from your instructors.</value>
+  </data>
+  <data name="sip_advice_msg3" xml:space="preserve">
+    <value>new message</value>
+  </data>
+  <data name="sip_advice_msg4" xml:space="preserve">
+    <value>new messages</value>
+  </data>
+  <data name="sip_advice_note1" xml:space="preserve">
+    <value>Please pay attention and read the following messages carefully!</value>
+  </data>
+  <data name="sip_advice_note2" xml:space="preserve">
+    <value>After read the comments from your instructors, it is recommended to take related action for improve your performance during your campus life and as well as  your near future.</value>
+  </data>
+  <data name="sip_advice_post_date" xml:space="preserve">
+    <value>Post Date</value>
+  </data>
+  <data name="sip_advice_status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="sip_advice_std_id" xml:space="preserve">
+    <value>Student ID</value>
+  </data>
+  <data name="sip_advice_subject_chinese" xml:space="preserve">
+    <value>Subject(Chinese)</value>
+  </data>
+  <data name="sip_advice_subject_engl" xml:space="preserve">
+    <value>Subject(English)</value>
+  </data>
+  <data name="sip_advice_title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="sip_advice_year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="sip_back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="sip_class_work" xml:space="preserve">
+    <value>Course Work</value>
+  </data>
+  <data name="sip_class_work_rank" xml:space="preserve">
+    <value>Course Work Rank</value>
+  </data>
+  <data name="sip_comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="sip_con" xml:space="preserve">
+    <value>Conversation</value>
+  </data>
+  <data name="sip_exam_rank" xml:space="preserve">
+    <value>Final Exam Rank</value>
+  </data>
+  <data name="sip_exam_score" xml:space="preserve">
+    <value>Final Exam</value>
+  </data>
+  <data name="sip_final" xml:space="preserve">
+    <value>Final Score</value>
+  </data>
+  <data name="sip_final_rank" xml:space="preserve">
+    <value>Final Score Rank</value>
+  </data>
+  <data name="sip_gpa_rank" xml:space="preserve">
+    <value>GPA Rank</value>
+  </data>
+  <data name="sip_mandatory" xml:space="preserve">
+    <value>indicates mandatory fields</value>
+  </data>
+  <data name="sip_pls_select" xml:space="preserve">
+    <value>Please select</value>
+  </data>
+  <data name="sip_post" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="sip_program_chinese" xml:space="preserve">
+    <value>Program Chinese Name</value>
+  </data>
+  <data name="sip_program_engl" xml:space="preserve">
+    <value>Program English Name</value>
+  </data>
+  <data name="sip_result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="sip_search_criteria" xml:space="preserve">
+    <value>Search Criteria</value>
+  </data>
+  <data name="sip_see_result" xml:space="preserve">
+    <value>to see the result.</value>
+  </data>
+  <data name="sip_std_name" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="sip_total_std" xml:space="preserve">
+    <value>Total Student</value>
+  </data>
+  <data name="sip_academic_results" xml:space="preserve">
+    <value>Academic Results</value>
+  </data>
+  <data name="sip_final_score" xml:space="preserve">
+    <value>Final Score</value>
+  </data>
+  <data name="sip_subject_info" xml:space="preserve">
+    <value>Subject Information:</value>
+  </data>
+  <data name="sip_subject_cat" xml:space="preserve">
+    <value>Subject Category</value>
+  </data>
+  <data name="sip_subject_category" xml:space="preserve">
+    <value>Student Subject Category Score</value>
+  </data>
+  <data name="sip_subject_cht" xml:space="preserve">
+    <value>Subject Chinese Name</value>
+  </data>
+  <data name="sip_subject_code" xml:space="preserve">
+    <value>Subject Code</value>
+  </data>
+  <data name="sip_subject_en" xml:space="preserve">
+    <value>Subject English Name</value>
+  </data>
+  <data name="sip_subject_type" xml:space="preserve">
+    <value>Subject Category:</value>
+  </data>
+  <data name="sip_total_score" xml:space="preserve">
+    <value>Total Score</value>
+  </data>
+  <data name="sip_bio" xml:space="preserve">
+    <value>Biography</value>
+  </data>
+  <data name="sip_interests" xml:space="preserve">
+    <value>Interests</value>
+  </data>
+  <data name="sip_languages" xml:space="preserve">
+    <value>Languages</value>
+  </data>
+  <data name="sip_references" xml:space="preserve">
+    <value>Referrer</value>
+  </data>
+  <data name="sip_social" xml:space="preserve">
+    <value>Social and Organization Skills and Competences</value>
+  </data>
+  <data name="sip_technical" xml:space="preserve">
+    <value>Technical Skills and Competences</value>
+  </data>
+  <data name="sip_edu_info" xml:space="preserve">
+    <value>Educational Background</value>
+  </data>
+  <data name="sip_person_info" xml:space="preserve">
+    <value>Personal Information</value>
+  </data>
+  <data name="sip_sp_addreference" xml:space="preserve">
+    <value>Add References</value>
+  </data>
+  <data name="sip_sp_addrelevant" xml:space="preserve">
+    <value>Add Relevant Experience</value>
+  </data>
+  <data name="sip_sp_addwork" xml:space="preserve">
+    <value>Add Work Experience</value>
+  </data>
+  <data name="sip_sp_cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="sip_sp_del" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="sip_sp_edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="sip_sp_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="sip_sp_confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="sip_sp_new" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="sip_sp_submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="sip_sp_city" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="sip_sp_cityCht" xml:space="preserve">
+    <value>City(Chinese)</value>
+  </data>
+  <data name="sip_sp_company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="sip_sp_companyCht" xml:space="preserve">
+    <value>Company(Chinese)</value>
+  </data>
+  <data name="sip_sp_courseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="sip_sp_enddate" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="sip_sp_jobName" xml:space="preserve">
+    <value>Job Name</value>
+  </data>
+  <data name="sip_sp_jobNameCht" xml:space="preserve">
+    <value>Job Name(Chinese)</value>
+  </data>
+  <data name="sip_sp_referenceAddress" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="sip_sp_referenceAddressCht" xml:space="preserve">
+    <value>Address(Chinese):</value>
+  </data>
+  <data name="sip_sp_referenceCity" xml:space="preserve">
+    <value>City:</value>
+  </data>
+  <data name="sip_sp_referenceCityCht" xml:space="preserve">
+    <value>City(Chinese):</value>
+  </data>
+  <data name="sip_sp_referenceCountry" xml:space="preserve">
+    <value>Country:</value>
+  </data>
+  <data name="sip_sp_referenceCountryCht" xml:space="preserve">
+    <value>Country(Chinese):</value>
+  </data>
+  <data name="sip_sp_referenceEmail" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="sip_sp_referenceInstitute" xml:space="preserve">
+    <value>Institute:</value>
+  </data>
+  <data name="sip_sp_referenceInstituteCht" xml:space="preserve">
+    <value>Institute(Chinese):</value>
+  </data>
+  <data name="sip_sp_referencePhone" xml:space="preserve">
+    <value>Phone:</value>
+  </data>
+  <data name="sip_sp_referencePosition" xml:space="preserve">
+    <value>Position:</value>
+  </data>
+  <data name="sip_sp_referencePositionCht" xml:space="preserve">
+    <value>Position(Chinese):</value>
+  </data>
+  <data name="sip_sp_referenceProgram" xml:space="preserve">
+    <value>Program:</value>
+  </data>
+  <data name="sip_sp_referenceProgramCht" xml:space="preserve">
+    <value>Program(Chinese):</value>
+  </data>
+  <data name="sip_sp_referenceSchool" xml:space="preserve">
+    <value>School:</value>
+  </data>
+  <data name="sip_sp_referenceSchoolCht" xml:space="preserve">
+    <value>School(Chinese):</value>
+  </data>
+  <data name="sip_sp_referenceTeacher" xml:space="preserve">
+    <value>Teacher Name:</value>
+  </data>
+  <data name="sip_sp_referenceTeacherCht" xml:space="preserve">
+    <value>Teacher Name(Chinese):</value>
+  </data>
+  <data name="sip_sp_relevantCity" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="sip_sp_relevantCountry" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="sip_sp_relevantDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="sip_sp_relevantOrg" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="sip_sp_startdate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="sip_sp_AddCity" xml:space="preserve">
+    <value>City:</value>
+  </data>
+  <data name="sip_sp_AddCityCht" xml:space="preserve">
+    <value>City(Chinese):</value>
+  </data>
+  <data name="sip_sp_AddCompany" xml:space="preserve">
+    <value>Company:</value>
+  </data>
+  <data name="sip_sp_AddCompanyCht" xml:space="preserve">
+    <value>Company(Chinese):</value>
+  </data>
+  <data name="sip_sp_Addenddate" xml:space="preserve">
+    <value>End Date:</value>
+  </data>
+  <data name="sip_sp_AddjobName" xml:space="preserve">
+    <value>Job Name:</value>
+  </data>
+  <data name="sip_sp_AddjobNameCht" xml:space="preserve">
+    <value>Job Name(Chinese):</value>
+  </data>
+  <data name="sip_sp_AddrelevantCity" xml:space="preserve">
+    <value>City:</value>
+  </data>
+  <data name="sip_sp_AddrelevantCountry" xml:space="preserve">
+    <value>Country:</value>
+  </data>
+  <data name="sip_sp_AddrelevantDate" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="sip_sp_AddrelevantOrg" xml:space="preserve">
+    <value>Organization:</value>
+  </data>
+  <data name="sip_sp_Addstartdate" xml:space="preserve">
+    <value>Start Date:</value>
+  </data>
+  <data name="sip_sp_addcourseName" xml:space="preserve">
+    <value>Course Name:</value>
+  </data>
+  <data name="sip_sp_AddrelevantDescrib" xml:space="preserve">
+    <value>Detail:</value>
+  </data>
+  <data name="sip_sp_relevantDescrib" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="sip_ins" xml:space="preserve">
+    <value>insert</value>
+  </data>
+  <data name="sip_relevantExperience" xml:space="preserve">
+    <value>Relevant Experience</value>
+  </data>
+  <data name="sip_workExperience" xml:space="preserve">
+    <value>Work Experience</value>
+  </data>
+  <data name="sip_instructorReference" xml:space="preserve">
+    <value>Instructor Information</value>
+  </data>
+  <data name="sip_edu_level" xml:space="preserve">
+    <value>Level:</value>
+  </data>
+  <data name="sip_edu_program" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="sip_edu_school" xml:space="preserve">
+    <value>School</value>
+  </data>
+  <data name="sip_sp_from" xml:space="preserve">
+    <value>From:</value>
+  </data>
+  <data name="sip_sp_to" xml:space="preserve">
+    <value>To:</value>
+  </data>
+  <data name="sip_ea_activeName" xml:space="preserve">
+    <value>Activity Name</value>
+  </data>
+  <data name="sip_ea_activeNameCht" xml:space="preserve">
+    <value>Activity Name(Chinese)</value>
+  </data>
+  <data name="sip_ea_position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="sip_ea_positionCht" xml:space="preserve">
+    <value>Position(Chinese)</value>
+  </data>
+  <data name="sip_ea_upload" xml:space="preserve">
+    <value>Work Upload</value>
+  </data>
+  <data name="sip_ea_AddactiveName" xml:space="preserve">
+    <value>Activity Name:</value>
+  </data>
+  <data name="sip_ea_AddactiveNameCht" xml:space="preserve">
+    <value>Activity Name(Chinese):</value>
+  </data>
+  <data name="sip_ea_AddworkUpload" xml:space="preserve">
+    <value>Work Upload:</value>
+  </data>
+  <data name="sip_sp_relevantOrgCht" xml:space="preserve">
+    <value>Organization(Chinese)</value>
+  </data>
+  <data name="sip_sp_AddrelevantOrgCht" xml:space="preserve">
+    <value>Organization(Chinese):</value>
+  </data>
+  <data name="sip_lr_seminar" xml:space="preserve">
+    <value>Seminar/Conference</value>
+  </data>
+  <data name="sip_lr_certTitle" xml:space="preserve">
+    <value>Professional Certificate</value>
+  </data>
+  <data name="sip_lr_match" xml:space="preserve">
+    <value>Competition/Exhibition Participation</value>
+  </data>
+  <data name="sip_lr_studyRecord" xml:space="preserve">
+    <value>Reading Record</value>
+  </data>
+  <data name="sip_lr_awardTitle" xml:space="preserve">
+    <value>Awards/Scholarship</value>
+  </data>
+  <data name="sip_lr_studyTA" xml:space="preserve">
+    <value>Student Exchange Program</value>
+  </data>
+  <data name="sip_lr_internshipTitle" xml:space="preserve">
+    <value>Internship</value>
+  </data>
+  <data name="sip_lr_bonus" xml:space="preserve">
+    <value>Bonus Point</value>
+  </data>
+  <data name="sip_lr_duration" xml:space="preserve">
+    <value>Duration(hours)</value>
+  </data>
+  <data name="sip_lr_topic" xml:space="preserve">
+    <value>Topic</value>
+  </data>
+  <data name="sip_lr_total_bonus" xml:space="preserve">
+    <value>Total Bonus Point:</value>
+  </data>
+  <data name="sip_lr_type" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="sip_lr_AddCert" xml:space="preserve">
+    <value>Add Professional Certificate</value>
+  </data>
+  <data name="sip_lr_certDate" xml:space="preserve">
+    <value>Cert Date</value>
+  </data>
+  <data name="sip_lr_certName" xml:space="preserve">
+    <value>Cert Name</value>
+  </data>
+  <data name="sip_lr_certNameCht" xml:space="preserve">
+    <value>Cert Name(Chinese)</value>
+  </data>
+  <data name="sip_lr_certUpload" xml:space="preserve">
+    <value>Certificate Upload</value>
+  </data>
+  <data name="sip_lr_courseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="sip_lr_courseNameCht" xml:space="preserve">
+    <value>Course Name(Chinese)</value>
+  </data>
+  <data name="sip_lr_courseType" xml:space="preserve">
+    <value>Course Type</value>
+  </data>
+  <data name="sip_lr_courseTypeCht" xml:space="preserve">
+    <value>Course Type(Chinese)</value>
+  </data>
+  <data name="sip_lr_addCertDate" xml:space="preserve">
+    <value>Cert Date:</value>
+  </data>
+  <data name="sip_lr_addCertName" xml:space="preserve">
+    <value>Certificate Name:</value>
+  </data>
+  <data name="sip_lr_addCertNameCht" xml:space="preserve">
+    <value>Certificate Name(Chinese):</value>
+  </data>
+  <data name="sip_lr_addCertUpload" xml:space="preserve">
+    <value>Certificate Upload</value>
+  </data>
+  <data name="sip_lr_addCourseName" xml:space="preserve">
+    <value>Course Name:</value>
+  </data>
+  <data name="sip_lr_addCourseNameCht" xml:space="preserve">
+    <value>Course Name(Chinese):</value>
+  </data>
+  <data name="sip_lr_addCourseType" xml:space="preserve">
+    <value>Course Type:</value>
+  </data>
+  <data name="sip_lr_addCourseTypeCht" xml:space="preserve">
+    <value>Course Type(Chinese):</value>
+  </data>
+  <data name="sip_lr_AddAwardDescrib" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="sip_lr_AddAwardName" xml:space="preserve">
+    <value>Awards/Scholarship Name:</value>
+  </data>
+  <data name="sip_lr_AddAwardNameCht" xml:space="preserve">
+    <value>Awards/Scholarship Name(Chinese):</value>
+  </data>
+  <data name="sip_lr_AddAwardTitle" xml:space="preserve">
+    <value>Add Awards/Scholarship</value>
+  </data>
+  <data name="sip_lr_awardName" xml:space="preserve">
+    <value>Awards/Scholarship Name</value>
+  </data>
+  <data name="sip_lr_awardNameCht" xml:space="preserve">
+    <value>Awards/Scholarship Name(Chinese)</value>
+  </data>
+  <data name="sip_lr_description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="sip_lr_Addcompetition" xml:space="preserve">
+    <value>Competition/Exhibition Name:</value>
+  </data>
+  <data name="sip_lr_AddcompetitionCht" xml:space="preserve">
+    <value>Competition/Exhibition Name(Chinese):</value>
+  </data>
+  <data name="sip_lr_AddcompetitionContent" xml:space="preserve">
+    <value>Competition/Exhibition Description:</value>
+  </data>
+  <data name="sip_lr_AddCompetitionTitle" xml:space="preserve">
+    <value>Add Competition/Exhibition </value>
+  </data>
+  <data name="sip_lr_AddcompetitionType" xml:space="preserve">
+    <value>Category:</value>
+  </data>
+  <data name="sip_lr_AddcompetitionTypeCht" xml:space="preserve">
+    <value>Category(Chinese):</value>
+  </data>
+  <data name="sip_lr_competition" xml:space="preserve">
+    <value>Competition/Exhibition Name</value>
+  </data>
+  <data name="sip_lr_competitionCht" xml:space="preserve">
+    <value>Competition/Exhibition Name(Chinese)</value>
+  </data>
+  <data name="sip_lr_competitionContent" xml:space="preserve">
+    <value>Competition/Exhibition Description</value>
+  </data>
+  <data name="sip_lr_competitionType" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="sip_lr_competitionTypeCht" xml:space="preserve">
+    <value>Category(Chinese)</value>
+  </data>
+  <data name="sip_lr_AddInternship" xml:space="preserve">
+    <value>Add Internship</value>
+  </data>
+  <data name="sip_lr_AddjobDuration" xml:space="preserve">
+    <value>Duration:</value>
+  </data>
+  <data name="sip_lr_AddjobDurationCht" xml:space="preserve">
+    <value>Duration(Chinese):</value>
+  </data>
+  <data name="sip_lr_AddjobTilte" xml:space="preserve">
+    <value>Job Title:</value>
+  </data>
+  <data name="sip_lr_AddjobTilteCht" xml:space="preserve">
+    <value>Job Title(Chinese):</value>
+  </data>
+  <data name="sip_lr_jobDuration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="sip_lr_jobDurationCht" xml:space="preserve">
+    <value>Duration(Chinese)</value>
+  </data>
+  <data name="sip_lr_jobTilte" xml:space="preserve">
+    <value>Job Title</value>
+  </data>
+  <data name="sip_lr_jobTilteCht" xml:space="preserve">
+    <value>Job Title(Chinese)</value>
+  </data>
+  <data name="sip_lr_AddStudentProgram" xml:space="preserve">
+    <value>Add Student Exchange Program</value>
+  </data>
+  <data name="sip_lr_AddStudyCountry" xml:space="preserve">
+    <value>Country:</value>
+  </data>
+  <data name="sip_lr_AddStudyCountryCht" xml:space="preserve">
+    <value>Country(Chinese):</value>
+  </data>
+  <data name="sip_lr_AddStudySchool" xml:space="preserve">
+    <value>School:</value>
+  </data>
+  <data name="sip_lr_AddStudySchoolCht" xml:space="preserve">
+    <value>School(Chinese):</value>
+  </data>
+  <data name="sip_lr_AddStudySubject" xml:space="preserve">
+    <value>Topic / Subject:</value>
+  </data>
+  <data name="sip_lr_AddStudySubjectCht" xml:space="preserve">
+    <value>Topic / Subject(Chinese):</value>
+  </data>
+  <data name="sip_lr_studyCountry" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="sip_lr_studyCountryCht" xml:space="preserve">
+    <value>Country(Chinese)</value>
+  </data>
+  <data name="sip_lr_studySchool" xml:space="preserve">
+    <value>School</value>
+  </data>
+  <data name="sip_lr_studySchoolCht" xml:space="preserve">
+    <value>School(Chinese)</value>
+  </data>
+  <data name="sip_lr_studySubject" xml:space="preserve">
+    <value>Topic / Subject</value>
+  </data>
+  <data name="sip_lr_studySubjectCht" xml:space="preserve">
+    <value>Topic / Subject(Chinese)</value>
+  </data>
+  <data name="sip_lr_AddAuthor" xml:space="preserve">
+    <value>Author:</value>
+  </data>
+  <data name="sip_lr_AddBookName" xml:space="preserve">
+    <value>Book Name:</value>
+  </data>
+  <data name="sip_lr_AddCategory" xml:space="preserve">
+    <value>Category:</value>
+  </data>
+  <data name="sip_lr_AddIsbn" xml:space="preserve">
+    <value>ISBN:</value>
+  </data>
+  <data name="sip_lr_AddPublisher" xml:space="preserve">
+    <value>Publisher:</value>
+  </data>
+  <data name="sip_lr_AddStudyTitle" xml:space="preserve">
+    <value>Add Reading Record</value>
+  </data>
+  <data name="sip_lr_Addver" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="sip_lr_author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="sip_lr_bookName" xml:space="preserve">
+    <value>Book Name</value>
+  </data>
+  <data name="sip_lr_isbn" xml:space="preserve">
+    <value>ISBN</value>
+  </data>
+  <data name="sip_lr_publisher" xml:space="preserve">
+    <value>Publisher</value>
+  </data>
+  <data name="sip_lr_ver" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="sip_advice_assist" xml:space="preserve">
+    <value>Advisory Assistant</value>
+  </data>
+  <data name="sip_aiw" xml:space="preserve">
+    <value>Academic Information Web</value>
+  </data>
+  <data name="sip_and" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="sip_button" xml:space="preserve">
+    <value>button</value>
+  </data>
+  <data name="sip_class_name" xml:space="preserve">
+    <value>Class Name</value>
+  </data>
+  <data name="sip_course_work" xml:space="preserve">
+    <value>Course Work</value>
+  </data>
+  <data name="sip_final_exam" xml:space="preserve">
+    <value>Final Exam</value>
+  </data>
+  <data name="sip_final_score_ratio" xml:space="preserve">
+    <value>Final Score Pass Ratio</value>
+  </data>
+  <data name="sip_grade" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="sip_instructor_subject" xml:space="preserve">
+    <value>Instrutor Subjects</value>
+  </data>
+  <data name="sip_pls_select2" xml:space="preserve">
+    <value>--Please Select--</value>
+  </data>
+  <data name="sip_program" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="sip_program_subject" xml:space="preserve">
+    <value>Program Subjects</value>
+  </data>
+  <data name="sip_school" xml:space="preserve">
+    <value>School</value>
+  </data>
+  <data name="sip_search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="sip_semester" xml:space="preserve">
+    <value>Semester</value>
+  </data>
+  <data name="sip_sems_req" xml:space="preserve">
+    <value>Semester is required！</value>
+  </data>
+  <data name="sip_subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="sip_subject_code_req" xml:space="preserve">
+    <value>Subject Code is required！</value>
+  </data>
+  <data name="sip_then" xml:space="preserve">
+    <value>then click the</value>
+  </data>
+  <data name="sip_tut_year" xml:space="preserve">
+    <value>Tutor Year</value>
+  </data>
+  <data name="sip_year_subject" xml:space="preserve">
+    <value>Year Tutor Subjects</value>
+  </data>
+  <data name="sip_teacher_code" xml:space="preserve">
+    <value>Teacher Code</value>
+  </data>
+  <data name="sip_teacher_name" xml:space="preserve">
+    <value>Teacher Name</value>
+  </data>
+  <data name="sip_comment_details" xml:space="preserve">
+    <value>Comment Details</value>
+  </data>
+  <data name="sip_comment_history" xml:space="preserve">
+    <value>Comment History</value>
+  </data>
+  <data name="sip_content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="sip_give_advice" xml:space="preserve">
+    <value>Give Advice</value>
+  </data>
+  <data name="sip_receiver" xml:space="preserve">
+    <value>Receiver</value>
+  </data>
+  <data name="sip_send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="sip_sender" xml:space="preserve">
+    <value>Sender</value>
+  </data>
+  <data name="sip_no_data" xml:space="preserve">
+    <value>No record found!</value>
+  </data>
+  <data name="sip_director_subject" xml:space="preserve">
+    <value>Director Subjects</value>
+  </data>
+  <data name="sip_hint" xml:space="preserve">
+    <value>Please select one student to use "&lt;span style="color:red"&gt;Details&lt;/span&gt;" or "&lt;span style="color:red"&gt;Advice&lt;/span&gt;" function!</value>
+  </data>
+  <data name="sip_interestsCht" xml:space="preserve">
+    <value>Interests(Chinese)</value>
+  </data>
+  <data name="sip_languagesCht" xml:space="preserve">
+    <value>Languages(Chinese)</value>
+  </data>
+  <data name="sip_socialCht" xml:space="preserve">
+    <value>Social and Organization Skills and Competences(Chinese)</value>
+  </data>
+  <data name="sip_technicalCht" xml:space="preserve">
+    <value>Technical Skills and Competences(Chinese)</value>
+  </data>
+  <data name="sip_lc_date" xml:space="preserve">
+    <value>Posted date：</value>
+  </data>
+  <data name="sip_lc_leave" xml:space="preserve">
+    <value>I want to leave a message</value>
+  </data>
+  <data name="sip_lc_message" xml:space="preserve">
+    <value>Student Comments</value>
+  </data>
+  <data name="sip_lc_nickname" xml:space="preserve">
+    <value>Nickname</value>
+  </data>
+  <data name="sip_lc_please" xml:space="preserve">
+    <value>Please leave a message</value>
+  </data>
+  <data name="sip_lc_publisher" xml:space="preserve">
+    <value>Posted by：</value>
+  </data>
+  <data name="sip_data_check" xml:space="preserve">
+    <value>There are no data records to display</value>
+  </data>
+  <data name="sip_lc_code" xml:space="preserve">
+    <value>Security Code</value>
+  </data>
+  <data name="sip_lc_contents" xml:space="preserve">
+    <value>Contents</value>
+  </data>
+  <data name="sip_lc_mailbox" xml:space="preserve">
+    <value>E-mailbox</value>
+  </data>
+  <data name="sip_lc_reply" xml:space="preserve">
+    <value>Reply</value>
+  </data>
+  <data name="sip_lc_reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="sip_lc_submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="sig_rg_stdID" xml:space="preserve">
+    <value>Student ID:</value>
+  </data>
+  <data name="sig_rg_stdName" xml:space="preserve">
+    <value>Student Chinese Name:</value>
+  </data>
+  <data name="sig_rg_stdNameEn" xml:space="preserve">
+    <value>Student English Name:</value>
+  </data>
+  <data name="sip_rg_delete" xml:space="preserve">
+    <value>Delete Registered Gift</value>
+  </data>
+  <data name="sip_rg_earned" xml:space="preserve">
+    <value>Earned Credit</value>
+  </data>
+  <data name="sip_rg_reged" xml:space="preserve">
+    <value>Registered Credit</value>
+  </data>
+  <data name="sip_rg_used" xml:space="preserve">
+    <value>Used Credit</value>
+  </data>
+  <data name="sip_rg_totalAvailable" xml:space="preserve">
+    <value>Available Credit:</value>
+  </data>
+  <data name="sip_rg_totalBonus" xml:space="preserve">
+    <value>Total Bonus Points:</value>
+  </data>
+  <data name="sip_rg_totalReged" xml:space="preserve">
+    <value>Total Registered Credit:</value>
+  </data>
+  <data name="sip_rg_totalUsed" xml:space="preserve">
+    <value>Total Used Credit:</value>
+  </data>
+  <data name="sip_rg_giftConfirm" xml:space="preserve">
+    <value>Confirm To Register</value>
+  </data>
+  <data name="sip_rg_giftDescrib" xml:space="preserve">
+    <value>Gift Description</value>
+  </data>
+  <data name="sip_rg_giftExchange" xml:space="preserve">
+    <value>Exchange Used Credit</value>
+  </data>
+  <data name="sip_rg_giftExchangeTime" xml:space="preserve">
+    <value>Exchange Time</value>
+  </data>
+  <data name="sip_rg_giftID" xml:space="preserve">
+    <value>Gift ID</value>
+  </data>
+  <data name="sip_rg_giftImage" xml:space="preserve">
+    <value>Gift Image</value>
+  </data>
+  <data name="sip_rg_giftPoint" xml:space="preserve">
+    <value>Gift Credit</value>
+  </data>
+  <data name="sip_rg_giftQua" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="sip_rg_giftQuaDel" xml:space="preserve">
+    <value>Quantity:</value>
+  </data>
+  <data name="sip_rg_giftRegTime" xml:space="preserve">
+    <value>Register Time</value>
+  </data>
+  <data name="sip_rg_giftStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="sip_rg_giftTitle" xml:space="preserve">
+    <value>Gift Title</value>
+  </data>
+  <data name="sip_notif" xml:space="preserve">
+    <value>You have new message. Please click</value>
+  </data>
+  <data name="sip_here" xml:space="preserve">
+    <value>here</value>
+  </data>
+  <data name="sip_rg_addCart" xml:space="preserve">
+    <value>Add To Cart</value>
+  </data>
+  <data name="sip_rg_addCartBtn" xml:space="preserve">
+    <value>add</value>
+  </data>
+  <data name="sip_lr_semOrgCht" xml:space="preserve">
+    <value>Organization(Chinese)</value>
+  </data>
+  <data name="sip_lr_semTopicCht" xml:space="preserve">
+    <value>Topic(Chinese)</value>
+  </data>
+  <data name="sip_lr_semTypeCht" xml:space="preserve">
+    <value>Category(Chinese)</value>
+  </data>
+  <data name="sip_lr_AddSem" xml:space="preserve">
+    <value>Add Seminar/Conference</value>
+  </data>
+  <data name="sip_lr_addSeminarDate" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="sip_lr_addSeminarDuration" xml:space="preserve">
+    <value>Duration(hours):</value>
+  </data>
+  <data name="sip_lr_addSeminarOrg" xml:space="preserve">
+    <value>Organization:</value>
+  </data>
+  <data name="sip_lr_addSeminarOrgCht" xml:space="preserve">
+    <value>Organization(Chinese):</value>
+  </data>
+  <data name="sip_lr_addSeminarTopic" xml:space="preserve">
+    <value>Topic:</value>
+  </data>
+  <data name="sip_lr_addSeminarTopicCht" xml:space="preserve">
+    <value>Topic(Chinese):</value>
+  </data>
+  <data name="sip_lr_addSeminarType" xml:space="preserve">
+    <value>Category:</value>
+  </data>
+  <data name="sip_lr_addSeminarTypeCht" xml:space="preserve">
+    <value>Category(Chinese):</value>
+  </data>
+  <data name="sip_aa_ag" xml:space="preserve">
+    <value>Range:</value>
+  </data>
+  <data name="sip_aa_and" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="sip_aa_av" xml:space="preserve">
+    <value>Above:</value>
+  </data>
+  <data name="sip_aa_ay" xml:space="preserve">
+    <value>Academic Year:</value>
+  </data>
+  <data name="sip_aa_below" xml:space="preserve">
+    <value>GPA Below 1.5</value>
+  </data>
+  <data name="sip_aa_button" xml:space="preserve">
+    <value>and then click the "Search" button.</value>
+  </data>
+  <data name="sip_aa_bw" xml:space="preserve">
+    <value>Below:</value>
+  </data>
+  <data name="sip_aa_filter" xml:space="preserve">
+    <value>Filter Conditions   (Default)</value>
+  </data>
+  <data name="sip_aa_objective" xml:space="preserve">
+    <value>Search Objective Students</value>
+  </data>
+  <data name="sip_aa_ps" xml:space="preserve">
+    <value>Please select</value>
+  </data>
+  <data name="sip_aa_school" xml:space="preserve">
+    <value>School:</value>
+  </data>
+  <data name="sip_aa_Semester" xml:space="preserve">
+    <value>Semester:</value>
+  </data>
+  <data name="sip_aa_sj" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="sip_aa_specifiedgpa" xml:space="preserve">
+    <value>Specified GPA:</value>
+  </data>
+  <data name="sip_aa_specifiedsub" xml:space="preserve">
+    <value>Specified Failed Subjects:</value>
+  </data>
+  <data name="sip_aa_sub" xml:space="preserve">
+    <value>Program:</value>
+  </data>
+  <data name="sip_aa_subjects" xml:space="preserve">
+    <value>Over 3 Failed Subjects</value>
+  </data>
+  <data name="sip_aa_title" xml:space="preserve">
+    <value>Advisory Assistant</value>
+  </data>
+  <data name="sip_aa_ty" xml:space="preserve">
+    <value>Tutor Year:</value>
+  </data>
+  <data name="sip_aa_year" xml:space="preserve">
+    <value>Academic Year</value>
+  </data>
+  <data name="sip_at_code" xml:space="preserve">
+    <value>Class Code:</value>
+  </data>
+  <data name="sip_at_description" xml:space="preserve">
+    <value>Please select "Class Code" and "Student Name".</value>
+  </data>
+  <data name="sip_at_indicate" xml:space="preserve">
+    <value>Indicates mandatory field</value>
+  </data>
+  <data name="sip_at_program" xml:space="preserve">
+    <value>Program Name:</value>
+  </data>
+  <data name="sip_at_student" xml:space="preserve">
+    <value>Student Name:</value>
+  </data>
+  <data name="sip_at_subject" xml:space="preserve">
+    <value>Please select subject:</value>
+  </data>
+  <data name="sip_at_Title" xml:space="preserve">
+    <value>Student Attendance Information</value>
+  </data>
+  <data name="sip_aa_advice" xml:space="preserve">
+    <value>Advice</value>
+  </data>
+  <data name="sip_aa_Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="sip_aa_function" xml:space="preserve">
+    <value>function.</value>
+  </data>
+  <data name="sip_aa_or" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="sip_aa_use" xml:space="preserve">
+    <value>Please select one student to use</value>
+  </data>
+  <data name="sip_aa_Program" xml:space="preserve">
+    <value>Program:</value>
+  </data>
+  <data name="sip_aa_pr" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="sip_aa_to" xml:space="preserve">
+    <value>To:</value>
+  </data>
+  <data name="sip_lc_comments" xml:space="preserve">
+    <value>Comments and Feedback</value>
+  </data>
+  <data name="sip_previous_page" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
+  <data name="sip_next_page" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="sip_errorenddate_msg" xml:space="preserve">
+    <value>Invalid end date format.</value>
+  </data>
+  <data name="sip_errorstartdate_msg" xml:space="preserve">
+    <value>Invalid  start date format.</value>
+  </data>
+  <data name="sip_er_errorName" xml:space="preserve">
+    <value>Activity Name is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_er_errorNameCht" xml:space="preserve">
+    <value>Activity Name(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_er_errorOrg" xml:space="preserve">
+    <value>Organization is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_er_errorOrgCht" xml:space="preserve">
+    <value>Organization(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_er_errorPositon" xml:space="preserve">
+    <value>Position is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_er_errorPositonCht" xml:space="preserve">
+    <value>Position(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_sp_errorCity" xml:space="preserve">
+    <value>City is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_sp_errorCityCht" xml:space="preserve">
+    <value>City(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_sp_errorCompany" xml:space="preserve">
+    <value>Company is allowed maximum 200 characters.</value>
+  </data>
+  <data name="sip_sp_errorCompanyCht" xml:space="preserve">
+    <value>Company(Chinese) is allowed maximum 200 characters.</value>
+  </data>
+  <data name="sip_sp_errorCountry" xml:space="preserve">
+    <value>Country is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_sp_errorCourse" xml:space="preserve">
+    <value>Course Name is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_sp_errorCourseDetail" xml:space="preserve">
+    <value>Detail is allowed maximum 500 characters.</value>
+  </data>
+  <data name="sip_sp_errorCourseOrg" xml:space="preserve">
+    <value>Organization is allowed maximum 100 characters.</value>
+  </data>
+  <data name="sip_sp_errorJobName" xml:space="preserve">
+    <value>Job Name is allowed maximum 100 characters.</value>
+  </data>
+  <data name="sip_sp_errorJobNameCht" xml:space="preserve">
+    <value>Job Name(Chinese) is allowed maximum 100 characters.</value>
+  </data>
+  <data name="sip_sp_errorAddress" xml:space="preserve">
+    <value>Address is allowed maximum 300 characters.</value>
+  </data>
+  <data name="sip_sp_errorAddressCht" xml:space="preserve">
+    <value>Address(Chinese) is allowed maximum 300 characters.</value>
+  </data>
+  <data name="sip_sp_errorEmail" xml:space="preserve">
+    <value>Email is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_sp_errorInstitute" xml:space="preserve">
+    <value>Institute is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_sp_errorInstituteCht" xml:space="preserve">
+    <value>Institute(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_sp_errorPhone" xml:space="preserve">
+    <value>Phone is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_sp_errorPos" xml:space="preserve">
+    <value>Positon is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_sp_errorPosCht" xml:space="preserve">
+    <value>Positon(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_sp_errorProgram" xml:space="preserve">
+    <value>Program is allowed maximum 100 characters.</value>
+  </data>
+  <data name="sip_sp_errorProgramCht" xml:space="preserve">
+    <value>Program(Chinese) is allowed maximum 100 characters.</value>
+  </data>
+  <data name="sip_sp_errorRerefenceCity" xml:space="preserve">
+    <value>City is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_sp_errorRerefenceCityCht" xml:space="preserve">
+    <value>City(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_sp_errorRerefenceCountry" xml:space="preserve">
+    <value>Country is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_sp_errorRerefenceCountryCht" xml:space="preserve">
+    <value>Country(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_sp_errorSchool" xml:space="preserve">
+    <value>School is allowed maximum 100 characters.</value>
+  </data>
+  <data name="sip_sp_errorSchoolCht" xml:space="preserve">
+    <value>School(Chinese) is allowed maximum 100 characters.</value>
+  </data>
+  <data name="sip_sp_errorTeacher" xml:space="preserve">
+    <value>Teacher Name is allowed maximum 100 characters.</value>
+  </data>
+  <data name="sip_sp_errorTeacherCht" xml:space="preserve">
+    <value>Teacher Name(Chinese) is allowed maximum 100 characters.</value>
+  </data>
+  <data name="sip_lr_errorTopicName" xml:space="preserve">
+    <value>Topic is allowed maximum 200 characters.</value>
+  </data>
+  <data name="sip_lr_errorTopicNameCht" xml:space="preserve">
+    <value>Topic(Chinese) is allowed maximum 200 characters.</value>
+  </data>
+  <data name="sip_lr_errorTopicOrg" xml:space="preserve">
+    <value>Organization is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_errorTopicOrgCht" xml:space="preserve">
+    <value>Organization(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_errorTopicType" xml:space="preserve">
+    <value>Category is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_errorTopicTypeCht" xml:space="preserve">
+    <value>Category(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_AbroadCountry" xml:space="preserve">
+    <value>Country is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_AbroadCountryCht" xml:space="preserve">
+    <value>Country(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_AbroadSchool" xml:space="preserve">
+    <value>School is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_AbroadSchoolCht" xml:space="preserve">
+    <value>School(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_AbroadTopic" xml:space="preserve">
+    <value>Topic / Subject is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_AbroadTopicCht" xml:space="preserve">
+    <value>Topic / Subject(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_author" xml:space="preserve">
+    <value>Author is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_AwardName" xml:space="preserve">
+    <value>Awards/Scholarship Name is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_AwardNameCht" xml:space="preserve">
+    <value>Awards/Scholarship Name(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_AwardOrg" xml:space="preserve">
+    <value>Organization is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_AwardOrgCht" xml:space="preserve">
+    <value>Organization(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_BookISBN" xml:space="preserve">
+    <value>ISBN is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_BookName" xml:space="preserve">
+    <value>Book Name is allowed maximum 100 characters.</value>
+  </data>
+  <data name="sip_lr_error_BookType" xml:space="preserve">
+    <value>Category is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_CertDate" xml:space="preserve">
+    <value>Invalid date format.</value>
+  </data>
+  <data name="sip_lr_error_CertName" xml:space="preserve">
+    <value>Certificate Name is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_CertNameCht" xml:space="preserve">
+    <value>Certificate Name(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_CertOrg" xml:space="preserve">
+    <value>Organization is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_CertOrgCht" xml:space="preserve">
+    <value>Organization(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_CourseName" xml:space="preserve">
+    <value>Course Name is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_CourseNameCht" xml:space="preserve">
+    <value>Course Name(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_CourseType" xml:space="preserve">
+    <value>Course Type is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_CourseTypeCht" xml:space="preserve">
+    <value>Course Type(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_MatchName" xml:space="preserve">
+    <value>Competition/Exhibition Name is allowed maximum 100 characters.</value>
+  </data>
+  <data name="sip_lr_error_MatchNameCht" xml:space="preserve">
+    <value>Competition/Exhibition Name(Chinese) is allowed maximum 100 characters.</value>
+  </data>
+  <data name="sip_lr_error_MatchType" xml:space="preserve">
+    <value>Category is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_MatchTypeCht" xml:space="preserve">
+    <value>Category(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_publisher" xml:space="preserve">
+    <value>Publisher is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_error_TopicDate" xml:space="preserve">
+    <value>Invalid date format.</value>
+  </data>
+  <data name="sip_lr_error_version" xml:space="preserve">
+    <value>Version must be a positive number.</value>
+  </data>
+  <data name="sip_lr_error_versionSize" xml:space="preserve">
+    <value>Version must be smaller than 100.</value>
+  </data>
+  <data name="sip_lr_errorShipCompany" xml:space="preserve">
+    <value>Company is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_errorShipCompanyCht" xml:space="preserve">
+    <value>Company(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_errorShipDuration" xml:space="preserve">
+    <value>Duration is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_errorShipDurationCht" xml:space="preserve">
+    <value>Duration(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_errorShipJob" xml:space="preserve">
+    <value>Job Title is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_errorShipJobCht" xml:space="preserve">
+    <value>Job Title(Chinese) is allowed maximum 50 characters.</value>
+  </data>
+  <data name="sip_lr_semTopic" xml:space="preserve">
+    <value>Topic</value>
+  </data>
+  <data name="sip_chart_title_exam" xml:space="preserve">
+    <value>Student Exam Score Probability Distribution Chart</value>
+  </data>
+  <data name="sip_chart_title_final" xml:space="preserve">
+    <value>Student Final Score Probability Distribution Chart</value>
+  </data>
+  <data name="sip_chart_title_work" xml:space="preserve">
+    <value>Student Course Work Score Probability Distribution Chart</value>
+  </data>
+  <data name="sip_num_std" xml:space="preserve">
+    <value>Number of students</value>
+  </data>
+  <data name="sip_score_prob" xml:space="preserve">
+    <value>Score Probability</value>
+  </data>
+  <data name="sip_std_ach_seg" xml:space="preserve">
+    <value>Student achievement scores and the number of distribution segment</value>
+  </data>
+  <data name="sip_std_score" xml:space="preserve">
+    <value>Student Score</value>
+  </data>
+  <data name="sip_avg_line" xml:space="preserve">
+    <value>Average Line</value>
+  </data>
+  <data name="sip_desc_stats" xml:space="preserve">
+    <value>Description statistics</value>
+  </data>
+  <data name="sip_highest" xml:space="preserve">
+    <value>Highest</value>
+  </data>
+  <data name="sip_lowest" xml:space="preserve">
+    <value>Lowest</value>
+  </data>
+  <data name="sip_med" xml:space="preserve">
+    <value>Median</value>
+  </data>
+  <data name="sip_pass_line" xml:space="preserve">
+    <value>Pass Line</value>
+  </data>
+  <data name="sip_score_prob_line" xml:space="preserve">
+    <value>Score Probability Line</value>
+  </data>
+  <data name="sip_er_describEditor" xml:space="preserve">
+    <value>Extracurricular Activities Description</value>
+  </data>
+  <data name="sip_er_Adddescrib" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="sip_advice_like" xml:space="preserve">
+    <value>Like</value>
+  </data>
+  <data name="sip_advice_unlike" xml:space="preserve">
+    <value>Unlike</value>
+  </data>
+  <data name="sip_total_pass" xml:space="preserve">
+    <value>Total Pass</value>
+  </data>
+  <data name="sip_total_fail" xml:space="preserve">
+    <value>Total Fail</value>
+  </data>
+  <data name="sip_aa_fail" xml:space="preserve">
+    <value>FAIL</value>
+  </data>
+  <data name="sip_co_description" xml:space="preserve">
+    <value>Color Description</value>
+  </data>
+  <data name="sip_p_description" xml:space="preserve">
+    <value>Present (P)</value>
+  </data>
+  <data name="sip_r_description" xml:space="preserve">
+    <value>Reasonable Absence (R)</value>
+  </data>
+  <data name="sip_u_description" xml:space="preserve">
+    <value>Unreasonable Absence (U)</value>
+  </data>
+  <data name="sip_ea_addCommbtn" xml:space="preserve">
+    <value>Add Extracurricular Activities</value>
+  </data>
+<!--   <data name="sip_contact_contents" xml:space="preserve">
+    <value>&lt;li&gt;&lt;p&gt;If you want to change your password and query Polytechnic internal service, please click &lt;a href="http://172.26.122.66/siweb/contactus.asp" style="font-size:12pt;"&gt;the link&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you have any suggestions and functional vision for the system, follow &lt;a href="LeaveComments.aspx" style="font-size:12pt;"&gt;the link&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;</value>
+  </data>   -->
+  <data name="sip_contact_contents" xml:space="preserve">
+    <value>
+&lt;li&gt;&lt;p&gt;If you have any suggestions and functional vision for the system, follow &lt;a href="LeaveComments.aspx" style="font-size:12pt;"&gt;the link&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;</value>
+  </data>
+</root>

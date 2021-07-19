@@ -1,0 +1,1588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="sip_acac_nav" xml:space="preserve">
+    <value>學術導航</value>
+  </data>
+  <data name="sip_attendance" xml:space="preserve">
+    <value>出勤表</value>
+  </data>
+  <data name="sip_big" xml:space="preserve">
+    <value>大</value>
+  </data>
+  <data name="sip_class" xml:space="preserve">
+    <value>課堂</value>
+  </data>
+  <data name="sip_class_cancel" xml:space="preserve">
+    <value>課程取消及補課</value>
+  </data>
+  <data name="sip_class_time" xml:space="preserve">
+    <value>上課時間表</value>
+  </data>
+  <data name="sip_contacts" xml:space="preserve">
+    <value>聯絡我們</value>
+  </data>
+  <data name="sip_course_and_tech_eval" xml:space="preserve">
+    <value>課程與教學評估</value>
+  </data>
+  <data name="sip_enrol" xml:space="preserve">
+    <value>網上選科</value>
+  </data>
+  <data name="sip_ePortfolio" xml:space="preserve">
+    <value>電子履歷</value>
+  </data>
+  <data name="sip_eServices" xml:space="preserve">
+    <value>電子服務</value>
+  </data>
+  <data name="sip_exam_time" xml:space="preserve">
+    <value>考試時間表</value>
+  </data>
+  <data name="sip_fav" xml:space="preserve">
+    <value>我的最愛</value>
+  </data>
+  <data name="sip_Finance" xml:space="preserve">
+    <value>財務</value>
+  </data>
+  <data name="sip_home" xml:space="preserve">
+    <value>首頁</value>
+  </data>
+  <data name="sip_medium" xml:space="preserve">
+    <value>中</value>
+  </data>
+  <data name="sip_news" xml:space="preserve">
+    <value>理工學院新聞</value>
+  </data>
+  <data name="sip_notices" xml:space="preserve">
+    <value>通告</value>
+  </data>
+  <data name="sip_resit_time" xml:space="preserve">
+    <value>補考時間表</value>
+  </data>
+  <data name="sip_settings" xml:space="preserve">
+    <value>設置</value>
+  </data>
+  <data name="sip_signout" xml:space="preserve">
+    <value>登出</value>
+  </data>
+  <data name="sip_small" xml:space="preserve">
+    <value>細</value>
+  </data>
+  <data name="sip_venue_time" xml:space="preserve">
+    <value>場地時間表</value>
+  </data>
+  <data name="sip_welcome" xml:space="preserve">
+    <value>歡迎</value>
+  </data>
+  <data name="sip_acad_results" xml:space="preserve">
+    <value>成績及考勤</value>
+  </data>
+  <data name="sip_app_cert" xml:space="preserve">
+    <value>申請各項證明</value>
+  </data>
+  <data name="sip_CIDP_agree" xml:space="preserve">
+    <value>持續進修協議</value>
+  </data>
+  <data name="sip_cv" xml:space="preserve">
+    <value>建立履歷</value>
+  </data>
+  <data name="sip_debit_note" xml:space="preserve">
+    <value>學費單</value>
+  </data>
+  <data name="sip_ePay" xml:space="preserve">
+    <value>網上付費</value>
+  </data>
+  <data name="sip_ex_active" xml:space="preserve">
+    <value>課外活動</value>
+  </data>
+  <data name="sip_instrutor_comments" xml:space="preserve">
+    <value>導師建議</value>
+  </data>
+  <data name="sip_learn_record" xml:space="preserve">
+    <value>學習記錄</value>
+  </data>
+  <data name="sip_locker" xml:space="preserve">
+    <value>儲物櫃應用</value>
+  </data>
+  <data name="sip_pay_and_receipt" xml:space="preserve">
+    <value>付款記錄及收據</value>
+  </data>
+  <data name="sip_reg_gift" xml:space="preserve">
+    <value>登記禮品</value>
+  </data>
+  <data name="sip_result_analysis" xml:space="preserve">
+    <value>成績分析</value>
+  </data>
+  <data name="sip_smart_card" xml:space="preserve">
+    <value>智能學生證規章</value>
+  </data>
+  <data name="sip_std_profile" xml:space="preserve">
+    <value>學生個人資料</value>
+  </data>
+  <data name="sip_typs_and_rains" xml:space="preserve">
+    <value>颱風及惡劣天氣指引</value>
+  </data>
+  <data name="sip_acad_year" xml:space="preserve">
+    <value>學年</value>
+  </data>
+  <data name="sip_acad_year_req" xml:space="preserve">
+    <value>學年是必填欄位</value>
+  </data>
+  <data name="sip_advice_class_code" xml:space="preserve">
+    <value>科目編號</value>
+  </data>
+  <data name="sip_advice_dear" xml:space="preserve">
+    <value>親愛的</value>
+  </data>
+  <data name="sip_advice_details" xml:space="preserve">
+    <value>建議詳情</value>
+  </data>
+  <data name="sip_advice_instructor" xml:space="preserve">
+    <value>講師/教授</value>
+  </data>
+  <data name="sip_advice_msg1" xml:space="preserve">
+    <value>您有</value>
+  </data>
+  <data name="sip_advice_msg2" xml:space="preserve">
+    <value>來至你的講師。</value>
+  </data>
+  <data name="sip_advice_msg3" xml:space="preserve">
+    <value>個新訊息</value>
+  </data>
+  <data name="sip_advice_msg4" xml:space="preserve">
+    <value>個新訊息</value>
+  </data>
+  <data name="sip_advice_note1" xml:space="preserve">
+    <value>請注意和仔細閱讀以下導師給您的訊息！</value>
+  </data>
+  <data name="sip_advice_note2" xml:space="preserve">
+    <value>閱讀導師給你的建議後，希望在未來的校園生活中能夠提升你的學習表現。</value>
+  </data>
+  <data name="sip_advice_post_date" xml:space="preserve">
+    <value>發佈日期</value>
+  </data>
+  <data name="sip_advice_status" xml:space="preserve">
+    <value>狀態</value>
+  </data>
+  <data name="sip_advice_std_id" xml:space="preserve">
+    <value>學生編號</value>
+  </data>
+  <data name="sip_advice_subject_chinese" xml:space="preserve">
+    <value>科目名稱(中文)</value>
+  </data>
+  <data name="sip_advice_subject_engl" xml:space="preserve">
+    <value>科目名稱(英文)</value>
+  </data>
+  <data name="sip_advice_title" xml:space="preserve">
+    <value>標題</value>
+  </data>
+  <data name="sip_advice_year" xml:space="preserve">
+    <value>學年</value>
+  </data>
+  <data name="sip_back" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="sip_class_work" xml:space="preserve">
+    <value>平時分</value>
+  </data>
+  <data name="sip_class_work_rank" xml:space="preserve">
+    <value>平時分排名</value>
+  </data>
+  <data name="sip_comments" xml:space="preserve">
+    <value>意見</value>
+  </data>
+  <data name="sip_con" xml:space="preserve">
+    <value>對話</value>
+  </data>
+  <data name="sip_exam_rank" xml:space="preserve">
+    <value>考試成績排名</value>
+  </data>
+  <data name="sip_exam_score" xml:space="preserve">
+    <value>考試成績</value>
+  </data>
+  <data name="sip_final" xml:space="preserve">
+    <value>最後成績</value>
+  </data>
+  <data name="sip_final_rank" xml:space="preserve">
+    <value>最後成績排名</value>
+  </data>
+  <data name="sip_gpa_rank" xml:space="preserve">
+    <value>GPA 排名</value>
+  </data>
+  <data name="sip_mandatory" xml:space="preserve">
+    <value>表示必填欄位</value>
+  </data>
+  <data name="sip_pls_select" xml:space="preserve">
+    <value>請選擇</value>
+  </data>
+  <data name="sip_post" xml:space="preserve">
+    <value>發佈</value>
+  </data>
+  <data name="sip_program_chinese" xml:space="preserve">
+    <value>課程中文名稱</value>
+  </data>
+  <data name="sip_program_engl" xml:space="preserve">
+    <value>課程英文名稱</value>
+  </data>
+  <data name="sip_result" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="sip_search_criteria" xml:space="preserve">
+    <value>搜尋條件</value>
+  </data>
+  <data name="sip_see_result" xml:space="preserve">
+    <value>來看結果。</value>
+  </data>
+  <data name="sip_std_name" xml:space="preserve">
+    <value>學生名稱</value>
+  </data>
+  <data name="sip_total_std" xml:space="preserve">
+    <value>學生總人數</value>
+  </data>
+  <data name="sip_academic_results" xml:space="preserve">
+    <value>成績及出勤</value>
+  </data>
+  <data name="sip_final_score" xml:space="preserve">
+    <value>最後分數</value>
+  </data>
+  <data name="sip_subject_info" xml:space="preserve">
+    <value>科目信息:</value>
+  </data>
+  <data name="sip_subject_cat" xml:space="preserve">
+    <value>科目類別</value>
+  </data>
+  <data name="sip_subject_category" xml:space="preserve">
+    <value>科目學習成果</value>
+  </data>
+  <data name="sip_subject_cht" xml:space="preserve">
+    <value>科目中文名稱</value>
+  </data>
+  <data name="sip_subject_code" xml:space="preserve">
+    <value>科目代碼</value>
+  </data>
+  <data name="sip_subject_en" xml:space="preserve">
+    <value>科目英文名稱</value>
+  </data>
+  <data name="sip_subject_type" xml:space="preserve">
+    <value>科目類別:</value>
+  </data>
+  <data name="sip_total_score" xml:space="preserve">
+    <value>總分</value>
+  </data>
+  <data name="sip_bio" xml:space="preserve">
+    <value>自傳</value>
+  </data>
+  <data name="sip_interests" xml:space="preserve">
+    <value>興趣</value>
+  </data>
+  <data name="sip_languages" xml:space="preserve">
+    <value>語言</value>
+  </data>
+  <data name="sip_references" xml:space="preserve">
+    <value>推薦人</value>
+  </data>
+  <data name="sip_social" xml:space="preserve">
+    <value>社會/組織技能和能力</value>
+  </data>
+  <data name="sip_technical" xml:space="preserve">
+    <value>技術技能和能力</value>
+  </data>
+  <data name="sip_test" xml:space="preserve">
+    <value>林女</value>
+  </data>
+  <data name="sip_edu_info" xml:space="preserve">
+    <value>教育背景</value>
+  </data>
+  <data name="sip_person_info" xml:space="preserve">
+    <value>個人信息</value>
+  </data>
+  <data name="sip_sp_addreference" xml:space="preserve">
+    <value>新增推薦人</value>
+  </data>
+  <data name="sip_sp_addrelevant" xml:space="preserve">
+    <value>新增相關經驗</value>
+  </data>
+  <data name="sip_sp_addwork" xml:space="preserve">
+    <value>新增工作經驗</value>
+  </data>
+  <data name="sip_sp_cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="sip_sp_del" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="sip_sp_edit" xml:space="preserve">
+    <value>編輯</value>
+  </data>
+  <data name="sip_sp_update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="sip_sp_confirm" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="sip_sp_new" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="sip_sp_submit" xml:space="preserve">
+    <value>提交</value>
+  </data>
+  <data name="sip_sp_city" xml:space="preserve">
+    <value>城市</value>
+  </data>
+  <data name="sip_sp_cityCht" xml:space="preserve">
+    <value>城市(中文)</value>
+  </data>
+  <data name="sip_sp_company" xml:space="preserve">
+    <value>公司</value>
+  </data>
+  <data name="sip_sp_companyCht" xml:space="preserve">
+    <value>公司(中文)</value>
+  </data>
+  <data name="sip_sp_courseName" xml:space="preserve">
+    <value>課程名稱</value>
+  </data>
+  <data name="sip_sp_enddate" xml:space="preserve">
+    <value>結束日期</value>
+  </data>
+  <data name="sip_sp_jobName" xml:space="preserve">
+    <value>工作名稱</value>
+  </data>
+  <data name="sip_sp_jobNameCht" xml:space="preserve">
+    <value>工作名稱(中文)</value>
+  </data>
+  <data name="sip_sp_referenceAddress" xml:space="preserve">
+    <value>地址:</value>
+  </data>
+  <data name="sip_sp_referenceAddressCht" xml:space="preserve">
+    <value>地址(中文):</value>
+  </data>
+  <data name="sip_sp_referenceCity" xml:space="preserve">
+    <value>城市:</value>
+  </data>
+  <data name="sip_sp_referenceCityCht" xml:space="preserve">
+    <value>城市(中文):</value>
+  </data>
+  <data name="sip_sp_referenceCountry" xml:space="preserve">
+    <value>國家:</value>
+  </data>
+  <data name="sip_sp_referenceCountryCht" xml:space="preserve">
+    <value>國家(中文):</value>
+  </data>
+  <data name="sip_sp_referenceEmail" xml:space="preserve">
+    <value>電子郵件:</value>
+  </data>
+  <data name="sip_sp_referenceInstitute" xml:space="preserve">
+    <value>學院:</value>
+  </data>
+  <data name="sip_sp_referenceInstituteCht" xml:space="preserve">
+    <value>學院(中文):</value>
+  </data>
+  <data name="sip_sp_referencePhone" xml:space="preserve">
+    <value>電話:</value>
+  </data>
+  <data name="sip_sp_referencePosition" xml:space="preserve">
+    <value>職位:</value>
+  </data>
+  <data name="sip_sp_referencePositionCht" xml:space="preserve">
+    <value>職位(中文):</value>
+  </data>
+  <data name="sip_sp_referenceProgram" xml:space="preserve">
+    <value>課程:</value>
+  </data>
+  <data name="sip_sp_referenceProgramCht" xml:space="preserve">
+    <value>課程(中文):</value>
+  </data>
+  <data name="sip_sp_referenceSchool" xml:space="preserve">
+    <value>學校:</value>
+  </data>
+  <data name="sip_sp_referenceSchoolCht" xml:space="preserve">
+    <value>學校(中文):</value>
+  </data>
+  <data name="sip_sp_referenceTeacher" xml:space="preserve">
+    <value>老師名字:</value>
+  </data>
+  <data name="sip_sp_referenceTeacherCht" xml:space="preserve">
+    <value>老師名字(中文):</value>
+  </data>
+  <data name="sip_sp_relevantCity" xml:space="preserve">
+    <value>城市</value>
+  </data>
+  <data name="sip_sp_relevantCountry" xml:space="preserve">
+    <value>國家</value>
+  </data>
+  <data name="sip_sp_relevantDate" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="sip_sp_relevantOrg" xml:space="preserve">
+    <value>組織</value>
+  </data>
+  <data name="sip_sp_startdate" xml:space="preserve">
+    <value>開始日期</value>
+  </data>
+  <data name="sip_sp_AddCity" xml:space="preserve">
+    <value>城市:</value>
+  </data>
+  <data name="sip_sp_AddCityCht" xml:space="preserve">
+    <value>城市(中文):</value>
+  </data>
+  <data name="sip_sp_AddCompany" xml:space="preserve">
+    <value>公司:</value>
+  </data>
+  <data name="sip_sp_AddCompanyCht" xml:space="preserve">
+    <value>公司(中文):</value>
+  </data>
+  <data name="sip_sp_Addenddate" xml:space="preserve">
+    <value>結束日期:</value>
+  </data>
+  <data name="sip_sp_AddjobName" xml:space="preserve">
+    <value>工作名稱:</value>
+  </data>
+  <data name="sip_sp_AddjobNameCht" xml:space="preserve">
+    <value>工作名稱(中文):</value>
+  </data>
+  <data name="sip_sp_AddrelevantCity" xml:space="preserve">
+    <value>城市:</value>
+  </data>
+  <data name="sip_sp_AddrelevantCountry" xml:space="preserve">
+    <value>國家:</value>
+  </data>
+  <data name="sip_sp_AddrelevantDate" xml:space="preserve">
+    <value>日期:</value>
+  </data>
+  <data name="sip_sp_AddrelevantOrg" xml:space="preserve">
+    <value>組織:</value>
+  </data>
+  <data name="sip_sp_Addstartdate" xml:space="preserve">
+    <value>開始日期:</value>
+  </data>
+  <data name="sip_sp_addcourseName" xml:space="preserve">
+    <value>課程名稱:</value>
+  </data>
+  <data name="sip_sp_AddrelevantDescrib" xml:space="preserve">
+    <value>內容:</value>
+  </data>
+  <data name="sip_sp_relevantDescrib" xml:space="preserve">
+    <value>內容</value>
+  </data>
+  <data name="sip_ins" xml:space="preserve">
+    <value>提交</value>
+  </data>
+  <data name="sip_relevantExperience" xml:space="preserve">
+    <value>相關經驗</value>
+  </data>
+  <data name="sip_workExperience" xml:space="preserve">
+    <value>工作經驗</value>
+  </data>
+  <data name="sip_instructorReference" xml:space="preserve">
+    <value>講師信息</value>
+  </data>
+  <data name="sip_edu_level" xml:space="preserve">
+    <value>年級:</value>
+  </data>
+  <data name="sip_edu_program" xml:space="preserve">
+    <value>課程</value>
+  </data>
+  <data name="sip_edu_school" xml:space="preserve">
+    <value>學校</value>
+  </data>
+  <data name="sip_sp_from" xml:space="preserve">
+    <value>從:</value>
+  </data>
+  <data name="sip_sp_to" xml:space="preserve">
+    <value>到:</value>
+  </data>
+  <data name="sip_ea_activeName" xml:space="preserve">
+    <value>課外活動名稱</value>
+  </data>
+  <data name="sip_ea_activeNameCht" xml:space="preserve">
+    <value>課外活動名稱(中文)</value>
+  </data>
+  <data name="sip_ea_position" xml:space="preserve">
+    <value>職位</value>
+  </data>
+  <data name="sip_ea_positionCht" xml:space="preserve">
+    <value>職位(中文)</value>
+  </data>
+  <data name="sip_ea_upload" xml:space="preserve">
+    <value>作品上傅</value>
+  </data>
+  <data name="sip_ea_AddactiveName" xml:space="preserve">
+    <value>課外活動名稱:</value>
+  </data>
+  <data name="sip_ea_AddactiveNameCht" xml:space="preserve">
+    <value>課外活動名稱(中文):</value>
+  </data>
+  <data name="sip_ea_AddworkUpload" xml:space="preserve">
+    <value>作品上傅:</value>
+  </data>
+  <data name="sip_sp_relevantOrgCht" xml:space="preserve">
+    <value>組織(中文)</value>
+  </data>
+  <data name="sip_sp_AddrelevantOrgCht" xml:space="preserve">
+    <value>組織(中文):</value>
+  </data>
+  <data name="sip_lr_awardTitle" xml:space="preserve">
+    <value>獎項及獎學金</value>
+  </data>
+  <data name="sip_lr_certTitle" xml:space="preserve">
+    <value>專業認證</value>
+  </data>
+  <data name="sip_lr_internshipTitle" xml:space="preserve">
+    <value>實習</value>
+  </data>
+  <data name="sip_lr_match" xml:space="preserve">
+    <value>比賽/會展</value>
+  </data>
+  <data name="sip_lr_seminar" xml:space="preserve">
+    <value>研討會/會議</value>
+  </data>
+  <data name="sip_lr_studyRecord" xml:space="preserve">
+    <value>閱讀記錄</value>
+  </data>
+  <data name="sip_lr_studyTA" xml:space="preserve">
+    <value>學生交流計劃</value>
+  </data>
+  <data name="sip_lr_bonus" xml:space="preserve">
+    <value>獎勵積分</value>
+  </data>
+  <data name="sip_lr_duration" xml:space="preserve">
+    <value>持續時間(小時)</value>
+  </data>
+  <data name="sip_lr_topic" xml:space="preserve">
+    <value>主題</value>
+  </data>
+  <data name="sip_lr_total_bonus" xml:space="preserve">
+    <value>總獎勵積分:</value>
+  </data>
+  <data name="sip_lr_type" xml:space="preserve">
+    <value>類別</value>
+  </data>
+  <data name="sip_lr_AddCert" xml:space="preserve">
+    <value>新增專業證書</value>
+  </data>
+  <data name="sip_lr_certDate" xml:space="preserve">
+    <value>證書日期</value>
+  </data>
+  <data name="sip_lr_certName" xml:space="preserve">
+    <value>證書名稱</value>
+  </data>
+  <data name="sip_lr_certNameCht" xml:space="preserve">
+    <value>證書名稱(中文)</value>
+  </data>
+  <data name="sip_lr_certUpload" xml:space="preserve">
+    <value>證書上傅</value>
+  </data>
+  <data name="sip_lr_courseName" xml:space="preserve">
+    <value>課程名稱</value>
+  </data>
+  <data name="sip_lr_courseNameCht" xml:space="preserve">
+    <value>課程名稱(中文)</value>
+  </data>
+  <data name="sip_lr_courseType" xml:space="preserve">
+    <value>課程類別</value>
+  </data>
+  <data name="sip_lr_courseTypeCht" xml:space="preserve">
+    <value>課程類別(中文)</value>
+  </data>
+  <data name="sip_lr_addCertDate" xml:space="preserve">
+    <value>證書日期:</value>
+  </data>
+  <data name="sip_lr_addCertName" xml:space="preserve">
+    <value>證書名稱:</value>
+  </data>
+  <data name="sip_lr_addCertNameCht" xml:space="preserve">
+    <value>證書名稱(中文):</value>
+  </data>
+  <data name="sip_lr_addCertUpload" xml:space="preserve">
+    <value>證書上傅:</value>
+  </data>
+  <data name="sip_lr_addCourseName" xml:space="preserve">
+    <value>課程名稱:</value>
+  </data>
+  <data name="sip_lr_addCourseNameCht" xml:space="preserve">
+    <value>課程名稱(中文):</value>
+  </data>
+  <data name="sip_lr_addCourseType" xml:space="preserve">
+    <value>課程類別:</value>
+  </data>
+  <data name="sip_lr_addCourseTypeCht" xml:space="preserve">
+    <value>課程類別(中文):</value>
+  </data>
+  <data name="sip_lr_AddAwardDescrib" xml:space="preserve">
+    <value>內容:</value>
+  </data>
+  <data name="sip_lr_AddAwardName" xml:space="preserve">
+    <value>獎項/獎學金名稱:</value>
+  </data>
+  <data name="sip_lr_AddAwardNameCht" xml:space="preserve">
+    <value>獎項/獎學金名稱(中文):</value>
+  </data>
+  <data name="sip_lr_AddAwardTitle" xml:space="preserve">
+    <value>新增獎項/獎學金</value>
+  </data>
+  <data name="sip_lr_awardName" xml:space="preserve">
+    <value>獎項/獎學金名稱</value>
+  </data>
+  <data name="sip_lr_awardNameCht" xml:space="preserve">
+    <value>獎項/獎學金名稱(中文)</value>
+  </data>
+  <data name="sip_lr_description" xml:space="preserve">
+    <value>內容</value>
+  </data>
+  <data name="sip_lr_Addcompetition" xml:space="preserve">
+    <value>比賽/會展名稱:</value>
+  </data>
+  <data name="sip_lr_AddcompetitionCht" xml:space="preserve">
+    <value>比賽/會展名稱(中文):</value>
+  </data>
+  <data name="sip_lr_AddcompetitionContent" xml:space="preserve">
+    <value>比賽/會展內容:</value>
+  </data>
+  <data name="sip_lr_AddCompetitionTitle" xml:space="preserve">
+    <value>新增比賽/會展</value>
+  </data>
+  <data name="sip_lr_AddcompetitionType" xml:space="preserve">
+    <value>類別:</value>
+  </data>
+  <data name="sip_lr_AddcompetitionTypeCht" xml:space="preserve">
+    <value>類別(中文):</value>
+  </data>
+  <data name="sip_lr_competition" xml:space="preserve">
+    <value>比賽/會展名稱</value>
+  </data>
+  <data name="sip_lr_competitionCht" xml:space="preserve">
+    <value>比賽/會展名稱(中文)</value>
+  </data>
+  <data name="sip_lr_competitionContent" xml:space="preserve">
+    <value>比賽/會展內容</value>
+  </data>
+  <data name="sip_lr_competitionType" xml:space="preserve">
+    <value>類別</value>
+  </data>
+  <data name="sip_lr_competitionTypeCht" xml:space="preserve">
+    <value>類別(中文)</value>
+  </data>
+  <data name="sip_lr_AddInternship" xml:space="preserve">
+    <value>新增實習</value>
+  </data>
+  <data name="sip_lr_AddjobDuration" xml:space="preserve">
+    <value>持續時間:</value>
+  </data>
+  <data name="sip_lr_AddjobDurationCht" xml:space="preserve">
+    <value>持續時間(中文):</value>
+  </data>
+  <data name="sip_lr_AddjobTilte" xml:space="preserve">
+    <value>工作名稱:</value>
+  </data>
+  <data name="sip_lr_AddjobTilteCht" xml:space="preserve">
+    <value>工作名稱(中文):</value>
+  </data>
+  <data name="sip_lr_jobDuration" xml:space="preserve">
+    <value>持續時間</value>
+  </data>
+  <data name="sip_lr_jobDurationCht" xml:space="preserve">
+    <value>持續時間(中文)</value>
+  </data>
+  <data name="sip_lr_jobTilte" xml:space="preserve">
+    <value>工作名稱</value>
+  </data>
+  <data name="sip_lr_jobTilteCht" xml:space="preserve">
+    <value>工作名稱(中文)</value>
+  </data>
+  <data name="sip_lr_AddStudentProgram" xml:space="preserve">
+    <value>新增學生交流計劃</value>
+  </data>
+  <data name="sip_lr_AddStudyCountry" xml:space="preserve">
+    <value>國家:</value>
+  </data>
+  <data name="sip_lr_AddStudyCountryCht" xml:space="preserve">
+    <value>國家(中文):</value>
+  </data>
+  <data name="sip_lr_AddStudySchool" xml:space="preserve">
+    <value>學校:</value>
+  </data>
+  <data name="sip_lr_AddStudySchoolCht" xml:space="preserve">
+    <value>學校(中文):</value>
+  </data>
+  <data name="sip_lr_AddStudySubject" xml:space="preserve">
+    <value>課程 / 科目名稱:</value>
+  </data>
+  <data name="sip_lr_AddStudySubjectCht" xml:space="preserve">
+    <value>課程 / 科目名稱(中文):</value>
+  </data>
+  <data name="sip_lr_studyCountry" xml:space="preserve">
+    <value>國家</value>
+  </data>
+  <data name="sip_lr_studyCountryCht" xml:space="preserve">
+    <value>國家(中文)</value>
+  </data>
+  <data name="sip_lr_studySchool" xml:space="preserve">
+    <value>學校</value>
+  </data>
+  <data name="sip_lr_studySchoolCht" xml:space="preserve">
+    <value>學校(中文)</value>
+  </data>
+  <data name="sip_lr_studySubject" xml:space="preserve">
+    <value>課程 / 科目名稱</value>
+  </data>
+  <data name="sip_lr_studySubjectCht" xml:space="preserve">
+    <value>課程 / 科目名稱(中文)</value>
+  </data>
+  <data name="sip_lr_AddAuthor" xml:space="preserve">
+    <value>作者:</value>
+  </data>
+  <data name="sip_lr_AddBookName" xml:space="preserve">
+    <value>書籍名稱:</value>
+  </data>
+  <data name="sip_lr_AddCategory" xml:space="preserve">
+    <value>類別:</value>
+  </data>
+  <data name="sip_lr_AddIsbn" xml:space="preserve">
+    <value>書號:</value>
+  </data>
+  <data name="sip_lr_AddPublisher" xml:space="preserve">
+    <value>出版商:</value>
+  </data>
+  <data name="sip_lr_AddStudyTitle" xml:space="preserve">
+    <value>新增閱讀記錄</value>
+  </data>
+  <data name="sip_lr_Addver" xml:space="preserve">
+    <value>版本:</value>
+  </data>
+  <data name="sip_lr_author" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="sip_lr_bookName" xml:space="preserve">
+    <value>書籍名稱</value>
+  </data>
+  <data name="sip_lr_isbn" xml:space="preserve">
+    <value>書號</value>
+  </data>
+  <data name="sip_lr_publisher" xml:space="preserve">
+    <value>出版商</value>
+  </data>
+  <data name="sip_lr_ver" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="sip_advice_assist" xml:space="preserve">
+    <value>輔導助理</value>
+  </data>
+  <data name="sip_aiw" xml:space="preserve">
+    <value>學術資訊網</value>
+  </data>
+  <data name="sip_and" xml:space="preserve">
+    <value>和</value>
+  </data>
+  <data name="sip_button" xml:space="preserve">
+    <value>按鈕</value>
+  </data>
+  <data name="sip_class_name" xml:space="preserve">
+    <value>班別</value>
+  </data>
+  <data name="sip_course_work" xml:space="preserve">
+    <value>平時分</value>
+  </data>
+  <data name="sip_final_exam" xml:space="preserve">
+    <value>期末考試</value>
+  </data>
+  <data name="sip_final_score_ratio" xml:space="preserve">
+    <value>最後得分比率</value>
+  </data>
+  <data name="sip_grade" xml:space="preserve">
+    <value>等級</value>
+  </data>
+  <data name="sip_instructor_subject" xml:space="preserve">
+    <value>導師科目</value>
+  </data>
+  <data name="sip_pls_select2" xml:space="preserve">
+    <value>--請選擇--</value>
+  </data>
+  <data name="sip_program_subject" xml:space="preserve">
+    <value>課程主任的科目</value>
+  </data>
+  <data name="sip_school" xml:space="preserve">
+    <value>學校</value>
+  </data>
+  <data name="sip_search" xml:space="preserve">
+    <value>搜尋</value>
+  </data>
+  <data name="sip_semester" xml:space="preserve">
+    <value>學期</value>
+  </data>
+  <data name="sip_subject" xml:space="preserve">
+    <value>科目</value>
+  </data>
+  <data name="sip_subject_code_req" xml:space="preserve">
+    <value>科目代碼是必填欄位!</value>
+  </data>
+  <data name="sip_then" xml:space="preserve">
+    <value>然後按下</value>
+  </data>
+  <data name="sip_tut_year" xml:space="preserve">
+    <value>年級</value>
+  </data>
+  <data name="sip_year_subject" xml:space="preserve">
+    <value>年級導師的科目</value>
+  </data>
+  <data name="sip_program" xml:space="preserve">
+    <value>課程</value>
+  </data>
+  <data name="sip_sems_req" xml:space="preserve">
+    <value>學期是必填欄位</value>
+  </data>
+  <data name="sip_teacher_code" xml:space="preserve">
+    <value>老師編號</value>
+  </data>
+  <data name="sip_teacher_name" xml:space="preserve">
+    <value>老師名稱</value>
+  </data>
+  <data name="sip_comment_details" xml:space="preserve">
+    <value>詳細信息</value>
+  </data>
+  <data name="sip_comment_history" xml:space="preserve">
+    <value>建議記錄</value>
+  </data>
+  <data name="sip_content" xml:space="preserve">
+    <value>內容</value>
+  </data>
+  <data name="sip_give_advice" xml:space="preserve">
+    <value>給予建議</value>
+  </data>
+  <data name="sip_receiver" xml:space="preserve">
+    <value>收件人</value>
+  </data>
+  <data name="sip_send" xml:space="preserve">
+    <value>發送</value>
+  </data>
+  <data name="sip_sender" xml:space="preserve">
+    <value>發送人</value>
+  </data>
+  <data name="sip_no_data" xml:space="preserve">
+    <value>沒有找到相應的資料!</value>
+  </data>
+  <data name="sip_director_subject" xml:space="preserve">
+    <value>主任科目</value>
+  </data>
+  <data name="sip_hint" xml:space="preserve">
+    <value>請選擇一位學生來使用 "&lt;span style="color:red"&gt;詳細信息&lt;/span&gt;" 或 "&lt;span style="color:red;"&gt;建議&lt;/span&gt;" 功能!</value>
+  </data>
+  <data name="sip_interestsCht" xml:space="preserve">
+    <value>興趣(中文)</value>
+  </data>
+  <data name="sip_languagesCht" xml:space="preserve">
+    <value>語言(中文)</value>
+  </data>
+  <data name="sip_socialCht" xml:space="preserve">
+    <value>社會/組織技能和能力(中文)</value>
+  </data>
+  <data name="sip_technicalCht" xml:space="preserve">
+    <value>技術技能和能力(中文)</value>
+  </data>
+  <data name="sip_lc_date" xml:space="preserve">
+    <value>留言日期：</value>
+  </data>
+  <data name="sip_lc_leave" xml:space="preserve">
+    <value>我要留言</value>
+  </data>
+  <data name="sip_lc_message" xml:space="preserve">
+    <value>意見箱</value>
+  </data>
+  <data name="sip_lc_nickname" xml:space="preserve">
+    <value>昵稱</value>
+  </data>
+  <data name="sip_lc_please" xml:space="preserve">
+    <value>請留言</value>
+  </data>
+  <data name="sip_lc_publisher" xml:space="preserve">
+    <value>留言人：</value>
+  </data>
+  <data name="sip_data_check" xml:space="preserve">
+    <value>目前沒有資料</value>
+  </data>
+  <data name="sip_lc_code" xml:space="preserve">
+    <value>驗證碼</value>
+  </data>
+  <data name="sip_lc_contents" xml:space="preserve">
+    <value>留言內容</value>
+  </data>
+  <data name="sip_lc_mailbox" xml:space="preserve">
+    <value>電子郵箱</value>
+  </data>
+  <data name="sip_lc_reply" xml:space="preserve">
+    <value>回复</value>
+  </data>
+  <data name="sip_lc_reset" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="sip_lc_submit" xml:space="preserve">
+    <value>提交</value>
+  </data>
+  <data name="sig_rg_stdID" xml:space="preserve">
+    <value>學生編號:</value>
+  </data>
+  <data name="sig_rg_stdName" xml:space="preserve">
+    <value>學生中文姓名:</value>
+  </data>
+  <data name="sig_rg_stdNameEn" xml:space="preserve">
+    <value>學生英文姓名:</value>
+  </data>
+  <data name="sip_rg_delete" xml:space="preserve">
+    <value>刪除已登記禮品</value>
+  </data>
+  <data name="sip_rg_earned" xml:space="preserve">
+    <value>獲得點數</value>
+  </data>
+  <data name="sip_rg_reged" xml:space="preserve">
+    <value>已登記點數</value>
+  </data>
+  <data name="sip_rg_used" xml:space="preserve">
+    <value>已使用點數</value>
+  </data>
+  <data name="sip_rg_totalAvailable" xml:space="preserve">
+    <value>可使用點數:</value>
+  </data>
+  <data name="sip_rg_totalBonus" xml:space="preserve">
+    <value>總點數:</value>
+  </data>
+  <data name="sip_rg_totalReged" xml:space="preserve">
+    <value>已登記點數:</value>
+  </data>
+  <data name="sip_rg_totalUsed" xml:space="preserve">
+    <value>已使用點數:</value>
+  </data>
+  <data name="sip_rg_giftConfirm" xml:space="preserve">
+    <value>確認登記</value>
+  </data>
+  <data name="sip_rg_giftDescrib" xml:space="preserve">
+    <value>禮品描述</value>
+  </data>
+  <data name="sip_rg_giftExchange" xml:space="preserve">
+    <value>兌換點數</value>
+  </data>
+  <data name="sip_rg_giftExchangeTime" xml:space="preserve">
+    <value>兌換時間</value>
+  </data>
+  <data name="sip_rg_giftID" xml:space="preserve">
+    <value>禮品編號</value>
+  </data>
+  <data name="sip_rg_giftImage" xml:space="preserve">
+    <value>禮品圖片</value>
+  </data>
+  <data name="sip_rg_giftPoint" xml:space="preserve">
+    <value>禮品點數</value>
+  </data>
+  <data name="sip_rg_giftQua" xml:space="preserve">
+    <value>數量</value>
+  </data>
+  <data name="sip_rg_giftQuaDel" xml:space="preserve">
+    <value>數量:</value>
+  </data>
+  <data name="sip_rg_giftRegTime" xml:space="preserve">
+    <value>登記時間</value>
+  </data>
+  <data name="sip_rg_giftStatus" xml:space="preserve">
+    <value>狀態</value>
+  </data>
+  <data name="sip_rg_giftTitle" xml:space="preserve">
+    <value>禮品名稱</value>
+  </data>
+  <data name="sip_notif" xml:space="preserve">
+    <value>你有新的訊息, 請按</value>
+  </data>
+  <data name="sip_here" xml:space="preserve">
+    <value>這裡</value>
+  </data>
+  <data name="sip_rg_addCart" xml:space="preserve">
+    <value>添加到購物車</value>
+  </data>
+  <data name="sip_rg_addCartBtn" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="sip_lr_semOrgCht" xml:space="preserve">
+    <value>組織(中文)</value>
+  </data>
+  <data name="sip_lr_semTopicCht" xml:space="preserve">
+    <value>主題(中文)</value>
+  </data>
+  <data name="sip_lr_semTypeCht" xml:space="preserve">
+    <value>類別(中文)</value>
+  </data>
+  <data name="sip_lr_AddSem" xml:space="preserve">
+    <value>新增研討會/會議</value>
+  </data>
+  <data name="sip_lr_addSeminarDate" xml:space="preserve">
+    <value>日期:</value>
+  </data>
+  <data name="sip_lr_addSeminarDuration" xml:space="preserve">
+    <value>持續時間(小時):</value>
+  </data>
+  <data name="sip_lr_addSeminarOrg" xml:space="preserve">
+    <value>組織:</value>
+  </data>
+  <data name="sip_lr_addSeminarOrgCht" xml:space="preserve">
+    <value>組織(中文):</value>
+  </data>
+  <data name="sip_lr_addSeminarTopic" xml:space="preserve">
+    <value>主題:</value>
+  </data>
+  <data name="sip_lr_addSeminarTopicCht" xml:space="preserve">
+    <value>主題(中文):</value>
+  </data>
+  <data name="sip_lr_addSeminarType" xml:space="preserve">
+    <value>類別:</value>
+  </data>
+  <data name="sip_lr_addSeminarTypeCht" xml:space="preserve">
+    <value>類別(中文):</value>
+  </data>
+  <data name="sip_aa_ag" xml:space="preserve">
+    <value>範圍：</value>
+  </data>
+  <data name="sip_aa_and" xml:space="preserve">
+    <value>和</value>
+  </data>
+  <data name="sip_aa_av" xml:space="preserve">
+    <value>以上:</value>
+  </data>
+  <data name="sip_aa_ay" xml:space="preserve">
+    <value>學年:</value>
+  </data>
+  <data name="sip_aa_below" xml:space="preserve">
+    <value>GPA低於1.5</value>
+  </data>
+  <data name="sip_aa_button" xml:space="preserve">
+    <value>然後點擊 " 搜索 " 按鈕。</value>
+  </data>
+  <data name="sip_aa_bw" xml:space="preserve">
+    <value>以下:</value>
+  </data>
+  <data name="sip_aa_filter" xml:space="preserve">
+    <value>篩選條件 （默認）</value>
+  </data>
+  <data name="sip_aa_objective" xml:space="preserve">
+    <value>搜索目標學生</value>
+  </data>
+  <data name="sip_aa_ps" xml:space="preserve">
+    <value>請選擇</value>
+  </data>
+  <data name="sip_aa_school" xml:space="preserve">
+    <value>學校:</value>
+  </data>
+  <data name="sip_aa_Semester" xml:space="preserve">
+    <value>學期:</value>
+  </data>
+  <data name="sip_aa_sj" xml:space="preserve">
+    <value>課程</value>
+  </data>
+  <data name="sip_aa_specifiedgpa" xml:space="preserve">
+    <value>指定GPA:</value>
+  </data>
+  <data name="sip_aa_specifiedsub" xml:space="preserve">
+    <value>指定不合格科目數:</value>
+  </data>
+  <data name="sip_aa_sub" xml:space="preserve">
+    <value>課程:</value>
+  </data>
+  <data name="sip_aa_subjects" xml:space="preserve">
+    <value>超過3科目不合格</value>
+  </data>
+  <data name="sip_aa_title" xml:space="preserve">
+    <value>輔導助理</value>
+  </data>
+  <data name="sip_aa_ty" xml:space="preserve">
+    <value>輔導年級:</value>
+  </data>
+  <data name="sip_aa_year" xml:space="preserve">
+    <value>學年</value>
+  </data>
+  <data name="sip_at_code" xml:space="preserve">
+    <value>班級編號:</value>
+  </data>
+  <data name="sip_at_description" xml:space="preserve">
+    <value>請選擇“班級編號”和“學生姓名”</value>
+  </data>
+  <data name="sip_at_indicate" xml:space="preserve">
+    <value>表示必選字段</value>
+  </data>
+  <data name="sip_at_program" xml:space="preserve">
+    <value>課程名稱:</value>
+  </data>
+  <data name="sip_at_student" xml:space="preserve">
+    <value>學生姓名:</value>
+  </data>
+  <data name="sip_at_subject" xml:space="preserve">
+    <value>請選擇科目:</value>
+  </data>
+  <data name="sip_at_Title" xml:space="preserve">
+    <value>學生考勤資訊</value>
+  </data>
+  <data name="sip_aa_advice" xml:space="preserve">
+    <value>建議</value>
+  </data>
+  <data name="sip_aa_Details" xml:space="preserve">
+    <value>詳細信息</value>
+  </data>
+  <data name="sip_aa_function" xml:space="preserve">
+    <value>功能。</value>
+  </data>
+  <data name="sip_aa_or" xml:space="preserve">
+    <value>或</value>
+  </data>
+  <data name="sip_aa_use" xml:space="preserve">
+    <value>請選擇一個學生以使用</value>
+  </data>
+  <data name="sip_aa_Program" xml:space="preserve">
+    <value>課程:</value>
+  </data>
+  <data name="sip_aa_pr" xml:space="preserve">
+    <value>課程</value>
+  </data>
+  <data name="sip_aa_to" xml:space="preserve">
+    <value>至:</value>
+  </data>
+  <data name="sip_lc_comments" xml:space="preserve">
+    <value>意見箱</value>
+  </data>
+  <data name="sip_previous_page" xml:space="preserve">
+    <value>上一頁</value>
+  </data>
+  <data name="sip_next_page" xml:space="preserve">
+    <value>下一頁</value>
+  </data>
+  <data name="sip_errorenddate_msg" xml:space="preserve">
+    <value>結束日期格式錯誤。</value>
+  </data>
+  <data name="sip_er_errorName" xml:space="preserve">
+    <value>課外活動名稱最長50個字符。</value>
+  </data>
+  <data name="sip_er_errorNameCht" xml:space="preserve">
+    <value>課外活動名稱(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_er_errorOrg" xml:space="preserve">
+    <value>組織名稱最長50個字符。</value>
+  </data>
+  <data name="sip_er_errorOrgCht" xml:space="preserve">
+    <value>組織名稱(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_er_errorPositon" xml:space="preserve">
+    <value>職位最長50個字符。</value>
+  </data>
+  <data name="sip_er_errorPositonCht" xml:space="preserve">
+    <value>職位(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_errorstartdate_msg" xml:space="preserve">
+    <value>開始日期格式錯誤。</value>
+  </data>
+  <data name="sip_sp_errorCity" xml:space="preserve">
+    <value>城市最長50個字符。</value>
+  </data>
+  <data name="sip_sp_errorCityCht" xml:space="preserve">
+    <value>城市(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_sp_errorCompany" xml:space="preserve">
+    <value>公司最長200個字符。</value>
+  </data>
+  <data name="sip_sp_errorCompanyCht" xml:space="preserve">
+    <value>公司(中文)最長200個字符。</value>
+  </data>
+  <data name="sip_sp_errorCountry" xml:space="preserve">
+    <value>國家最長50個字符。</value>
+  </data>
+  <data name="sip_sp_errorCourse" xml:space="preserve">
+    <value>課程名稱最長50個字符。</value>
+  </data>
+  <data name="sip_sp_errorCourseDetail" xml:space="preserve">
+    <value>內容最長500個字符。</value>
+  </data>
+  <data name="sip_sp_errorCourseOrg" xml:space="preserve">
+    <value>組織最長100個字符。</value>
+  </data>
+  <data name="sip_sp_errorJobName" xml:space="preserve">
+    <value>工作名稱最多100個字符。</value>
+  </data>
+  <data name="sip_sp_errorJobNameCht" xml:space="preserve">
+    <value>工作名稱(中文)最多100個字符。</value>
+  </data>
+  <data name="sip_sp_errorAddress" xml:space="preserve">
+    <value>地址最長300個字符。</value>
+  </data>
+  <data name="sip_sp_errorAddressCht" xml:space="preserve">
+    <value>地址(中文)最長300個字符。</value>
+  </data>
+  <data name="sip_sp_errorEmail" xml:space="preserve">
+    <value>電子郵件最長50個字符。</value>
+  </data>
+  <data name="sip_sp_errorInstitute" xml:space="preserve">
+    <value>學院最長50個字符。</value>
+  </data>
+  <data name="sip_sp_errorInstituteCht" xml:space="preserve">
+    <value>學院(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_sp_errorPhone" xml:space="preserve">
+    <value>電話最長50個字符。</value>
+  </data>
+  <data name="sip_sp_errorPos" xml:space="preserve">
+    <value>職位最長50個字符。</value>
+  </data>
+  <data name="sip_sp_errorPosCht" xml:space="preserve">
+    <value>職位(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_sp_errorProgram" xml:space="preserve">
+    <value>課程最長100個字符。</value>
+  </data>
+  <data name="sip_sp_errorProgramCht" xml:space="preserve">
+    <value>課程(中文)最長100個字符。</value>
+  </data>
+  <data name="sip_sp_errorRerefenceCity" xml:space="preserve">
+    <value>城市最長50個字符。</value>
+  </data>
+  <data name="sip_sp_errorRerefenceCityCht" xml:space="preserve">
+    <value>城市(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_sp_errorRerefenceCountry" xml:space="preserve">
+    <value>國家最長50個字符。</value>
+  </data>
+  <data name="sip_sp_errorRerefenceCountryCht" xml:space="preserve">
+    <value>國家(中文)只允許最多50個字符。</value>
+  </data>
+  <data name="sip_sp_errorSchool" xml:space="preserve">
+    <value>學校只允許最多100個字符。</value>
+  </data>
+  <data name="sip_sp_errorSchoolCht" xml:space="preserve">
+    <value>學校(中文)最長100個字符。</value>
+  </data>
+  <data name="sip_sp_errorTeacher" xml:space="preserve">
+    <value>老師名稱最長100個字符。</value>
+  </data>
+  <data name="sip_sp_errorTeacherCht" xml:space="preserve">
+    <value>老師名稱(中文)最長100個字符。</value>
+  </data>
+  <data name="sip_lr_errorTopicName" xml:space="preserve">
+    <value>主題只允許最長200個字符。</value>
+  </data>
+  <data name="sip_lr_errorTopicNameCht" xml:space="preserve">
+    <value>主題(中文)最長200個字符。</value>
+  </data>
+  <data name="sip_lr_errorTopicOrg" xml:space="preserve">
+    <value>組織最長50個字符。</value>
+  </data>
+  <data name="sip_lr_errorTopicOrgCht" xml:space="preserve">
+    <value>組織(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_lr_errorTopicType" xml:space="preserve">
+    <value>類別最長50個字符。</value>
+  </data>
+  <data name="sip_lr_errorTopicTypeCht" xml:space="preserve">
+    <value>類別(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_AbroadCountry" xml:space="preserve">
+    <value>國家名稱最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_AbroadCountryCht" xml:space="preserve">
+    <value>國家(名稱中文)最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_AbroadSchool" xml:space="preserve">
+    <value>學校最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_AbroadSchoolCht" xml:space="preserve">
+    <value>學校(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_AbroadTopic" xml:space="preserve">
+    <value>課程 / 科目名稱最多50個字符。</value>
+  </data>
+  <data name="sip_lr_error_AbroadTopicCht" xml:space="preserve">
+    <value>課程 / 科目名稱(中文)最多50個字符。</value>
+  </data>
+  <data name="sip_lr_error_author" xml:space="preserve">
+    <value>作者最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_AwardName" xml:space="preserve">
+    <value>獎項/獎學金名稱最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_AwardNameCht" xml:space="preserve">
+    <value>獎項/獎學金名稱(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_AwardOrg" xml:space="preserve">
+    <value>組織最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_AwardOrgCht" xml:space="preserve">
+    <value>組織(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_BookISBN" xml:space="preserve">
+    <value>書號最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_BookName" xml:space="preserve">
+    <value>書籍名稱最長100個字符。</value>
+  </data>
+  <data name="sip_lr_error_BookType" xml:space="preserve">
+    <value>類別最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_CertDate" xml:space="preserve">
+    <value>證書日期格式錯誤。</value>
+  </data>
+  <data name="sip_lr_error_CertName" xml:space="preserve">
+    <value>證書名稱最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_CertNameCht" xml:space="preserve">
+    <value>證書名稱(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_CertOrg" xml:space="preserve">
+    <value>組織最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_CertOrgCht" xml:space="preserve">
+    <value>組織(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_CourseName" xml:space="preserve">
+    <value>課程名稱最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_CourseNameCht" xml:space="preserve">
+    <value>課程名稱(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_CourseType" xml:space="preserve">
+    <value>課程類別最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_CourseTypeCht" xml:space="preserve">
+    <value>課程類別(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_MatchName" xml:space="preserve">
+    <value>比賽/會展名稱最長100個字符。</value>
+  </data>
+  <data name="sip_lr_error_MatchNameCht" xml:space="preserve">
+    <value>比賽/會展名稱(中文)最長100個字符。</value>
+  </data>
+  <data name="sip_lr_error_MatchType" xml:space="preserve">
+    <value>類別最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_MatchTypeCht" xml:space="preserve">
+    <value>類別(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_publisher" xml:space="preserve">
+    <value>出版商最長50個字符。</value>
+  </data>
+  <data name="sip_lr_error_TopicDate" xml:space="preserve">
+    <value>日期格式錯誤。</value>
+  </data>
+  <data name="sip_lr_error_version" xml:space="preserve">
+    <value>版本必須是正數。</value>
+  </data>
+  <data name="sip_lr_error_versionSize" xml:space="preserve">
+    <value>版本必須是100之內的正數。</value>
+  </data>
+  <data name="sip_lr_errorShipCompany" xml:space="preserve">
+    <value>公司名稱最長50個字符。</value>
+  </data>
+  <data name="sip_lr_errorShipCompanyCht" xml:space="preserve">
+    <value>公司名稱(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_lr_errorShipDuration" xml:space="preserve">
+    <value>持續時間最長50個字符。</value>
+  </data>
+  <data name="sip_lr_errorShipDurationCht" xml:space="preserve">
+    <value>持續時間(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_lr_errorShipJob" xml:space="preserve">
+    <value>工作名稱最長50個字符。</value>
+  </data>
+  <data name="sip_lr_errorShipJobCht" xml:space="preserve">
+    <value>工作名稱(中文)最長50個字符。</value>
+  </data>
+  <data name="sip_lr_semTopic" xml:space="preserve">
+    <value>主題</value>
+  </data>
+  <data name="sip_chart_title_exam" xml:space="preserve">
+    <value>學生考試成績的概率分佈圖</value>
+  </data>
+  <data name="sip_chart_title_final" xml:space="preserve">
+    <value>學生最終成績的概率分佈圖</value>
+  </data>
+  <data name="sip_chart_title_work" xml:space="preserve">
+    <value>學生平時成績的概率分佈圖</value>
+  </data>
+  <data name="sip_num_std" xml:space="preserve">
+    <value>學生人數</value>
+  </data>
+  <data name="sip_score_prob" xml:space="preserve">
+    <value>學生成績概率</value>
+  </data>
+  <data name="sip_std_ach_seg" xml:space="preserve">
+    <value>學生的分數及數量分佈圖</value>
+  </data>
+  <data name="sip_std_score" xml:space="preserve">
+    <value>學生成績</value>
+  </data>
+  <data name="sip_desc_stats" xml:space="preserve">
+    <value>統計説明</value>
+  </data>
+  <data name="sip_highest" xml:space="preserve">
+    <value>最高分</value>
+  </data>
+  <data name="sip_lowest" xml:space="preserve">
+    <value>最低分</value>
+  </data>
+  <data name="sip_med" xml:space="preserve">
+    <value>中位數</value>
+  </data>
+  <data name="sip_score_prob_line" xml:space="preserve">
+    <value>分數概率線</value>
+  </data>
+  <data name="sip_avg_line" xml:space="preserve">
+    <value>平均線</value>
+  </data>
+  <data name="sip_pass_line" xml:space="preserve">
+    <value>合格線</value>
+  </data>
+  <data name="sip_er_describEditor" xml:space="preserve">
+    <value>課外活動內容</value>
+  </data>
+  <data name="sip_er_Adddescrib" xml:space="preserve">
+    <value>內容:</value>
+  </data>
+  <data name="sip_advice_like" xml:space="preserve">
+    <value>讚好</value>
+  </data>
+  <data name="sip_advice_unlike" xml:space="preserve">
+    <value>取消讚好</value>
+  </data>
+  <data name="sip_total_pass" xml:space="preserve">
+    <value>合格總人數</value>
+  </data>
+  <data name="sip_total_fail" xml:space="preserve">
+    <value>不合格總人數</value>
+  </data>
+  <data name="sip_aa_fail" xml:space="preserve">
+    <value>不合格科目數</value>
+  </data>
+  <data name="sip_co_description" xml:space="preserve">
+    <value>顏色說明</value>
+  </data>
+  <data name="sip_p_description" xml:space="preserve">
+    <value>按時出席</value>
+  </data>
+  <data name="sip_r_description" xml:space="preserve">
+    <value>合理缺席</value>
+  </data>
+  <data name="sip_u_description" xml:space="preserve">
+    <value>無理缺席</value>
+  </data>
+  <data name="sip_ea_addCommbtn" xml:space="preserve">
+    <value>新增課外活動</value>
+  </data>
+  <data name="sip_contact_contents" xml:space="preserve">
+    <value>
+&lt;li&gt;&lt;p&gt;如果您對本系统有任何建議和功能設想，請按&lt;a href="LeaveComments.aspx" style="font-size:12pt;"&gt;此鏈結&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;</value>
+  </data>
+</root>

@@ -1,0 +1,132 @@
+#gmenu950 ul, 
+#gmenu950 ul * {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#gmenu950 ul {
+	line-height:1.0;
+	float:left;
+	margin-bottom:0;
+	width:740px;
+}
+
+#gmenu950 ul ul {
+	position:absolute;
+	top:-999em;
+	width:240px; /* ‘æ“ñŠK‘w‚Ì• */
+}
+
+#gmenu950 ul ul li {
+	width:100%;
+}
+
+#gmenu950 ul li:hover {
+	visibility:inherit; /* IE7ƒoƒO‰ñ”ğ */
+}
+
+#gmenu950 ul li {
+	float:left;
+	position:relative;
+	width:120px; /* ‘æˆêŠK‘w‚Ìwidth */
+	margin-right:3px;
+	cursor:default;
+}
+
+
+/* ‘æˆêŠK‘w */
+#gmenu950 ul a, 
+#gmenu950 ul div {
+	display:block;
+	position:relative;
+	text-decoration:none;
+	height:35px;
+	width:100%;
+	font-size:9pt;
+	color:#626262;
+	line-height:35px;
+	text-align:center;
+}
+
+#gmenu950 ul li div span, 
+#gmenu950 ul li a.arrow span {
+	background:url(../img/menu/menu_arrow_b.gif) no-repeat right top;
+	padding:0 12px;
+	display:inline;
+}
+
+#gmenu950 ul li a:hover, 
+#gmenu950 ul li div:hover {
+	background:url(../img/menu/bg_gmenu_ov.png) no-repeat right top;
+	color:#ffffff;
+}
+
+#gmenu950 ul li.left a:hover, 
+#gmenu950 ul li.left div:hover {
+	background:url(../img/menu/bg_gmenu_ov.png) no-repeat left top;
+}
+
+
+/* ‘æ“ñŠK‘w */
+#gmenu950 ul li:hover ul, 
+#gmenu950 ul li:focus ul {
+	left:0;
+	top:34px; /* ‘æˆêŠK‘w‚Ìheight */
+	z-index:99;
+	padding-top:1px;
+}
+
+#gmenu950 ul ul li a {
+	display:block;
+	position:relative;
+	text-decoration:none;
+	height:32px;
+	width:100%;
+	font-size:9pt;
+	color:#6c6c6c;
+}
+
+#gmenu950 ul ul li a span {
+	display:block;
+	padding-left:15px;
+	line-height:32px;
+	text-align:left;
+	background:url(../img/menu/bg_gmenu_sub_nml.png) no-repeat 0px -34px;
+}
+
+#gmenu950 ul ul li a:hover {
+	background:none;
+}
+
+#gmenu950 ul ul li a:hover span, 
+#gmenu950 ul ul li a:focus span, 
+#gmenu950 ul ul li a:active span {
+	background:url(../img/menu/bg_gmenu_sub_ov.png) no-repeat 0px -34px;
+	color:#ffffff;
+}
+
+#gmenu950 ul ul li.top a {
+	height:34px;
+}
+
+#gmenu950 ul ul li.top a span {
+	line-height:34px;
+	background:url(../img/menu/bg_gmenu_sub_nml.png) no-repeat 0px top;
+}
+
+#gmenu950 ul ul li.top a:hover span, 
+#gmenu950 ul ul li.top a:focus span, 
+#gmenu950 ul ul li.top a:active span {
+	background:url(../img/menu/bg_gmenu_sub_ov.png) no-repeat 0px top;
+}
+
+#gmenu950 ul ul li.bottom a span {
+	background:url(../img/menu/bg_gmenu_sub_nml.png) no-repeat 0px bottom;
+}
+
+#gmenu950 ul ul li.bottom a:hover span, 
+#gmenu950 ul ul li.bottom a:focus span, 
+#gmenu950 ul ul li.bottom a:active span {
+	background:url(../img/menu/bg_gmenu_sub_ov.png) no-repeat 0px bottom;
+}

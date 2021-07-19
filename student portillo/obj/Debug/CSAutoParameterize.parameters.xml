@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="EPConnectionString4-Web.config Connection String" description="EPConnectionString4 Connection String used in web.config by the application to access the database." defaultvalue="Data Source=172.25.2.64;Initial Catalog=EP;Persist Security Info=True;User ID=ep_client;Password=46709394" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EPConnectionString4']/@connectionString" />
+  </parameter>
+  <parameter name="EPConnectionString1-Web.config Connection String" description="EPConnectionString1 Connection String used in web.config by the application to access the database." defaultvalue="Data Source=172.25.2.64;Initial Catalog=EP;Persist Security Info=True;User ID=sa;Password=ta2001" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EPConnectionString1']/@connectionString" />
+  </parameter>
+  <parameter name="EPConnectionString-Web.config Connection String" description="EPConnectionString Connection String used in web.config by the application to access the database." defaultvalue="Data Source=172.25.2.64;Initial Catalog=EP;Persist Security Info=True;User ID=ep_client;Password=46709394" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EPConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

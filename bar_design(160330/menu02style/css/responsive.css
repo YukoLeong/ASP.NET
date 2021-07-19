@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+@media screen and (min-width: 1600px){
+
+}
+
+/*ボカロ関連*/
+
+@media screen and (max-width: 1024px){
+.topcontents_pd	{padding-left:60px !important; padding-right:400px;}
+.cont_desc			{width:100%; padding:45px 60px !important; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box;}
+
+.bg_mikuv3b	{background:url(../mp/pages/prod/vocaloid/images/bg_bundle_s.png) no-repeat -50px 55px !important;}
+
+/*a.badge_mikuv3 {left:450px !important; top:90px !important;}*/
+
+}
+
+
+
+
+

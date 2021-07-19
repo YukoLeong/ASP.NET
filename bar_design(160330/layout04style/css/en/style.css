@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+
+
+/************  AAA FONT SIZE **************/
+#content {
+	/*line-height:157%;
+	font-size:78%;*/
+	font-size: .75em;
+}
+.smallsize #content,
+.smallsize #subnav,
+.smallsize #breadcrumb{
+    font-size: .917em; /*11px*/
+    line-height: 1.273em; /*14px*/
+}
+.middlesize #content,
+.middlesize #subnav,
+.middlesize #breadcrumb{
+    font-size: 1em; /*12px*/
+    line-height: 1.334em; /*16px*/
+}
+.largesize #content,
+.largesize #subnav,
+.largesize #breadcrumb {
+    font-size: 1.167em; /*14px*/
+    line-height: 1.286em; /*18px*/
+}
+
+.smallsize #pagetitle h1{
+	font-size: 1.5em; /*18px*/
+}
+.middlesize #pagetitle h1{
+	font-size: 1.667em; /*20px*/
+}
+.largesize #pagetitle h1{
+	font-size: 2em; /*24px*/
+}
+
+
+
+
+/************** HOME PAGE **************/
+#mainvis .mainvis_txt.graduate {	
+	width:356px;
+	height:142px;
+	top:104px;
+	left:145px;/*left:264px;*/
+	background-image:url(../../images/en/mainvis_txt_graduate.gif);
+}
+#mainvis .mainvis_txt.knowledge{
+	width:320px;
+	height:115px;
+	top:73px;
+	left:742px;
+	background-image:url(../../images/en/mainvis_txt_knowledge.gif);
+}
+#mainvis .mainvis_txt.scholarships{
+	width:251px;
+	height:145px;
+	top:147px;
+	left:1343px;
+	background-image:url(../../images/en/mainvis_txt_scholarships.gif);
+}
+#mainvis .mainvis_txt.slogan{
+	width:465px;
+	height:56px;
+	top:365px;
+	left:695px;
+	background-image:url(../../images/en/index_main_slogan.png);
+}
+#mainvis .mainvis_nav.admission ul li.title {
+	background-image:url(../../images/en/mainvis_nav_title_admission.png);
+}
+#mainvis .mainvis_nav.academic ul li.title {
+	background-image:url(../../images/en/mainvis_nav_title_academic.png);
+}
+#mainvis .mainvis_nav.more ul li.title {
+	background-image:url(../../images/en/mainvis_nav_title_more.png);
+}
+#mainvis .mainvis_nav > ul > li > a{
+	background-image:url(../../images/en/mainvis_nav.png);
+}
+
+#mainvis .mainvis_nav.admission ul li.btn1 > a{background-position: 0 0; height:35px;}
+#mainvis .mainvis_nav.admission ul li.btn2 > a{background-position: 0 -35px; height:55px;}
+#mainvis .mainvis_nav.admission ul li.btn3 a{background-position: 0 -90px; height:35px;}
+#mainvis .mainvis_nav.admission ul li.btn1 > a:hover, #mainvis .mainvis_nav.admission ul li.btn1.selected > a{background-position: -166px 0;}
+#mainvis .mainvis_nav.admission ul li.btn2 > a:hover, #mainvis .mainvis_nav.admission ul li.btn2.selected > a{background-position: -166px -35px;}
+#mainvis .mainvis_nav.admission ul li.btn3 > a:hover, #mainvis .mainvis_nav.admission ul li.btn3.selected > a{background-position: -166px -90px;}
+
+#mainvis .mainvis_nav.academic ul li.btn1 > a{background-position: -332px 0;}
+#mainvis .mainvis_nav.academic ul li.btn2 > a{background-position: -332px -36px; height:54px;}
+#mainvis .mainvis_nav.academic ul li.btn3 > a{background-position: -332px -90px; height:54px;}
+#mainvis .mainvis_nav.academic ul li.btn4 > a{background-position: -332px -144px; height:54px;}
+#mainvis .mainvis_nav.academic ul li.btn1 > a:hover, #mainvis .mainvis_nav.academic ul li.btn1.selected > a{background-position: -498px 0;}
+#mainvis .mainvis_nav.academic ul li.btn2 > a:hover, #mainvis .mainvis_nav.academic ul li.btn2.selected > a{background-position: -498px -36px;}
+#mainvis .mainvis_nav.academic ul li.btn3 > a:hover, #mainvis .mainvis_nav.academic ul li.btn3.selected > a{background-position: -498px -90px;}
+#mainvis .mainvis_nav.academic ul li.btn4 > a:hover, #mainvis .mainvis_nav.academic ul li.btn4.selected a{background-position: -498px -144px;}
+
+#mainvis .mainvis_nav.more ul li.btn1 > a{background-position: -667px 0; height:54px; width:167px;}
+#mainvis .mainvis_nav.more ul li.btn2 > a{background-position: -667px -54px; height:54px; width:167px;}
+#mainvis .mainvis_nav.more ul li.btn1 > a:hover, #mainvis .mainvis_nav.more ul li.btn1.selected > a{background-position: -833px 0;}
+#mainvis .mainvis_nav.more ul li.btn2 > a:hover, #mainvis .mainvis_nav.more ul li.btn2.selected > a{background-position: -833px -54px;}
+
+#content .title a.btn_more{
+	background-image:url(../../images/en/btn_home_highlights_more.png);
+}
+#activ_cal_wrap a.btn_activ_cal{
+	width:24px;
+	height:267px;
+	margin-top:250px;
+	background-image:url(../../images/en/btn_calendar_tab.png);
+}
+#cal_wrap .btn_more{ position:absolute; top:28px; right:0px; width:78px; height:17px; background:url(../../images/en/calendar_btn_more.gif); }
+#cal_wrap .btn_more:hover{ background-position:0 -17px;}
+
+
+/************** INSIDE PAGE **************/
+#mainvis_zone .btn_subnav_wrap a.btn_subnav{
+	background-image:url(../../images/en/btn_subnav.png);
+}
+#pagetitle h1{ 
+	font-family:"Times New Roman", Times, serif;
+	font-size:1.4em;
+	line-height:22px;
+}
+
+
+/*********Content style*********/
+dl.note dt{ float:left; width:48px; font-size:1em; font-weight:700;}
+dl.note dd{ margin-left:48px; font-size:.9em;}
+dl.remarks dt{ float:left; width:75px; font-size:1em; font-weight:700;}
+dl.remarks dd{ margin-left:75px; font-size:.9em;}
+
+#content_wrap a.btn_backtop{
+	background-image:url(../../images/en/btn_backtop.png);
+}

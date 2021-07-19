@@ -1,0 +1,25 @@
+/* CSS Document */
+.cheader {font-family: 新細明體;font-size: 16px;color: #333333;font-weight: bold;line-height: 25px;}
+.ctext {font-family: 新細明體;font-size: 15px;color: #333333;line-height: 25px;}
+.ctext a:link { text-decoration:underline; }
+.ctext_LIGHT {font-family: 新細明體;font-size: 15px;color: #777777;line-height: 25px;}
+.ctext_RED {font-family: 新細明體;font-size: 15px;color: #FF0066;line-height: 25px;}
+.ctext_s {font-family: 新細明體;font-size: 12px;color: #333333;line-height: 18px;}
+.ctext_s_B {font-family: 新細明體;font-size: 12px;color: #333333;font-weight: bold;line-height: 18px;}
+.ctext_s_RED {font-family: 新細明體;font-size: 12px;color: #FF0066;line-height: 18px;}
+.ctext_s_LIGHT {font-family: 新細明體;font-size: 12px;color: #777777;line-height: 18px;}
+
+.eheader {font-family: Arial, Helvetica, sans-serif;font-size: 16px;color: #333333;font-weight: bold;line-height: 25px;}
+.etext {font-family: Arial, Helvetica, sans-serif;font-size: 15px;color: #333333;line-height: 25px;}
+.etext a:link { text-decoration:underline; }
+.etext_LIGHT {font-family: Arial, Helvetica, sans-serif;font-size: 15px;color: #777777;line-height: 25px;}
+.etext_RED {font-family: Arial, Helvetica, sans-serif;font-size: 15px;color: #FF0066;line-height: 25px;}
+.etext_s {font-family: Arial, Helvetica, sans-serif;font-size: 12px;color: #333333;line-height: 18px;}
+.etext_s_B {font-family: Arial, Helvetica, sans-serif;font-size: 12px;color: #333333;font-weight: bold;line-height: 18px;}
+.etext_s_RED {font-family: Arial, Helvetica, sans-serif;font-size: 12px;color: #FF0066;line-height: 18px;}
+.etext_s_LIGHT {font-family: Arial, Helvetica, sans-serif;font-size: 12px;color: #777777;line-height: 18px;}
+.etext_xs {font-family: Arial, Helvetica, sans-serif;font-size: 9px;color: #555555;line-height: 18px;}
+
+.ctext ol, etext ol { margin:0; padding-left:25px; }
+
+.vertical_text {writing-mode: tb-rl;}

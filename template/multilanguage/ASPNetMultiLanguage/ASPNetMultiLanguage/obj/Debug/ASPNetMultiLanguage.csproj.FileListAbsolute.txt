@@ -1,0 +1,11 @@
+D:\STUDY\MultiLanguage\ASPNetMultiLanguage\ASPNetMultiLanguage\bin\ASPNetMultiLanguage.dll
+D:\STUDY\MultiLanguage\ASPNetMultiLanguage\ASPNetMultiLanguage\bin\ASPNetMultiLanguage.pdb
+D:\STUDY\MultiLanguage\ASPNetMultiLanguage\ASPNetMultiLanguage\obj\Debug\ASPNetMultiLanguage.dll
+D:\STUDY\MultiLanguage\ASPNetMultiLanguage\ASPNetMultiLanguage\obj\Debug\ASPNetMultiLanguage.pdb
+D:\STUDY\MultiLanguage\ASPNetMultiLanguage\ASPNetMultiLanguage\obj\Debug\ASPNetMultiLanguage.csprojResolveAssemblyReference.cache
+C:\Users\kanon\Desktop\ASPNetMultiLanguage\ASPNetMultiLanguage\ASPNetMultiLanguage\bin\ASPNetMultiLanguage.dll.config
+C:\Users\kanon\Desktop\ASPNetMultiLanguage\ASPNetMultiLanguage\ASPNetMultiLanguage\bin\ASPNetMultiLanguage.dll
+C:\Users\kanon\Desktop\ASPNetMultiLanguage\ASPNetMultiLanguage\ASPNetMultiLanguage\bin\ASPNetMultiLanguage.pdb
+C:\Users\kanon\Desktop\ASPNetMultiLanguage\ASPNetMultiLanguage\ASPNetMultiLanguage\obj\Debug\ASPNetMultiLanguage.csprojResolveAssemblyReference.cache
+C:\Users\kanon\Desktop\ASPNetMultiLanguage\ASPNetMultiLanguage\ASPNetMultiLanguage\obj\Debug\ASPNetMultiLanguage.dll
+C:\Users\kanon\Desktop\ASPNetMultiLanguage\ASPNetMultiLanguage\ASPNetMultiLanguage\obj\Debug\ASPNetMultiLanguage.pdb

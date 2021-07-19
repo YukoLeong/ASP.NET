@@ -1,0 +1,46 @@
+
+        body
+        {
+            font-family: DFKai-sb;
+        }
+        #content
+        {
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .style1
+        {
+            width: 100%;
+            border: 1px solid #000000;
+        }
+        .style3
+        {
+            width: 100%;
+        }
+        .style4
+        {
+            width: 212px;
+            height: 36px;
+        }
+        .style5
+        {
+            height: 36px;
+        }
+        .style6
+        {
+            width: 212px;
+        }
+        .style10
+        {
+            width: 200px;
+        }
+	#HomeButton{
+		display:none;
+	}
+	#Button1{
+		display:none;
+	}
+	#RecruitWay
+	{
+	    display:none;
+	}

@@ -1,0 +1,6 @@
+﻿.ui-listview .list-detail
+{
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
+}

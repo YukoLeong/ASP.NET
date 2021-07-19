@@ -1,0 +1,855 @@
+body { padding-top:0 !important; line-height:1.6;}
+/* Navicagtion charactor */
+#menu_vs			{text-align:center; z-index:2; height:40px; position:absolute; top:85px; left:0; width:inherit;}
+#menu_vs ul		{background:url(../images/bg_menu.png) repeat center; font-size:0; text-align:center; display:inline-block;
+						-moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; overflow:hidden;
+						-moz-box-shadow:0px 0px 8px rgba(0,0,0, 0.3);
+						-webkit-box-shadow:0px 0px 8px rgba(0,0,0, 0.3);
+						box-shadow:0px 0px 8px rgba(0,0,0, 0.3);}
+#menu_vs li		{width:120px; border-right:1px solid #333333; height:inherit; display:inline-block;  font-size:9pt; /*height:45px;*/ line-height:40px;}
+#menu_vs li:last-child	{border-right:none !important;}
+#menu_vs a				{display:block; height:inherit; width:inherit; color:#fff;}
+#menu_vs a span		{display:block; width:inherit; height:inherit; visibility:hidden;}
+#menu_vs a:hover { text-decoration:none;}
+#menu_vs li:hover span {visibility:visible;}
+
+#menu_vs .vstop{ background:url(../images/menu_vs_top.jpg) no-repeat center -45px;}
+#menu_vs .miku{ background:url(../images/menu_vs_miku.jpg) no-repeat center -45px;}
+#menu_vs .kaito { background:url(../images/menu_vs_kaito.jpg) no-repeat center -45px;  }
+#menu_vs .meiko{ background:url(../images/menu_vs_meiko.jpg) no-repeat center -45px;  }
+#menu_vs .rinlen { background:url(../images/menu_vs_rinlen.jpg) no-repeat center -45px;  }
+#menu_vs .luka{ background:url(../images/menu_vs_lukav3.jpg) no-repeat center -45px;  }
+#menu_vs .ps { background:url(../images/menu_vs_ps.jpg) no-repeat center -45px;  display:none;}
+
+#menu_vs .vstop a	{ border-bottom:3px solid #939393; }
+#menu_vs .miku a	{ border-bottom:3px solid #11ADD5; }
+#menu_vs .kaito a	{ border-bottom:3px solid #4b81e0; }
+#menu_vs .meiko a{ border-bottom:3px solid #b12828; }
+#menu_vs .rinlen a	{ border-bottom:3px solid #ebbd06; }
+#menu_vs .luka a		{ border-bottom:3px solid #CD82CF; }
+#menu_vs .ps a			{ /*border-bottom:3px solid #a9b300;*/ }
+
+#menu_vs li { transition:background-position 0.1s ease-out; }
+#menu_vs li:hover { background-position:top;}
+
+.menu_vs_gray ul	{background:url(../images/bg_menu_gray.png) repeat center !important;}
+.menu_vs_gray li	{border-right:1px solid #202020 !important;}
+
+/* Software spec */
+.list_fn { width:auto; margin:0 auto; margin-top:30px; margin-bottom:20px;}
+.list_fn li	{width:60px; height:60px; display:inline-block; margin-right:5px;
+				-moz-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; overflow:hidden;}
+.list_fn a, .list_fn span			{ width:60px; height:60px; display:block; background:url(../images/bg_menu1.png) repeat;}
+.list_fn a:hover	{ width:60px; height:60px; display:block; background:url(../images/bg_menu.png) repeat;}
+.list_fn:last-child{ margin-right:0;}
+
+.cont_desc									{width:100%; padding:90px 150px;}
+.cont_desc p									{font-size:11pt; line-height:1.8;}
+
+.cont_logo									{padding:15px 150px;}
+.cont_credit									{ text-align:center; padding-top:15px; padding-bottom:15px; font-size:9pt; line-height:1.8; color:#999999 !important;}
+.cont_credit span							{margin-right:15px; display:inline-block;}
+.cont_credit a								{color:#999999 !important; text-decoration:underline;}
+.cont_ps_link								{display:block; text-align:center; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box; padding:30px 150px; /*background:#a7a71a !important;*/}
+.cont_ps_link:hover						{text-decoration:none; /*background:#101010 !important;*/}
+
+/* alt background ############## */ 
+.cont_desc:nth-child(even){background:#333; color:#ddd; position:relative;}
+.cont_desc:nth-child(odd){background:#444; color:#ccc;}
+.cont_desc:nth-child(even) .altinner{background:#444; color:#ccc;}
+.cont_desc:nth-child(odd) .altinner{background:#333; color:#ddd;}
+/* for IE #### 中身は同上。コンマでくっつけて記述すると動かないので注意 */
+.cont_desc.even {background:#333; color:#ddd;}
+.cont_desc.odd {background:#444; color:#ccc;}
+.cont_desc.even .altinner{background:#444; color:#ccc;}
+.cont_desc.odd .altinner{background:#333; color:#ddd;}
+
+/* 背景関係で細かい色変更 */
+.cont_desc:nth-child(odd)  .req_os{ border-color:#4e4e4e;}
+.cont_desc:nth-child(odd)  .os_list{ border-color:#4e4e4e;}
+
+.cont_desc .price_web	{font-size:9pt; color:#ffffff; margin-top:6px; font-weight:bold;}
+.cont_desc .price_web .line	{text-decoration:line-through;}
+.cont_desc .price_web .num	{font-size:9pt;}
+.cont_desc .price_sp		{font-size:9pt; margin-top:6px; font-weight:bold;}
+.cont_desc .price_sp .num	{font-size:11pt;}
+
+.prod_notes { padding:40px 150px; width:100%;}
+.prod_notes p { line-height:1.4;}
+
+.txt_ef01 { text-shadow:-2px -2px 5px #fff, -2px 2px 5px #fff, 2px -2px 5px #fff, 2px 2px 5px #fff;}
+.txt_ef02 { text-shadow:-2px -2px 5px rgba(0,0,0, 0.4), -2px 2px 5px rgba(0,0,0, 0.4), 2px -2px 5px rgba(0,0,0, 0.4), 2px 2px 5px rgba(0,0,0, 0.4);}
+.txt_ef03 { text-shadow:-2px -2px 5px rgba(0,0,0, 0.1), -2px 2px 5px rgba(0,0,0, 0.1), 2px -2px 5px rgba(0,0,0, 0.1), 2px 2px 5px rgba(0,0,0, 0.1);}
+.cont_desc:nth-child(even) .txt_ef01 { text-shadow:0 0 8px #333,0 0 8px #333,0 0 8px #333;}
+
+
+.vs_prod_menu_box		{margin-bottom:45px;}
+.vs_prod_menu li			{position:relative;}
+.vs_prod_menu i			{margin-left:20px;}
+.vs_prod_menu li.m1	{margin-left:15px; z-index:4;}
+.vs_prod_menu li.m2	{margin-left:30px; z-index:3;}
+.vs_prod_menu li.m3	{margin-left:45px; z-index:2;}
+.vs_prod_menu li.m4	{margin-left:60px; z-index:1;}
+.vs_prod_menu li a		{display:block; /*line-height:28px; padding-left:20px; */ padding:10px 10px 10px 20px; line-height:1.4; color:#ffffff; font-weight:bold; text-decoration:none !important; background:#33333;
+									-moz-border-radius:0 0 0 3px; -webkit-border-radius:0 0 0 3px; border-radius:0 0 0 3px; border-width:1px; border-style:solid; border-top:none; border-right:none;
+									moz-box-shadow:0 3px 7px rgba(0,0,0, 0.1);
+									-webkit-box-shadow:0 3px 7px rgba(0,0,0, 0.1);
+									box-shadow:0 3px 7px rgba(0,0,0, 0.1);}
+.vs_prod_menu li a span		{font-weight:normal; margin-left:20px;}
+.vs_prod_menu li a .status	{font-weight:normal; margin-left:0; margin-right:20px;}
+
+
+.menu_mikuv3 li a				{border-color:#54a1b8; background:#6eb8cf;}
+.menu_mikuv3 li a:hover		{background:#54a1b8;}
+.menu_mikuv3 i					{color:#2e7990;}
+
+
+.menu_kaitov3 li a				{border-color:#86a16e; background:#99b482;}
+.menu_kaitov3 li a:hover		{background:#86a16e;}
+.menu_kaitov3 i					{color:#617a4c;}
+
+.menu_meikov3 li a				{border-color:#b75155; background:#c05a5e;}
+.menu_meikov3 li a:hover	{background:#b75155;}
+/*
+.menu_meikov3 li a				{border-color:#8b1b1b; background:#9e2222;}
+.menu_meikov3 li a:hover	{background:#8b1b1b;}
+*/
+.menu_meikov3 i					{color:#680f0f;}
+
+.menu_rinlen li a					{border-color:#b79e24; background:#cbb030;}
+.menu_rinlen li a:hover			{background:#b79e24;}
+.menu_rinlen i						{color:#847012;}
+
+.menu_luka li a					{border-color:#790865; background:#90127a;}
+.menu_luka li a:hover			{background:#840E70;}
+.menu_luka i					{color:#D0AACA;}
+
+.link_more		{margin-top:20px; font-size:13pt !important;}
+.link_icon			{display:inline-block; padding:0 10px; font-size:11pt; font-weight:bold; background:#db6722; border:1px solid #e2702c; margin-right:8px; -moz-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; color:#ffffff !important;}
+/*.link_icon i		{color:#ffffff !important;}*/
+
+/* =====================================================
+					Virtual Singer Top Page
+====================================================== */
+.vs_sect	{color:#666;  position:relative; overflow:hidden; z-index:10;
+				moz-box-shadow:0 3px 7px rgba(0,0,0, 0.2);
+				-webkit-box-shadow:0 3px 7px rgba(0,0,0, 0.2);
+				box-shadow:0 3px 7px rgba(0,0,0, 0.2);}
+#vctop_header h1 { font-weight:normal; padding-top:20px; font-size:8.6pt;}
+.sect_contents { padding:50px 150px 30px 0; margin:0 auto; position:relative; z-index:3; min-height:460px; width:880px;}
+/*.sect_contents { padding:60px 400px 60px 100px; margin:0 auto 0; position:relative; z-index:3; width:auto; min-width:480px; max-width:1230px; min-height:460px;}*/
+.sect_contents h2 { font-size:21pt; color:#333;} 
+.sect_contents .ruby { font-size:9pt; margin-left:10px;} 
+.logo_chara { position:absolute; right:-80px; bottom:0; width:400px; height:150px;}
+.catch { color:#fff; font-size:16pt; padding-top:30px; line-height:1.4; font-weight:bold;}
+.mac .catch { font-weight:normal;}
+.ie .catch {font-weight:bold;}
+
+.price {color:#333333;}
+.price span { font-size:14pt; padding-left:5px;}
+
+.link_detail 		{margin-top:10px;}
+.link_detail  a	{display:inline-block; text-align:center; padding:12px 0; color:#fff; width:310px; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; text-decoration:none !important;
+						moz-box-shadow:0 0 10px rgba(0,0,0, 0.2);
+						-webkit-box-shadow:0 0 10px rgba(0,0,0, 0.2);
+						box-shadow:0 0 10px rgba(0,0,0, 0.2);}
+.link_detail .bg_mikuv3, .link_detail .bg_kaitov3, .link_detail .bg_meikov3, .link_detail .bg_lukav3 { font-size:11pt;}
+.link_etc { padding-top:15px;}
+.link_etc a { padding-right:20px; color:#666;}
+			
+/* 上記↑ミク色がベース。別途キャラ別の画像や背景とかは以下 */
+#sect_miku {  background:url(../images/bg_mikubackc4ca.jpg?1) no-repeat center top #b8e1ec; margin-top:0; }
+#sect_kaito {  background:url(../images/bg_kaitoback.jpg) no-repeat center bottom #ddebc6; }
+
+/* Lower ############ */
+.vc_sect_low { overflow:hidden;}
+.sect_contents_low { padding:40px 400px 40px 100px; margin:0 auto; position:relative; z-index:3; min-width:480px; width:auto; max-width:1230px;}
+.sect_contents_low h2 { margin-bottom:0; color:#333; padding-top:10px;}
+.sect_contents_low .logo_chara { bottom:20px; right:30px; width:300px; height:100px; text-align:center;}
+.sect_contents_low .catch { font-size:14pt; padding-top:20px;}
+
+#sect_meiko { background:url(../images/bg_meikoback3.jpg) no-repeat center top #ddd4d2; color:#ddd; }
+/*
+#sect_meiko h2 { color:#fff;}
+#sect_meiko .price { color:#ddd;}
+*/
+
+#sect_luka {background:url(../images/bg_lukaback.jpg) no-repeat center -25px #fee2ed;  }
+#sect_lukav3 {background:url(../images/bg_lukav3back.jpg) no-repeat center -25px #fee2ed;  }
+#sect_lukav4x {background:url(../images/bg_lukav4xback.jpg) no-repeat center -25px #fef4f5;  }
+#sect_rinlen {background:url(../images/bg_rinlenback.jpg) no-repeat center top #feefb5;  }
+
+a.badge_miku_en_top		{width:140px; height:140px; position:absolute; left:350px; bottom:40px;  background:url(../images/badge_miku_english_s.html) no-repeat center; display:block; z-index:1;}
+.badge_cv02a_top 				{ width:140px; height:140px; position:absolute; left:350px; bottom:40px; background:url(../images/badge_cv02a_s.html) no-repeat center; display:block; z-index:1;}
+/*.ie8 .badge_cv02a_top { left:700px;}*/
+
+.txt_s			{font-size:9pt !important; line-height:1.4 !important;}
+.img100		{width:100%;}
+
+/* =====================================================
+					piapro studio
+====================================================== */
+
+body						{background:#202020 !important; }
+.fixedbox				{background:#202020; display:table; width:100%; height:100%;  min-height:900px; text-align:left; position:relative;}
+
+.vocaloid_editor_box		{background:#202020; width:100%; text-align:left; position:relative; padding:200px 150px 70px 150px; color:#dcdcdc;}
+
+.shot_ps				{background:url(../images/shot_ps.jpg) no-repeat center 80px; padding-top:565px; width:675px; position:relative; margin:80px auto 0; min-height:800px;}
+.btn_play_ps			{background:url(../images/btn_play_ps.png) no-repeat center; width:167px; height:166px; position:absolute; left:50%; top:210px; margin-left:-84px; display:block; cursor:pointer;}
+
+
+.snsbtnbox						{font-size:0; margin-top:20px; /*padding-left:60px;*/ text-align:center;}
+.vs_snsbtnbox			{ font-size:0; margin-top:25px;}
+.snsbtnbox .snsbtn, .vs_snsbtnbox .snsbtn			{display:inline-block;}
+iframe.twitter-share-button {width:105px !important;}
+
+
+.layer_bk						{width:100%; height:100%; background:url(../images/bg_popup.png) repeat left top; position:fixed; top:0; left:0; z-index:998; display:none;}
+.layer_bk .bg_video		{width:660px; height:380px; position:absolute; top:50%; left:50%; margin-left:-330px; margin-top:-190px;
+									background:#666666; padding:10px;}
+.layer_bk .bg_video_cv	{width:500px; height:380px; position:absolute; top:50%; left:50%; margin-left:-250px; margin-top:-190px;
+									background:#666666; padding:10px;}
+.layer_bk .bg_video_v3	{width:660px; height:380px; position:absolute; top:50%; left:50%; margin-left:-330px; margin-top:-190px;
+									background:#666666; padding:10px;}
+.layer_bk .btn_close		{width:29px; height:29px; position:absolute; top:-50px; right:-50px; cursor:pointer;
+									background:url(../images/btn_close_layer.png) no-repeat center; background-size:29px 29px;}
+.ie .layer_bk .btn_close{width:29px; height:29px; position:absolute; top:-50px; right:-50px; cursor:pointer;
+									background:url(../images/btn_close_layer_ie.png) no-repeat center;}
+.bnr_fx_pack				{-moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; overflow:hidden; cursor:pointer; position:relative; margin-bottom:20px;}
+.ps_feat_list li { display:inline; margin-right:15px; line-height:1.7; color:#ccc; font-size:11pt;}
+.ps_feat_list i { color:#f5f5f5; margin-right:3px;}
+.cont_feature h3 { color:#a9b300; font-size:14pt; padding:40px 0 5px;}
+
+.fixedbox2				{background:#202020; display:table; width:100%; text-align:left; position:relative;}
+.whole_piaprostudio .badge 				{background-color:#C0C638; border-width:3px; border-style:solid; border-color:#202020; border-radius:50%;} 
+.whole_piaprostudio							{width:100%; max-width:1700px; margin:0 auto; overflow:hidden;}
+.h3_piaprostudio		{color:#C0C638; font-size:18px;}
+
+/* =====================================================
+					Charactor DETAIL COMMON PARTS
+====================================================== */
+.cont_top_inner						{display:table-cell; vertical-align:middle; position:relative; z-index:1; padding:200px 0 60px 0;}
+/*.ipad .cont_top_inner				{padding:90px 0 !important;}*/
+.topcontents_pd						{padding-left:150px; padding-right:400px; position:relative;}
+
+.txt_lead				{margin-bottom:30px; padding-top:30px;  font-size:18pt; font-weight:bold; line-height:1.4;}
+.win .txt_lead		{font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+
+
+.db_txt										{margin-right:545px;}
+.dbbox1									{float:right; width:500px; position:relative;}
+.dbbox1 .db								{width:100%; margin-bottom:10px; height:70px; position:relative;}
+.dbbox1 .db_name					{width:100px; float:left; height:inherit; display:table; text-align:center; background-color:#666666; overflow:hidden; white-space:nowrap; text-overflow:clip;}
+.dbbox1  .name_inner				{display:table-cell; vertical-align:middle; font-size:12pt; line-height:20px; color:#ffffff;}
+.dbbox1  .name_inner span		{font-size:16pt;}
+.dbbox1 .db_desc						{margin-left:101px; background:#ffffff; height:inherit; padding:5px 15px 0 15px; color:#0d1b3c;}
+.dbbox1 .db_lead						{font-size:10pt; font-weight:bold; color:#112450; margin-bottom:2px;}
+.dbbox1 .db_genre					{margin-bottom:2px;}
+.dbbox1 .db_status					{border-top:1px solid #112450; line-height:1.6;}
+.dbbox1 .db_tempo					{border-right:1px solid #112450; padding-right:10px; margin-right:10px; display:inline-block;}
+.dbbox1 .db_range					{display:inline-block;}
+
+.dbbox1 .db:before { display:block; content:""; position:absolute; right:0; bottom:0; border-bottom:15px solid #444; border-left:15px solid transparent; z-index:1;}
+
+.demo_song_box { text-align:center; z-index:999; position:relative;}
+.demo_song								{display:inline-block; color:#1f3168; width:402px; margin:0 5px 10px 5px; font-size:9pt; height:70px; position:relative;} 
+.demo_song .number				{height:inherit; width:70px; float:left; display:table;}
+.demo_song .number_inner				{display:table-cell; vertical-align:middle; font-size:12pt; line-height:20px; color:#ffffff;}
+.demo_song .number_inner span		{font-size:12pt;}
+.demo_song .info						{width:260px; height:inherit; float:left; padding:10px; text-align:left; background:#ffffff; margin:0 1px;}
+.demo_song .title						{font-weight:bold; word-break:break-all; margin-bottom:2px; font-size:9pt;}
+.demo_song .db						{color:#233877; line-height:1em;}
+.demo_song .artist					{color:#7c5d00; line-height:1em; margin-top:3px;}
+.demo_song a.play					{display:block;  height:inherit; width:70px; float:right; background:#ffffff;}
+.demo_song a.play:hover			{background-color:#dcdcdc; cursor:pointer; text-decoration:none;}
+.demo_song a.play i					{height:inherit; line-height:70px; font-size:20px; color:#202020;}
+
+.demo_song_l							{display:block; width:702px; margin:0 auto 10px auto;}
+.demo_song_l .info					{width:560px;}
+
+/* demosong with database */
+
+
+.box_software							{margin-top:20px; background:#333333; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; padding:45px;}
+.cont_desc .badge					{width:73px; height:73px; position:absolute; top:-30px; left:-30px; background-position:center; background-repeat:no-repeat;}
+
+.req_os										{background:#484848; border:1px solid #5e5e5e; color:#cccccc; margin-top:20px;
+												-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; margin-bottom:15px; overflow:hidden;
+												moz-box-shadow:0 0 10px rgba(0,0,0, 0.06);
+												-webkit-box-shadow:0 0 10px rgba(0,0,0, 0.06);
+												box-shadow:0 0 10px rgba(0,0,0, 0.06);}
+
+.req_os .os								{width:120px; float:left; background-position:center 10px; background-repeat:no-repeat; text-align:center;
+												padding-top:120px; padding-bottom:10px;}
+.req_os .os_list							{border-left:1px solid #5e5e5e; margin-left:120px;}
+.req_os .os_row						{border-bottom:1px solid #cccccc; width:100%; line-height:28px; font-size:1.2rem; font-size:12px; overflow:hidden;}
+.req_os .os_row .label_win		{margin-right:204px; padding-left:15px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.req_os .os_row .label_mac		{margin-right:255px; padding-left:15px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.req_os .os_row .label_title		{line-height:45px !important; font-weight:bold;}
+.req_os .os_row .status				{width:50px; float:right; border-left:1px solid #cccccc; color:#666666; text-align:center; font-size:1.4rem; font-size:14px;}
+.req_os .os_row .status a			{text-decoration:none; color:#e03a3a;}
+.req_os .os_row:last-child		{border-bottom:none;}
+.req_os .os_other						{padding:15px; font-size:1.2rem; font-size:12px;}
+.req_os .os_other li					{background:none; padding-left:0; margin:5px 0;}
+.req_os .os_other li span			{font-weight:bold;}
+.req_os .os_other li .weak { font-weight:normal; color:#aaa; font-size:8.6pt; margin-left:10px; display:inline-block;}
+.ico_if_box								{margin-top:20px; font-size:0; text-align:right;}
+.ico_if_box .ico_if						{display:inline-block; width:60px; height:60px; font-size:1.2rem; font-size:12px; border:1px solid #cccccc;
+												background-color:#ffffff; background-position:center; background-repeat:no-repeat; margin-left:10px;
+												-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+
+.os_list_mark									{text-align:right; margin-bottom:10px; color:#666666;}
+.os_list_mark i								{margin-left:25px;}
+
+h2						{font-size:20pt; font-weight:normal; color:#ffffff; margin-bottom:30px;}
+
+.font_squadaone	{font-family: 'Squada One', cursive;}
+.font_homenaje	{font-family: 'Homenaje', sans-serif;}
+
+/* Page top cart button */
+.pagetop_cart { margin-top:40px;}
+.pagetop_cart .prod_name { font-size:10pt; font-weight:bold; display:inline-block; margin-right:10px;}
+.pagetop_cart .prod_name span {}
+.pagetop_cart .price{ font-size:10pt; font-weight:bold; padding-top:0; display:}
+.pagetop_cart .price span{ font-size:14pt;}
+.pagetop_cart .top_cartbtn { margin-top:10px;}
+.top_cartbtn .vs_cartbtn{ padding:1px 40px 0 40px; font-size:11pt; line-height:38px;}
+
+.top_link		{margin-top:45px; font-weight:bold; font-size:10pt;}
+.top_link i		{margin-left:5px;}
+
+.vs_cartbtn { font-weight:normal; text-align:center; cursor:pointer; color:#fff; display:inline-block; padding:1px 15px 0 15px; line-height:32px; font-size:1.2em; -border-radius:2px; -moz-border-radius:2px; border-radius:2px;  box-shadow:0 0 10px rgba(0,0,0,0.3); }      
+.vs_cartbtn:hover { color:#fff; text-decoration:none; box-shadow:0 0 3px rgba(0,0,0,0.3);}
+.vs_cartbtn i{ margin:0 10px 0 0;}
+
+.vs_cartbtn2				{ font-weight:normal; text-align:center; cursor:pointer; color:#fff; display:inline-block; padding:1px 45px 0 45px; line-height:40px; font-size:1.2em;
+								background:#ee711d; border:1px solid 3e66c1b;
+								-border-radius:2px; -moz-border-radius:2px; border-radius:2px;  box-shadow:0 0 10px rgba(0,0,0,0.2); }      
+.vs_cartbtn2:hover	{ color:#fff; text-decoration:none; box-shadow:0 0 3px rgba(0,0,0,0.3);}
+.vs_cartbtn2 i			{ margin:0 10px 0 0;}
+.vs_cartbtn2_soon	{ font-weight:bold; text-align:center; color:#ffffff; display:inline-block; padding:1px 45px 0 45px; line-height:40px; font-size:1.3em;
+								background:#ec5694;
+								-border-radius:2px; -moz-border-radius:2px; border-radius:2px;  box-shadow:0 0 10px rgba(0,0,0,0.2); }
+
+.link_cart		{margin-top:20px;}
+.link_cart a	{color:#333333; text-decoration:none !important; font-size:10pt; font-weight:bold; line-height:20px;}
+.link_cart i	{font-size:20px;}
+/* cv pages */
+.demomovie_box	{ text-align:left;}
+.demomovie			{ width:200px; display:inline-block; cursor:pointer; margin-right:30px;}
+
+/* product info */
+.prod_box { background:#333333; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; padding:30px 30px 0;}
+.prod_info { padding:0 0 30px 130px; background-repeat:no-repeat; background-position:left top; }
+.prod_box .prod_name { font-size:14pt; font-weight:bold; color:#ffffff; line-height:1.6; min-height:80px;}
+
+
+/*D.B. table*/
+.t_label						{width:100%; margin-bottom:5px; background:#666666; color:#ffffff; margin-top:30px; border-collapse: collapse; border-spacing: 0;
+								-moz-border-radius:2px; -webkit-border-radius:2px; border-radius:2px;
+								-webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box; position:relative;
+								moz-box-shadow:0 0 10px rgba(0,0,0, 0.2);
+								-webkit-box-shadow:0 0 10px rgba(0,0,0, 0.2);
+								box-shadow:0 0 10px rgba(0,0,0, 0.2);}
+.t_label	 td				{padding:5px 20px; vertical-align:middle;
+								-webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box;}
+
+.t_db							{width:100%; margin-bottom:5px; color:#333333; border-collapse: collapse; border-spacing: 0;
+								-moz-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; overflow:hidden;
+								-webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box; position:relative;
+								moz-box-shadow:0 0 10px rgba(0,0,0, 0.2);
+								-webkit-box-shadow:0 0 10px rgba(0,0,0, 0.2);
+								box-shadow:0 0 10px rgba(0,0,0, 0.2);}
+.t_db	 td					{padding:20px; vertical-align:middle; background:#f1f1f1;
+								-webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box;}
+.t_db .db_name		{background:#ffffff; font-size:12pt; line-height:20px; color:#202020;}
+.t_db .db_desc			{font-weight:bold;}
+
+.t_db .db_name, .t_label .db_name		{width:20%;}
+.t_db .db_desc, .t_label .db_desc			{width:25%; border-left:1px solid #333333;}
+.t_db .db_genre, .t_label .db_genre		{width:25%; border-left:1px solid #333333;}
+.t_db .db_tempo, .t_label .db_tempo	{width:15%; border-left:1px solid #333333;}
+.t_db .db_range, .t_label .db_range		{width:15%; border-left:1px solid #333333;}
+
+.t_db .db_desc span						{display:inline-block; margin-right:20px;}
+.t_db .db_name_rin						{background:#ffefa0 url(../images/db_bg_rin.png) no-repeat -28px -20px; padding-left:60px; text-align:right;}
+.t_db .db_name_len						{background:#ffefa0 url(../images/db_bg_len.png) no-repeat -18px -20px; padding-left:60px; text-align:right;}
+.t_db .db_name_cv02a_rin			{background:#202020 url(../images/db_bg_cv02a_rin.png) no-repeat -28px -20px; padding-left:60px; text-align:right; color:#ffffff;}
+.t_db .db_name_cv02a_len			{background:#202020 url(../images/db_bg_cv02a_len.png) no-repeat -28px -20px; padding-left:60px; text-align:right; color:#ffffff;}
+.t_db .db_name_luka { background: url(../images/db_bg_luka.png) no-repeat -10px -5px #F7CEE1; padding-left:60px; text-align:right;}
+.t_db .db_name_miku { background: url(../images/db_bg_miku.png) no-repeat -10px -5px #BFF0F0; padding-left:60px; text-align:right;}
+.whole_kaito .t_db .db_name { background:#ebbd06; color:#fff;}
+.whole_kaito .t_db .db_name span{ color:#000;}
+
+.whole_meiko .t_db .db_name { background:#910000; color:#999;}
+.whole_meiko .t_db .db_name span { color:#fff;}
+
+.whole_lukav3 .t_db .db_name { background:#CA579D; color:#999;}
+.whole_lukav3 .t_db .db_name span { color:#fff;}
+
+
+/*function*/
+.t_fun						{width:100%; margin-bottom:5px; color:#333333; border-collapse: collapse; border-spacing: 0;
+								-moz-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; overflow:hidden;
+								-webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box; position:relative;
+								moz-box-shadow:0 0 10px rgba(0,0,0, 0.2);
+								-webkit-box-shadow:0 0 10px rgba(0,0,0, 0.2);
+								box-shadow:0 0 10px rgba(0,0,0, 0.2);}
+.t_fun td					{padding:20px; vertical-align:middle; background:#f1f1f1;
+								-webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box;}
+.t_fun .fun_name		{background:#C0C638; font-size:12pt; line-height:20px; color:#000; font-weight:bold; width: 200px;}
+.t_fun .fun_txt		{font-weight:bold; border-left: 1px solid #333333;}
+
+
+p.notes_acd {margin-top:25px; font-size:9pt;}
+
+.cont_bnr {padding:60px 0 20px; text-align:center;}
+.cont_bnr .bnr_row { margin-top:10px;}
+
+.logo_rel		{font-size:0; text-align:center;}
+.logo_rel li	{display:inline-block; font-size:9pt; margin:0 20px;}
+
+.btn_anothers_ample					{ width:50%; margin:0 auto; text-align:center; position:relative; z-index:1;}
+.btn_anothers_ample a 				{ display:block; padding:15px 20px; color:#fff; font-size:14pt; box-shadow:0 3px 5px rgba(0,0,0,0.3); -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; background:#666666;}
+.btn_anothers_ample a:hover		{ text-decoration:none; background:#555555 !important;}
+.btn_anothers_ample .link_icon	{margin-right:10px;}
+.btn_anothers_ample .icon-chevron-right 				{font-size:12pt;}
+
+.mac .txt_soon		{position:relative;}
+
+.piaprousers		{font-size:9pt; margin-left:10px; color:#999999;}
+
+.db_demo { }
+.db_demo li { width:222px; margin-right:20px; display:inline-block; vertical-align:top; margin-bottom:20px;}
+.db_demo a { width:222px; height:125px; display:block; background:#ffffff;}
+.db_demo .thum_mv { width:220px; height:124px; background:#ffffff; cursor:pointer;}
+.db_demo i { margin-right:10px;}
+.db_demo .songinfo {margin-top:1px; padding:10px; width:222px; background:#202020; }
+.db_demo .songinfo h3 { font-weight:bold; font-size:10pt; }
+.db_demo .songinfo p { font-size:9pt;}
+.db_demo .db_used_box	{}
+.db_demo .db_used_box_inner		{background:#202020; font-size:11pt; padding:10px; margin-top:1px; min-height:66px;}
+.ie8 .db_demo .db_used_box_inner		{background:#202020; font-size:11pt; padding:10px; margin-top:1px; min-height:46px;}
+.db_demo .db_used_box_inner span		{font-size:13pt;}
+.db_demo .db_used { width:73px; height:73px; margin-right:1px; margin-top:1px; background:#202020; display:table; float:left; }
+.db_demo .db_used:last-child {margin-right:0px; width:74px;}
+.db_demo .db_used div { display:table-cell; vertical-align:middle; text-align:center; font-size:11pt; }
+.db_demo .db_used span { font-size:13pt; } 
+
+.alt_info	{border:1px solid #fff; background:rgba(255,255,255,0.7) ; border-radius:2px; padding:10px 20px 0; display:inline-block; box-shadow:0px 0px 10px rgba(0,0,0, 0.05); margin-left:-20px;}
+.ie8 .alt_info		{border:1px solid #fff; background:#ffffff;}
+
+
+.guide_yuutai + .wrap_cart	{margin-left:20px;}
+
+.pkg_name { font-size:11pt; font-weight:bold; /*margin-bottom:10px;*/ display:block; margin-right:10px; padding-top:0px; margin-right:10px;}
+
+
+/* =====================================================
+					MIKU V3 DETAIL page
+====================================================== */
+.whole_miku								{width:100%; max-width:1700px; margin:0 auto; overflow:hidden;}
+.whole_miku .fixedbox				{background:url(../images/bg_detail_mikuc4ca.jpg?1) no-repeat center center #B8E1EB; background-size:cover; position:relative; /*padding-top:55px;*/}
+.ie .whole_miku .fixedbox		{background:url(../images/bg_detail_miku_ie.jpg) no-repeat center top #B8E1EB;}
+
+/*.whole_miku .bg_mikuv3b				{background:url(/mp/pages/prod/vocaloid/images/bg_detail_miku_bundle1.jpg) no-repeat center center; background-size:cover; position:relative;}
+.ie .whole_miku .bg_mikuv3b			{background:url(/mp/pages/prod/vocaloid/images/bg_detail_miku_bundle1.jpg) repeat left top;}*/
+.img_mikuv3_1							{width:900px; height:1350px; position:absolute; right:0; top:50%; margin-top:-570px; background:url(../images/img_illust_mikuc4ca.png?1) no-repeat left top;}
+.ie8 .img_mikuv3_1, .ie7 .img_mikuv3_1 { background:url(../images/img_illust_miku_ie.png) no-repeat left top;}
+.bg_mikuv3 , .whole_mikuv3 .vs_cartbtn	{background:#df548d !important;}
+.txt_mikuv3								{color:#ec5794 !important;}
+
+.whole_miku .tips_box {background:rgba(255,255,255,0.7); border:1px solid #ffffff; padding:15px; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; display:inline-block;}
+.ie8 .whole_miku .tips_box, .ie7 .whole_miku .tips_box { background:#fff;}
+
+/*.whole_mikuv3 .price_sp			{color:#df548d !important;}*/
+
+.whole_miku .cartbox {margin-top:20px;}
+/*.whole_miku .cartbox {margin-top:20px; padding:20px; border:1px solid #fff; background:rgba(255,255,255,0.5); border-radius:4px; display:inline-block; min-width:500px;}*/
+
+.whole_miku .cartbox .pkg {padding:5px 6px 4px; background:#000; color:#fff; font-weight:normal; margin-right:5px; text-shadow:none; font-size:9pt; border-radius:2px;}
+.whole_miku .price, .whole_miku .pkg_name {color:#000;}
+.whole_miku .badge {background-color:#df548d; border:3px solid #000; border-radius:50%;} 
+.whole_miku .topcontents_pd	{padding-right:400px;}
+a.badge_miku_en						{width:200px; height:200px; position:absolute; right:40px; bottom:-20px; background:url(../images/badge_miku_english.html) no-repeat center; display:block; z-index:1;}
+/*a.badge_miku_en						{width:200px; height:200px; position:absolute; left:450px; bottom:-30px; background:url(/mp/pages/prod/vocaloid/images/badge_miku_english.png) no-repeat center; display:block; z-index:1;}*/
+.whole_miku .db_org { color:#7edcba;}
+.whole_miku .db_sweet { color:#ffa5b7;}
+.whole_miku .db_dark { color:#978ff2;}
+.whole_miku .db_soft { color:#9be7ff;} 
+.whole_miku .db_solid { color:#bbbbbb;}
+
+.db_mikuv3_org { color:#7edcba;}
+.db_mikuv3_sweet { color:#ffa5b7;}
+.db_mikuv3_dark { color:#978ff2;}
+.db_mikuv3_soft { color:#9be7ff;} 
+.db_mikuv3_solid { color:#bbbbbb;}
+
+.db_mikuv3_english { color:#B9F300;}
+
+.whole_miku .db_name	{ width:24%; }
+.whole_miku .t_db .db_name { background:#202020; color:#fff; }
+.whole_miku .db_desc	{ width:25%;}
+.whole_miku .db_genre { width:25%;}
+.whole_miku .db_tempo { width:13%;}
+.whole_miku .db_ragne { width:13%;}
+.whole_miku .db_price { font-size:9pt; margin-top:5px; color:#fff;}
+.whole_miku .db_price span { font-weight:bold; font-size:11pt;}
+.whole_miku .linkdetail { text-align:center; background:#ec5794; max-width:120px; border-radius:2px; padding:5px 15px; margin-top:5px; color:#fff; display:inline-block; font-size:10pt; } 
+.whole_miku .linkdetail:hover { text-decoration:none; box-shadow:3px 0 10px rgba(0,0,0,0.2); }
+.whole_miku .linkdetail i { margin-right:8px; font-size:11pt;}
+.whole_miku .linkdetail_soon { text-align:center; background:#393939; border-radius:2px; padding:5px 15px; margin-top:5px; color:#666666; display:inline-block; font-size:10pt; } 
+
+.addonbox {  margin:45px -40px 0; position:relative; background:#505050;  border-radius:4px;  box-shadow:0px 3px 5px rgba(0,0,0,0.2);}
+.addonbox:before { content:url(../images/badge_addon2.html); width:140px; height:140px; position:absolute; left:auto; right:-5px; top:-5px; z-index:1;}
+.addon_inner { padding:40px;}
+.addonbox h2		 { text-indent:0; padding-left:0; text-align:left; }
+/*.addonbox h2 { text-indent:2em; padding-left:10px; text-align:right; }*/
+.addonbox .db_txt	{ margin-right:570px;}
+.addonbox .db_desc:after { border-bottom-color:#505050;}
+
+.btn_addon { margin:-7px 0 30px 0; text-align:center; font-size:12pt; box-shadow:0 3px 5px rgba(0,0,0,0.3);}
+.addon1 { display:block; padding:5px 0; color:#fff; background-color:#df548d;}
+.addon1:hover { color:#fff; background:#FF308B;}
+.addon2 { display:block; padding:5px 0; color:#fff; background-color:#66D6D2;}
+.addon2:hover { color:#fff; background:#67FFFA;}
+
+.whole_miku .icon-plus { color:#ddd;}
+
+.bg_mikuv3b	{background:url(../images/bg_bundle.png) no-repeat -110px 55px;}
+
+a.btn_mikuv3_img				{position:absolute; width:80px; height:80px; display:block; border:5px solid #ffffff; background-color:#ffffff; z-index:10;
+										-moz-border-radius:50%; -webkit-border-radius:50%; border-radius:50%; bottom:80px;
+										-moz-box-shadow:0px 0px 10px rgba(0,0,0, 0.5);
+										-webkit-box-shadow:0px 0px 10px rgba(0,0,0, 0.5);
+										box-shadow:0px 0px 10px rgba(0,0,0, 0.5);}
+a.btn_mikuv3_img:hover		{border-color:#ec5794;}
+.btn_mikuv3_img1				{right:210px; background:url(../images/mikuv3_imgbtn1.jpg) no-repeat center;}
+.btn_mikuv3_img2				{right:100px; background:url(../images/mikuv3_imgbtn2.jpg) no-repeat center;}
+
+/* =====================================================
+					KAITO DETAIL page
+====================================================== */
+.whole_kaito { width:100%; max-width:1700px; margin:0 auto; overflow:hidden;}
+.whole_kaito .fixedbox				{background:url(../images/bg_detail_kaito2.jpg) no-repeat center center; background-size:cover; position:relative; /*padding-top:55px;*/}
+.ie .whole_kaito .fixedbox		{background:url(../images/bg_detail_kaito2.jpg) repeat left top;}
+.img_kaitov3_1							{width:800px; height:1400px; position:absolute; right:0; top:50%; margin-top:-600px; background:url(../images/img_illust_kaito_min.png) no-repeat right top;}
+.bg_kaitov3 , .whole_kaito .vs_cartbtn{background:#ebbd06 !important;}
+.txt_kaitov3, .whole_kaito .price_sp {color:#ebbd06 !important;}
+.txt_kaitov32{ color:#0E1B7A !important;}
+.whole_kaito .badge {background-color:#fc0; border:3px solid #14234f; border-radius:50%;} 
+
+.btn_kaitov3 { width:50%; margin:0 auto; text-align:center; position:relative; z-index:1;}
+.btn_kaitov3 a { display:block; padding:15px 20px; color:#fff; font-size:12pt; box-shadow:0 3px 5px rgba(0,0,0,0.3); -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+.btn_kaitov3 a:hover { text-decoration:none; background:#e3b603 !important;}
+
+a.btn_kaito_img				{position:absolute; width:80px; height:80px; display:block; border:5px solid #ffffff; background-color:#ffffff; z-index:10;
+										-moz-border-radius:50%; -webkit-border-radius:50%; border-radius:50%; bottom:80px;
+										-moz-box-shadow:0px 0px 10px rgba(0,0,0, 0.5);
+										-webkit-box-shadow:0px 0px 10px rgba(0,0,0, 0.5);
+										box-shadow:0px 0px 10px rgba(0,0,0, 0.5);}
+a.btn_kaito_img:hover		{border-color:#ffcc33;}
+.btn_kaito_img1				{right:210px; background:url(../images/kaito_imgbtn1.jpg) no-repeat center;}
+.btn_kaito_img2				{right:100px; background:url(../images/kaito_imgbtn2.jpg) no-repeat center;}
+.btn_kaitov3_mac			{background:url(../images/btn_kaitov3_mac.png) no-repeat center; width:116px; height:116px; position:absolute; top:0px; left:470px; display:block; z-index:4;}
+@media screen and (max-width: 1150px) {
+.btn_kaitov3_mac			{background:url(../images/btn_kaitov3_mac.png) no-repeat center; width:116px; height:116px; position:absolute; top:-120px; left:330px; display:block; z-index:4;}
+}
+.btn_mac						{margin-bottom:60px; font-weight:bold; background:#1e2968; padding:8px 0; text-align:center; max-width:400px; color:#fff;}
+
+/* =====================================================
+					MIKU ENGLISH DETAIL page
+====================================================== */
+.whole_miku_en						{width:100%; max-width:1700px; margin:0 auto; overflow:hidden;}
+.whole_miku_en .fixedbox		{background:url(../images/bg_detail_mikuv3_englishc4ca.jpg?1) no-repeat center center; background-size:cover; position:relative; /*padding-top:55px;*/}
+.ie .whole_miku_en .fixedbox {background:url(../images/bg_detail_mikuv3_english_ie.jpg) left top;}
+.whole_miku_en .fixedbox p		{color:#ffffff;}
+.txt_mikuv3_en {color:#df548d !important;}
+.img_mikuv3_en						{width:760px; height:1321px; position:absolute; right:0; top:50%; margin-top:-440px; background:url(../images/img_illust_mikuv3e.png) no-repeat left top;}
+.whole_miku_en .badge 				{background-color:#df548d; border:3px solid #000; border-radius:50%;} 
+a.badge_miku_basic					{width:200px; height:200px; position:absolute; right:40px; bottom:-20px; background:url(../images/badge_miku_basic.html) no-repeat center; display:block; z-index:1;}
+/*a.badge_miku_basic					{width:200px; height:200px; position:absolute; left:500px; bottom:-30px; background:url(/mp/pages/prod/vocaloid/images/badge_miku_basic.png) no-repeat center; display:block; z-index:1;}*/
+.whole_miku_en .t_db .db_name { background:#202020; color:#fff;}
+.whole_miku_en .tips_box {border:1px solid #1167b4; background:rgba(3,93,174,0.5); padding:15px; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; display:inline-block; margin-top:30px;}
+.ie8 .whole_miku_en .tips_box, .ie7 .whole_miku_en .tips_box { background:#000000; /* 00509B */ }
+a.bnr_mikuv3e_for_en			{width:70px; height:70px; position:absolute; right:60px; top:120px; background:url(../images/bnr_mikuv3e_for_en.png) no-repeat center; display:block; z-index:10;}
+
+.whole_miku_en .db_eng { color:#B9F300;}
+.whole_miku .db_eng { color:#B9F300;}
+
+.whole_miku_en .cartbox {margin-top:20px; /*padding:20px; border:1px solid #1167b4; background:rgba(3,93,174,0.5); border-radius:4px; display:inline-block; min-width:520px; color:#ffffff; margin-right:200px;*/}
+.whole_miku_en .price, .whole_miku_en .pkg_name	{color:#ffffff; line-height: 2;}
+.whole_miku_en .cartbox .pkg {padding:5px 6px 4px; background:#000; color:#fff; font-weight:normal; margin-right:5px; text-shadow:none; font-size:9pt; border-radius:2px;}
+
+
+/* =====================================================
+					MEIKO DETAIL page
+====================================================== */
+.whole_meiko							{width:100%; max-width:1700px; margin:0 auto; overflow:hidden;}
+.whole_meiko .fixedbox			{background:url(../images/bg_detail_meiko2.jpg) no-repeat center center; background-size:cover; position:relative; /*padding-top:55px;*/}
+.ie .whole_meiko .fixedbox			{background:url(../images/bg_detail_meiko2.jpg) repeat left top;}
+.whole_meiko .fixedbox p		{color:#54171a;}
+.whole_meiko p.txt_lead				{color:#943337;}
+
+.txt_meikov3{ color:#943337 !important;}
+.img_meikov3						{width:800px; height:1080px; position:absolute; right:0; top:50%; margin-top:-500px; background:url(../images/img_illust_meikov3_2.png) no-repeat left top;}
+
+.btn_meiko_img1					{right:210px; background:url(../images/meiko_imgbtn1.jpg) no-repeat center;}
+.btn_meiko_img2					{right:100px; background:url(../images/meiko_imgbtn2.jpg) no-repeat center;}
+.img_meikov3_soon							{width:1200px; height:1136px; position:absolute; right:-110px; top:50%; margin-top:-450px; background:url(../images/img_illust_meikov3_soon2.png) no-repeat left top;}
+.bg_meikov3	, .whole_meiko .vs_cartbtn			{background:#b12828 !important;}
+.whole_meiko .badge {background-color:#910000; border-width:3px; border-style:solid; border-color:#202020; border-radius:50%;} 
+.whole_meiko .price, .whole_meiko .pkg_name {color:#54171a;}
+
+.whole_meiko .topcontents_pd {padding-right:400px;}
+.whole_meiko .db_name .font_homenaje	{color:#000000;}
+
+.btn_meikov3_tryout {background:url(../images/btn_meikov3_tryout.png) no-repeat center; width:116px; height:116px; position:absolute; top:0; left:470px; display:block; z-index:4;}
+
+.whole_meiko .sub_box			{margin-top:60px; font-weight:bold; border:3px solid #a4212b; padding:8px 0; text-align:center;}
+.whole_meiko .sub_box a			{color:#a4212b;}
+.whole_meiko .sub_box a:hover		{text-decoration:none !important;}
+/*.whole_meiko .cont_top_inner	{}*/
+
+/* =====================================================
+					RINLEN APPEND DETAIL page
+====================================================== */
+.whole_cv02a							{width:100%; max-width:1700px; margin:0 auto; overflow:hidden;}
+.whole_cv02a .fixedbox			{background:url(../images/bg_detail_cv02a.jpg) no-repeat center center; background-size:cover; position:relative;}
+.ie .whole_cv02a .fixedbox			{background:url(../images/bg_detail_cv02a.jpg) repeat left top;}
+.img_cv02a								{width:544px; height:1110px; position:absolute; right:0; top:50%; margin-top:-500px; background:url(../images/img_illust_cv02a_min.png) no-repeat right top;}
+.bg_cv02a						{background:#010101 !important;}
+.txt_cv02a , .whole_cv02a .price_sp								{color:#f8ac01 !important;}
+.txt_cv02a2 {color:#A4C4D6;}
+.whole_cv02a .vs_cartbtn { background:#f8ac01;}
+.whole_cv02a .top_cartbtn .vs_cartbtn { background:#010101;}
+.whole_cv02a .badge				{background-color:#f8ac01; border:3px solid #111111; border-radius:50%;} 
+a.badge_cv02							{width:200px; height:200px; position:absolute; left:550px; bottom:-30px; background:url(../images/badge_cv02.html) no-repeat center; display:block; z-index:1;}
+
+.whole_cv02a .topcontents_pd { padding-right:520px; }
+.whole_cv02a .db_txt				{margin-right:645px;}
+.whole_cv02a .dbbox1				{float:right; width:600px;}
+.whole_cv02a .db_shape			{width:50px; float:right; height:inherit; background-color:#ffffff;}
+/*.whole_cv02a .db_desc				{margin-left:101px; margin-right:50px; padding:5px 0 0 15px;}*/
+
+.btn_cv02a { width:702px; margin:0 auto; text-align:center; position:relative; z-index:1;}
+.btn_cv02a a { display:block; padding:15px 20px; background:#ffffff; color:#101010; font-size:16pt; box-shadow:0 3px 5px rgba(0,0,0,0.3); -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+.btn_cv02a a:hover { text-decoration:none; background:#dcdcdc !important;}
+.btn_cv02a i {font-size:12pt; margin-left:5px;}
+
+.box_btn_cv02a						{position:absolute; width:118px; height:64px; padding:10px 0 0 10px; display:block; z-index:10; bottom:130px; right:80px; font-size:0; background:url(../images/bg_menu_gray.png) repeat left top;
+												-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;
+												moz-box-shadow:0 0 10px rgba(0,0,0, 0.3);
+												-webkit-box-shadow:0 0 10px rgba(0,0,0, 0.3);
+												box-shadow:0 0 10px rgba(0,0,0, 0.3);}
+.box_btn_cv02a a						{display:inline-block; width:44px; height:44px;}
+
+/* =====================================================
+					RINLEN DETAIL page
+====================================================== */
+.whole_rinlen { width:100%; max-width:1700px; margin:0 auto; overflow:hidden;}
+.whole_rinlen .fixedbox				{background:url(../images/bg_detail_rinlen.jpg) no-repeat center center; background-size:cover;  position:relative; /*padding-top:55px;*/}
+.ie .whole_rinlen .fixedbox				{background:url(../images/bg_detail_rinlen.jpg) repeat left top; }
+.img_rinlen_1							{width:500px; height:950px; position:absolute; right:0; top:50%; margin-top:-420px; background:url(../images/img_illust_rinlen1_min.png) no-repeat left top;}
+.whole_rinlen .badge 				{background-color:#2d7eae; border:3px solid #14234f; border-radius:50%;} 
+.whole_rinlen .topcontents_pd	{padding-right:500px;}
+.whole_rinlen h1 { margin-right:-200px;}
+/*.whole_rinlen .dbbox1{ width:560px;}
+.whole_rinlen .db_txt { margin-right:600px;}*/
+
+.bg_rinlen, .whole_rinlen .vs_cartbtn{background:#2d7eae !important;}
+.txt_rinlen, .whole_rinlen .price_sp {color:#2d7eae !important;}
+
+a.badge_cv02a			{width:200px; height:200px; position:absolute; left:520px; bottom:-30px;  background:url(../images/badge_cv02a.html) no-repeat center; display:block; z-index:1;}
+
+/* =====================================================
+					LUKA DETAIL page
+====================================================== */
+.whole_luka { width:100%; max-width:1700px; margin:0 auto; overflow:hidden;}
+.whole_luka .fixedbox				{background:url(../images/bg_detail_luka.jpg) no-repeat center center; background-size:cover;  position:relative; /*padding-top:55px;*/}
+.ie .whole_luka .fixedbox				{background:url(../images/bg_detail_luka.jpg) repeat left top; }
+.img_luka_1							{width:350px; height:1200px; position:absolute; right:70px; top:50%; margin-top:-370px; background:url(../images/img_illust_luka_min.png) no-repeat right top;}
+.whole_luka .badge 				{background-color:#7e3471; border:3px solid #14234f; border-radius:50%;} 
+.whole_luka .topcontents_pd	{padding-right:500px;}
+
+.bg_luka, .whole_luka .vs_cartbtn {background:#7e3471 !important;}
+.txt_luka , .whole_luka .price_sp{color:#7e3471 !important;}
+
+.whole_luka .dbbox1{ width:560px;}
+.whole_luka .db_txt { margin-right:600px;}
+
+.whole_luka .sub_box			{margin-top:60px; font-weight:bold; border:3px solid #90127a; padding:8px 0; text-align:center; width:400px;}
+.whole_luka .sub_box a			{color:#90127a;}
+.whole_luka .sub_box a:hover		{text-decoration:none !important;}
+
+/* =====================================================
+					LUKA V3 TEASER DETAIL page
+====================================================== */
+.top_lukav3     {width:100%; height:auto; min-height:100%; background:url(../images/bg_lukav3_teaser4.jpg) no-repeat center; background-size:cover; position:relative;
+                box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box;}
+.top_lukav3 .soon_cont  {position:absolute; width:100%; top:55%; text-align:center;
+                        -webkit-transform:translateY(-50%);
+                        -ms-transform:translateY(-50%);
+                        transform:translateY(-50%);}
+.top_lukav3 .soon_cont .top_link    {margin-top:30px;}
+.teaser_lukav3_txt  {color:#ffffff; margin-top:30px; font-size:40px; font-weight:bold; line-height:40px;}
+.teaser_lukav3_list     {color:#d1c0cf; margin-top:30px; font-size:14px;}
+.teaser_lukav3_list li  {display:inline-block; margin:0 3px; background:rgba(0,0,0, 0.1); padding:20px; width:210px; min-height:140px;
+                        vertical-align:top; border-radius:2px; text-align:left; font-weight:normal; line-height:1.4;
+                        box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box;}
+.teaser_lukav3_title        {font-size:14px; color:#3a1b3c; font-weight:bold; margin-bottom:10px;}
+.teaser_lukav3_title span   {font-size:20px; margin-left:3px;}
+.teaser_lukav3_soon         {margin-top:20px; font-size:16px; color:#ffffff;}
+
+.whole_lukav3   {width:100%; max-width:1700px; margin:0 auto; overflow:hidden;}
+.whole_lukav3 .fixedbox2    {width:100%; position:relative;}
+
+.win .teaser_lukav3_txt      {font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+.ie8 .top_lukav3 .soon_cont  {position:absolute; width:100%; top:50%; text-align:center; margin-top:-200px;}
+.ie8 .teaser_lukav3_list li  {background:#845c7d; min-height:110px;}
+
+/* =====================================================
+					LUKA V3 DETAIL page
+====================================================== */
+.whole_lukav3							{width:100%; max-width:1700px; margin:0 auto; overflow:hidden;}
+.whole_lukav3 .fixedbox			{background:url(../images/bg_lukav3_teaser4.jpg) no-repeat center center; background-size:cover; position:relative; /*padding-top:55px;*/}
+.ie .whole_lukav3 .fixedbox			{background:url(../images/bg_lukav3_teaser4.jpg) repeat left top;}
+.whole_lukav3 .fixedbox p		{color:#fff;}
+.whole_lukav3 p.txt_lead				{color:#fff;}
+
+.txt_lukav3{ color:#fff !important;}
+.img_lukav3						{width:800px; height:1100px; position:absolute; right:0; top:50%; margin-top:-350px; background:url(../images/img_illust_lukav3.png) no-repeat right top;}
+
+.img_lukav3_soon							{width:1200px; height:1136px; position:absolute; right:-110px; top:50%; margin-top:-450px; background:url(../images/img_illust_lukav3_soon2.html) no-repeat left top;}
+.bg_lukav3	, .whole_lukav3 .vs_cartbtn			{background:#A8207D !important;}
+.whole_lukav3 .badge {background-color:#CA579C; border-width:3px; border-style:solid; border-color:#202020; border-radius:50%;} 
+.whole_lukav3 .price, .whole_lukav3 .pkg_name {color:#54171a;}
+
+.whole_lukav3 .topcontents_pd {padding-right:400px;}
+.whole_lukav3 .db_name .font_homenaje	{color:#000000;}
+
+.btn_lukav3_tryout {background:url(../images/btn_lukav3_tryout.html) no-repeat center; width:116px; height:116px; position:absolute; top:0; left:470px; display:block; z-index:4;}
+
+.whole_lukav3 .sub_box			{margin-top:60px; font-weight:bold; border:3px solid #a4212b; padding:8px 0; text-align:center;}
+.whole_lukav3 .sub_box a			{color:#a4212b;}
+.whole_lukav3 .sub_box a:hover		{text-decoration:none !important;}
+.txt_lukav3 , .whole_lukav3txt_lukav3 .price_sp{color:#fff !important;}
+
+.h3_lukav3					{color:#F983CB; font-size:18px;}
+.title_lukav3				{color:#fff; border-bottom: #777 solid 1px; margin-bottom:10px; font-weight:bold;}
+
+
+/* =====================================================
+					LUKA V4X DETAIL page
+====================================================== */
+.whole_lukav4x								{width:100%; max-width:1700px; margin:0 auto; overflow:hidden;}
+.whole_lukav4x .fixedbox				{background:url(../images/bg_lukav4x.jpg) no-repeat center top #fcecef;background-size:contein; position:relative; /*padding-top:55px;*/}
+.whole_lukav4x p.txt_lead				{color:#556186;}
+
+.txt_lukav4x										{ color:#fff !important;}
+.img_lukav4x										{width:1000px; height:1500px; position:absolute; left: 60%; top: 8%; margin: 10px 0 0 -300px; background:url(../images/img_illust_lukav4x.png) no-repeat right top;}
+.bg_lukav4x	, .whole_lukav4x .vs_cartbtn			{background:#B54591 !important; font-size:11pt;}
+.whole_lukav4x .price, .whole_lukav4x .pkg_name {color:#54171a;}
+
+.whole_lukav4x .db_name .font_homenaje	{color:#000000;}
+
+.whole_lukav4x .sub_box			{margin-top:60px; font-weight:bold; border:3px solid #C5508A; padding:8px 0; text-align:center;}
+.whole_lukav4x .sub_box a			{color:#C5508A;}
+.whole_lukav4x .sub_box a:hover		{text-decoration:none !important;}
+.txt_lukav4x , .whole_lukav4xtxt_lukav4x .price_sp{color:#C5508A !important;}
+
+.h3_lukav4x					{color:#F983CB; font-size:18px;}
+.title_lukav4x				{color:#fff; border-bottom: #777 solid 1px; margin-bottom:10px; font-weight:bold;}
+
+.db_lukav4x1				{float:left; width:48%; background:#CB96AE; padding:15px 20px 20px 20px; text-align:center; }
+.db_lukav4x2				{float:right; width:48%; background:#82BBD1; padding:15px 20px 20px 20px; text-align:center; }
+.db_lukav4x3				{float:left; width:48%; background:#CFA859; padding:15px 20px 20px 20px; text-align:center; }
+.db_lukav4x4			{float:right; width:48%; background:#98B95F; padding:15px 20px 20px 20px; text-align:center; }
+.db_lukav4xtitle			{font-size:28px !important; color:#000; line-height:28px;}
+.db_lukav4xtxt			{font-size:14px !important; line-height:1.4 !important; color:#fff; text-align:left;}
+
+.parent2            			    {width:100%; background:#999; padding:0; position:relative; margin-top:30px;}
+.parent2 .child1 .child2  {background:#999; position:relative;}
+.parent2 .child2:after    {content: ' '; width:0; height: 0; position:absolute; border:20px solid transparent; border-bottom-color:#999; bottom:100%; left:25%;}
+.parent2 .child1:after    {content: ' '; width:0; height: 0; position:absolute; border:20px solid transparent; border-bottom-color:#999; bottom:100%; left:75%;}
+.child3 .child4          	  {background:#333; position:relative;}
+.parent2 .child3:after    {content: ' '; width:0; height: 0; position:absolute; border:20px solid transparent; border-bottom-color:#333; bottom:-2px; left:25%;}
+.parent2 .child4:after    {content: ' '; width:0; height: 0; position:absolute; border:20px solid transparent; border-bottom-color:#333; bottom:-2px; left:75%;}
+.whole_lukav4x .badge {background-color: #D37FAF; border-width: 3px; border-style: solid; border-color: #202020; border-radius: 50%;}
+
+.lukav4x_yutai				{background:#D37FAF; color:#fff; padding:20px; max-width:750px;}
+.lukav4x_yutai a				{color:#FFDC82;}
+
+.lukav4x_table th			{background-color:#D37FAF;}
+.lukav4x_table td			{background-color:#fff; width:14%;}
+.lukav4x_table th , .lukav4x_table td	{padding:20px 10px; text-align:center; color:#000; font-weight:bold; font-size: 10pt;}
+
+.btn_v4x					{position:absolute; top:0px; left:490px;}
+
+a.btn_lukav4x_img				{position:absolute; width:80px; height:80px; display:block; border:5px solid #ffffff; background-color:#ffffff; z-index:10;
+										-moz-border-radius:50%; -webkit-border-radius:50%; border-radius:50%; bottom:80px;
+										-moz-box-shadow:0px 0px 10px rgba(0,0,0, 0.5);
+										-webkit-box-shadow:0px 0px 10px rgba(0,0,0, 0.5);
+										box-shadow:0px 0px 10px rgba(0,0,0, 0.5);}
+a.btn_lukav4x_img:hover		{border-color:#C5508A;}
+.btn_lukav4x_img1				{right:210px; background:url(../images/lukav4x_imgbtn1.jpg) no-repeat center;}
+.btn_lukav4x_img2				{right:100px; background:url(../images/lukav4x_imgbtn2.jpg) no-repeat center;}
+.whole_lukav4x h3				{color:#ffffff; font-size:14pt;}
+.whole_lukav4x h3	span		{font-size:14px; font-weight:normal; padding-left:10px;}
+#cont_db h2,#cont_db h3	{margin-bottom:0;}
+.db_title 							{position: relative; margin-bottom: 20px;} 
+.db_titlep 							{position: relative; text-align:center; font-size:14px; background: #8b88a7; padding: 5px 30px;}
+.db_titlep:after 					{content: ''; position: absolute; border-top: 10px solid #8b88a7; border-right: 10px solid transparent; border-left: 10px solid transparent; bottom: -9px; left: 90px;}
+
+@media screen and (max-width: 1150px) {
+.btn_v4x					{position:absolute; top:0px; left:410px;}
+}
+
+
+/* =====================================================
+					MIKUV2 DETAIL page
+====================================================== */
+.whole_mikuv2 { width:100%; max-width:1700px; margin:0 auto; overflow:hidden;}
+.whole_mikuv2 .fixedbox				{background:url(../images/bg_detail_mikuv2.jpg) no-repeat center center; background-size:cover;  position:relative; /*padding-top:55px;*/}
+.ie .whole_mikuv2 .fixedbox				{background:url(../images/bg_detail_mikuv2.jpg) repeat left top ;}
+.img_mikuv2_1{  width:800px; height:1250px; position:absolute; right:0; top:50%; margin-top:-470px; background:url(../images/img_illust_mikuv2_min.png) no-repeat right top;  }
+.whole_mikuv2 .badge {background-color:#df548d; border:3px solid #000; border-radius:50%;} 
+.whole_mikuv2 .topcontents_pd	{padding-right:500px;}
+
+.bg_mikuv2,.whole_mikuv2 .vs_cartbtn {background:#c1007b !important;}
+.txt_mikuv2, .whole_mikuv2 .price_sp {color:#c39 !important;}
+
+a.badge_cv01a			{width:200px; height:200px; position:absolute; left:450px; bottom:-30px; background:url(../images/badge_cv01a.html) no-repeat center; display:block; z-index:1;}
+a.badge_mikuv3 { width:200px; height:200px; position:absolute; right:40px; bottom:-40px; background:url(../images/badge_mikuv3.html) no-repeat center; display:block; z-index:1;}
+/*a.badge_mikuv3 { width:200px; height:200px; position:absolute; left:540px; top:20px; background:url(/mp/pages/prod/vocaloid/images/badge_mikuv3.png) no-repeat center; display:block; z-index:1;}*/
+
+.bnr_mikuv3		{display:inline-block;}
+
+/* =====================================================
+					MIKU APPEND DETAIL page
+====================================================== */
+.whole_cv01a							{width:100%; max-width:1700px; margin:0 auto; overflow:hidden;}
+.whole_cv01a .fixedbox			{background:url(../images/bg_detail_cv01a.jpg) no-repeat center center; background-size:cover; position:relative;}
+.ie .whole_cv01a .fixedbox			{background:url(../images/bg_detail_cv01a.jpg) repeat left top;}
+.img_cv01a { width:450px; height:1240px; position:absolute; right:0; top:50%; margin-top:-600px;  background:url(../images/img_illust_cv01a_min.png) no-repeat right top;}
+.bg_cv01a, .whole_cv01a .vs_cartbtn			{background:#010101 !important;}
+.txt_cv01a , .whole_cv01a .price_sp				{color:#FFCFDA !important;}
+.whole_cv01a .badge				{background-color:#666666; border:3px solid #111111; border-radius:50%;} 
+/*.whole_cv02a .topcontents_pd	{padding-right:580px;}*/
+a.badge_cv01							{width:200px; height:200px; position:absolute; left:520px; bottom:-30px; background:url(../images/badge_cv01.html) no-repeat center; display:block; z-index:1;}
+
+.whole_cv01a .db_txt				{margin-right:595px;}
+.whole_cv01a .dbbox1				{float:right; width:550px;}
+.whole_cv01a .db_desc				{margin-left:101px; padding:5px 0 0 15px;}
+
+.whole_cv01a_gallery { background:url(../images/bg_detail_cv01a.jpg) no-repeat center top #2b2d2c; padding-top:55px; padding-bottom:60px; text-align:center; color:#ddd; width:100%; margin:0 auto; overflow:hidden; position:relative; }
+
+a.btn_cv01a_img				{position:absolute; width:191px; height:30px; display:block; z-index:10; bottom:80px; right:80px;}
+
+.box_btn_cv01a						{position:absolute; width:270px; height:44px; display:block; z-index:10; bottom:130px; right:80px; font-size:0;}
+.box_btn_cv01a a						{display:inline-block; width:44px; height:44px; margin-left:10px;}
+
+
+
+

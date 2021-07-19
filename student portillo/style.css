@@ -1,0 +1,950 @@
+﻿
+
+body {
+    /*background:url(images/bg-body.png) repeat-x top center #E8F7F9; */
+    /*background:url(images/bg-blue.jpg);*/
+    /*font-family:"Trebuchet MS" Arial, Helvetica, sans-serif;*/
+    /*font-size:12pt; /* Sets default font size to 10px */
+    color: #222222;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 14px; /* Sets default font size to 10px */
+    /*background: url(images/bk_image.gif) repeat-x;*/
+    background-color: #D1E9F7;
+    margin: 0;
+}
+
+.title {
+    color:black;font-size:xx-large;
+	font-family: 'Berlin Sans FB';  
+}
+
+/*
+* {
+	margin:0;
+	padding:0;
+	}
+*/
+
+img {
+    border: 0;
+}
+
+p {
+    margin-bottom: 1.25em;
+}
+
+a {
+    /*text-decoration:none;
+    color:#B4C835;*/
+}
+
+    a:hover {
+        text-decoration: none;
+        color: #6CC7DC;
+    }
+
+/* Structure */
+
+#wrapper_login_staff {
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    margin: 0 auto;
+    min-height: 732px;
+    width: 1024px;
+    background: #E0CCBD;
+    /*font-size:1.20em; */
+    margin-top: -7px;
+    /*background-image:url(images/bg-bak.png);*/
+}
+
+
+
+#wrapper_login {
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    margin: 0 auto;
+    min-height: 815px;
+    width: 1024px;
+    background: #F5EEE0;
+    /*font-size:1.20em; */
+    margin-top: -7px;
+    /*background-image:url(images/bg-bak.png);*/
+}
+
+#wrapper {
+    margin: 0 auto;
+    height: 100%;
+    width: 1024px;
+    background: #ffffff;
+    /*font-size:1.20em; */
+    margin-top: 0px;
+    /*background-image:url(images/bg-bak.png);*/
+	overflow: hidden;
+}
+
+#headerStd {
+    height: 187px;
+    /*background:url(images/bg-header.jpg) no-repeat;*/
+    background: url(images/e-portfolio-inside.png) no-repeat;
+    margin-top: -3px;
+}
+
+#headerStaff {
+    height: 167px;
+    background: url(images/teacher.png) no-repeat;
+    margin-top: -3px;
+}
+
+#header {
+    height: 333px;
+    background: url(images/bg-header.jpg) no-repeat;
+    margin-top: -3px;
+}
+
+#headerTeacher {
+    height: 236px;
+    background: url(images/teacher_big.png) no-repeat;
+    margin-top: -3px;
+}
+
+#menu {
+    height: 35px;
+    line-height: 25px;
+    background: url(images/bg-menu.png) repeat-x;
+    padding: 1px 10px;
+}
+
+#sidebar {
+    float: right;
+    width: 180px;
+    background: #efefef;
+    margin-right: 10px;
+}
+
+#login_content {
+    background-color: transparent;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    opacity: 1;
+    /*-webkit-filter:blur(5px);
+	filter:alpha(opacity=40);  针对 IE8 以及更早的版本 */
+    float: left;
+    width: 700px;
+    min-height: 400px;
+    display: inline;
+    margin: 5px 5px 5px 5px;
+}
+
+#login_content_staff {
+    background-color: transparent;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    opacity: 1;
+    /*-webkit-filter:blur(5px);
+	filter:alpha(opacity=40);  针对 IE8 以及更早的版本 */
+    float: left;
+    width: 688px;
+    min-height: 400px;
+    display: inline;
+}
+
+.sidebar_staff {
+    font-family: "Verdana" Arial, Helvetica, sans-serif;
+    border-left: 1px solid #CCC;
+    width: 280px;
+    height: 514px;
+    float: right;
+    background-color: #D5D8CC;
+    margin-top: -18px;
+}
+
+
+.sidebar {
+    font-family: "Verdana" Arial, Helvetica, sans-serif;
+    border-left: 1px solid #CCC;
+    width: 280px;
+    height: 482px;
+    float: right;
+    background-color: #F6DAD0;
+}
+
+#content {
+    background-color: transparent;
+    padding-left: 20px;  
+    text-align: justify;
+    opacity: 1;
+    /*-webkit-filter:blur(5px);
+filter:alpha(opacity=40);  针对 IE8 以及更早的版本 */
+    float: left;
+    width: 1000px;
+    min-height: 560px;
+}
+
+
+#login {
+    width: 1022px;
+    height: 33px;
+    background-color: #05B181;
+    padding-top: 10px;
+}
+
+#header #login div {
+    margin: 20px;
+}
+
+
+
+#formcore {
+    margin: 0px auto;
+    width: 1024px;
+    line-height: 25px;
+    color: #FFF;
+    font-weight: 800;
+    left: 10px;
+    text-align: center;
+    margin-top: -8px;
+}
+
+
+
+
+
+
+input {
+    margin-left: 1.0px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+/* Entries */
+
+.entry {
+    padding: 5px 10px;
+    text-align: justify;
+    line-height: 1.75em;
+}
+
+.entry-title {
+    font-size: 1.90em;
+    font-weight: normal;
+    letter-spacing: -1px;
+}
+
+.date {
+    font-size: 0.9em;
+    color: #bbb;
+    cursor: default;
+    letter-spacing: 1px;
+}
+
+.comments {
+    margin-top: -1em;
+}
+
+    .comments a {
+        color: #6CC7DC;
+        background: url(images/icon-comment.png) no-repeat 0px 2px;
+        padding-left: 20px;
+        padding-right: 2px;
+    }
+
+        .comments a:hover {
+            color: #B4C835;
+        }
+
+
+/* Menu */
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu li {
+    float: left;
+}
+
+    #menu li a {
+        padding: 0 15px;
+        display: block;
+        color: #ffffff;
+        margin-right: 2px;
+        margin-top: -11px;
+        text-decoration: none;
+    }
+
+        #menu li a:hover {
+            background: url(images/bg-menu-hover.png) no-repeat center center;
+        }
+
+/* Sidebar */
+
+#sidebar ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+#sidebar li {
+}
+
+    #sidebar li a {
+        display: block;
+        height: 20px;
+        line-height: 20px;
+        color: #222222;
+        padding-left: 5px;
+        border-bottom: 1px solid #dddddd;
+    }
+
+        #sidebar li a:hover {
+            background: #edebed;
+            color: #6CC4D8;
+        }
+
+#sidebar-bottom {
+    height: 20px;
+    background: url(images/bg-sidebar-bottom.gif) no-repeat top center;
+}
+
+/* Footer */
+#footer {
+    border: solid #CCC 1px;
+    margin: 0px auto;
+    width: 1024px;
+    height: 80px;
+    background-color: #EDEDED;
+    /*background:url(images/bg-footer.jpg) no-repeat;*/
+}
+
+#footer-home {
+    /*border: solid #CCC 1px;*/
+    margin: 0px auto;
+    width: 1024px;
+    min-height: 80px;
+    background-color: #EDEDED;
+	overflow:auto;
+    /*background:url(images/bg-footer.jpg) no-repeat;*/
+}
+
+#footer-valid {
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 9pt;
+    clear: left;
+}
+
+    #footer-valid a {
+        text-decoration: none;
+        margin-left:18px;
+    }
+
+        #footer-valid a:hover {
+            text-decoration: underline;
+        }
+
+/* Heading's */
+
+h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+    cursor: default;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+/* Feed */
+
+#feed {
+    height: 25px;
+    width: 126px;
+    background: url(images/bg-feed.gif) no-repeat;
+    margin: 0 auto;
+    padding-left: 26px;
+}
+
+a.feed-button {
+    display: block;
+    width: 100px;
+    height: 25px;
+    background: url("images/button-feed.png") 0 0 no-repeat;
+    text-decoration: none;
+}
+
+a:hover.feed-button {
+    background-position: 0 -25px;
+}
+
+/* Extra's */
+
+#ad-top {
+    width: 480px;
+    height: 72px;
+    background: url(images/bg-ad-top.png) no-repeat;
+    padding: 5px;
+}
+
+
+
+.monthebox {
+    height: 166px;
+    width: 148px;
+    opacity: 100;
+}
+
+    .monthebox a {
+        text-decoration: none;
+    }
+/* ==============================#content{background-color:#F5F5F5;} ====================================== */
+
+
+#seicon {
+    float: left;
+}
+
+#item1 {
+    background: url(images/porfile.png) no-repeat;
+}
+
+#item2 {
+    background: url(images/matching.png) no-repeat;
+}
+
+#item3 {
+    background: url(images/record.png) no-repeat;
+}
+
+#item4 {
+    background: url(images/commu.png) no-repeat;
+}
+
+#item5 {
+    background: url(images/work.png) no-repeat;
+}
+
+#item6 {
+    background: url(images/meg.png) no-repeat;
+}
+
+#item7 {
+    background: url(images/attu.png)no-repeat;
+}
+
+#item8 {
+    background: url(images/charts.png) no-repeat;
+}
+
+#item9 {
+    background: url(images/seami.png) no-repeat;
+}
+
+#item10 {
+    background: url(images/User.png) no-repeat;
+}
+
+#item12 {
+    background: url(images/op1.png) no-repeat;
+}
+
+#item13 {
+    background: url(images/home.png) no-repeat;
+}
+
+#item14 {
+    background: url(images/form1.png) no-repeat;
+}
+
+#item15 {
+    background: url(images/GradeAbsence.png) no-repeat;
+}
+
+#item16 {
+    background: url(images/classtime.png) no-repeat;
+}
+
+#item17 {
+    background: url(images/examtime.png) no-repeat;
+}
+
+#item18 {
+    background: url(images/resittime.png) no-repeat;
+}
+
+#item19 {
+    background: url(images/makeup.png) no-repeat;
+}
+
+#item20 {
+    background: url(images/PaymentReceipt.png) no-repeat;
+}
+
+#item21 {
+    background: url(images/debitnote.png) no-repeat;
+}
+
+#item22 {
+    background: url(images/ePayment.png) no-repeat;
+}
+
+#item23 {
+    background: url(images/doc.png) no-repeat;
+}
+
+#item24 {
+    background: url(images/locker.png) no-repeat;
+}
+
+#item25 {
+    background: url(images/card.png) no-repeat;
+}
+
+#item26 {
+    background: url(images/book.png) no-repeat;
+}
+
+#item27 {
+    background: url(images/timetable1.png) no-repeat;
+}
+
+#item28 {
+    background: url(images/studentreg.png) no-repeat;
+}
+
+#item29 {
+    background: url(images/recurit.png) no-repeat;
+}
+
+#item30 {
+    background: url(images/mangc.png) no-repeat;
+}
+
+#item31 {
+    background: url(images/curriculumvitae.png) no-repeat;
+}
+
+#item32 {
+    background: url(images/typhoon.png) no-repeat; 
+}
+
+#item33 {
+    background: url(images/vdoc.png) no-repeat;
+}
+
+#item34 {
+    background: url(images/contactme.png) no-repeat;
+}
+
+#item35 {
+    background: url(images/attrplanning.png) no-repeat; 
+}
+
+#item36 {
+    background: url(images/jobmatching.png) no-repeat;
+}
+
+#item37 {
+    background: url(images/teachersub.png) no-repeat;
+}
+
+#item38 {
+    background: url(images/progsub.png) no-repeat;
+}
+
+#item39 {
+    background: url(images/dirsub.png) no-repeat;
+}
+
+#item40 {
+    background: url(images/tutorsub.png) no-repeat; 
+}
+
+#item41 {
+    background: url(images/advisory.png) no-repeat;
+}
+
+#item42 {
+    background: url(images/usermanage.png) no-repeat;
+}
+
+#item43 {
+    background: url(images/usergroupmanage.png) no-repeat;
+}
+
+#item44 {
+    background: url(images/activity.png) no-repeat; 
+}
+
+#item45 {
+    background: url(images/seminarreg.png) no-repeat;
+}
+
+#item46 {
+    background: url(images/seminarmanage.png) no-repeat;
+}
+
+#item47 {
+    background: url(images/studentpro.png) no-repeat;
+}
+
+#item48 {
+    background: url(images/academicweb.png) no-repeat;
+}
+
+#item49 {
+    background: url(images/haveop1.png) no-repeat;
+}
+
+#item50 {
+    background: url(images/studentattend.png) no-repeat;
+}
+
+#item51 {
+    background: url(images/gift.png) no-repeat;
+}
+
+#item52 {
+    background: url(images/subjectsorce.png) no-repeat;
+}
+
+#item53 {
+    background: url(images/newstupro.png) no-repeat;
+}
+
+#item54 {
+    background: url(images/newlearnrec.png) no-repeat;
+}
+
+#item55 {
+    background: url(images/resultanalysis.png) no-repeat;
+}
+
+#item56 {
+    background: url(images/active3.png) no-repeat;
+}
+
+#item57 {
+    background: url(images/cv2.png) no-repeat;
+}
+
+#item58 {
+    background: url(images/comments.png) no-repeat;
+}
+
+#item61 {
+    background: url(images/gift1.png) no-repeat;
+}
+#item62 {
+    background: url(images/gift2.png) no-repeat;
+}
+#item63 {
+    background: url(images/gift3.png) no-repeat;
+}
+#item64 {
+    background: url(images/gift4.png) no-repeat;
+}
+#item65 {
+    background: url(images/gift5.png) no-repeat;
+}
+
+
+
+
+
+#seticon{
+display:inline-block;
+}
+#seticon .monthebox {
+    float: left;
+    margin: 6px 40px 46px 9px;
+}
+
+.text {
+    text-align: center;
+    text-shadow: #666;
+    font-size: 12pt;
+    height: 2px;
+    color: #000;
+}
+
+a:hover #item1 {
+    background: url(images/porfilehover.png) no-repeat center center;
+}
+
+a:hover #item2 {
+    background: url(images/matchinghover.png) no-repeat center center;
+}
+
+a:hover #item3 {
+    background: url(images/recordhover.png) no-repeat center center;
+}
+
+a:hover #item4 {
+    background: url(images/commuhover.png) no-repeat center center;
+}
+
+a:hover #item5 {
+    background: url(images/workhover.png) no-repeat center center;
+}
+
+a:hover #item6 {
+    background: url(images/meghover.png) no-repeat center center;
+}
+
+a:hover #item7 {
+    background: url(images/learningAtt2.png) no-repeat center center;
+}
+
+a:hover #item8 {
+    background: url(images/charts2.png) no-repeat center center;
+}
+
+a:hover #item9 {
+    background: url(images/Samiar2.png) no-repeat center center;
+}
+
+a:hover #item10 {
+    background: url(images/user2.png) no-repeat center center;
+}
+
+a:hover #item12 {
+    background: url(images/op2.png) no-repeat center center;
+}
+
+a:hover #item13 {
+    background: url(images/homehover.png) no-repeat center center;
+}
+
+a:hover #item14 {
+    background: url(images/formhover1.png) no-repeat center center;
+}
+
+a:hover #item15 {
+    background: url(images/GradeAbsencehover.png) no-repeat center center;
+}
+
+a:hover #item16 {
+    background: url(images/classtimejhove.png) no-repeat center center;
+}
+
+a:hover #item17 {
+    background: url(images/examtimehover.png) no-repeat center center;
+}
+
+a:hover #item18 {
+    background: url(images/resittimehover.png) no-repeat center center;
+}
+
+a:hover #item19 {
+    background: url(images/makeuphover.png) no-repeat center center;
+}
+
+a:hover #item20 {
+    background: url(images/PaymentReceipthover.png) no-repeat center center;
+}
+
+a:hover #item21 {
+    background: url(images/debitnotehover.png) no-repeat center center;
+}
+
+a:hover #item22 {
+    background: url(images/ePaymenthover.png) no-repeat center center;
+}
+
+a:hover #item23 {
+    background: url(images/dochover.png) no-repeat center center;
+}
+
+a:hover #item24 {
+    background: url(images/lockerhover.png) no-repeat center center;
+}
+
+a:hover #item25 {
+    background: url(images/cardhover.png) no-repeat center center;
+}
+
+a:hover #item26 {
+    background: url(images/bookhover.png) no-repeat center center;
+}
+
+a:hover #item27 {
+    background: url(images/timetablehover.png) no-repeat center center;
+}
+
+a:hover #item28 {
+    background: url(images/studentreghover.png) no-repeat center center;
+}
+
+a:hover #item29 {
+    background: url(images/recurithover.png) no-repeat center center;
+}
+
+a:hover #item30 {
+    background: url(images/mangchover.png) no-repeat center center;
+}
+
+a:hover #item31 {
+    background: url(images/curriculumvitaehover.png) no-repeat center center;
+}
+
+a:hover #item32 {
+    background: url(images/typhoonhover.png) no-repeat center center;
+}
+
+a:hover #item33 {
+    background: url(images/vdochover.png) no-repeat center center;
+}
+
+a:hover #item34 {
+    background: url(images/contactmehover.png) no-repeat center center;
+}
+
+a:hover #item35 {
+    background: url(images/attrplanninghover.png) no-repeat center center;
+}
+
+a:hover #item36 {
+    background: url(images/jobmatchinghover.png) no-repeat center center;
+}
+
+a:hover #item37 {
+    background: url(images/teachersubhover.png) no-repeat center center;
+}
+
+a:hover #item38 {
+    background: url(images/progsubhover.png) no-repeat center center;
+}
+
+a:hover #item39 {
+    background: url(images/dirsubhover.png) no-repeat center center;
+}
+
+a:hover #item40 {
+    background: url(images/tutorsubhover.png) no-repeat center center;
+}
+
+a:hover #item41 {
+    background: url(images/advisoryhover.png) no-repeat center center;
+}
+
+a:hover #item42 {
+    background: url(images/usermanagehover.png) no-repeat center center;
+}
+
+a:hover #item43 {
+    background: url(images/usergroupmanagehover.png) no-repeat center center;
+}
+
+a:hover #item44 {
+    background: url(images/activityhover.png) no-repeat center center;
+}
+
+a:hover #item45 {
+    background: url(images/seminarreghover.png) no-repeat center center;
+}
+
+a:hover #item46 {
+    background: url(images/seminarmanagehover.png) no-repeat center center;
+}
+
+a:hover #item47 {
+    background: url(images/studentprohover.png) no-repeat center center;
+}
+
+a:hover #item48 {
+    background: url(images/academicwebhover.png) no-repeat center center;
+}
+
+a:hover #item49 {
+    background: url(images/haveop2.png) no-repeat center center;
+}
+
+a:hover #item50 {
+    background: url(images/studentattend_hover.png) no-repeat center center;
+}
+
+a:hover #item51 {
+    background: url(images/gift_hover.png) no-repeat center center;
+}
+
+a:hover #item52 {
+    background: url(images/subjectsorce_hover.png) no-repeat center center;
+}
+
+a:hover #item53 {
+    background: url(images/newstupro_hover.png) no-repeat center center;
+}
+
+a:hover #item54 {
+    background: url(images/newlearnrec_hover.png) no-repeat center center;
+}
+
+a:hover #item55 {
+    background: url(images/resultanalysis_hover.png) no-repeat center center;
+}
+
+a:hover #item56 {
+    background: url(images/active3_hover.png) no-repeat center center;
+}
+
+a:hover #item57 {
+    background: url(images/cv2_hover.png) no-repeat center center;
+}
+
+a:hover #item58 {
+    background: url(images/commentshover.png) no-repeat center center;
+}
+
+a:hover #item61 {
+    background: url(images/gift1_hover.png) no-repeat center center;
+}
+
+a:hover #item62 {
+    background: url(images/gift2_hover.png) no-repeat center center;
+}
+
+a:hover #item63 {
+    background: url(images/gift3_hover.png) no-repeat center center;
+}
+
+a:hover #item64 {
+    background: url(images/gift4_hover.png) no-repeat center center;
+}
+
+a:hover #item65 {
+    background: url(images/gift5_hover.png) no-repeat center center;
+}
+
+
+
+
+
+#button {
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #0080FF;
+    border-radius: 10px;
+    background-color: #0080FF;
+    font-size: 16px;
+    margin: 10px 10px 0px 10px;
+    line-height: 30px;
+    color: #FFF;
+}
+
+#buttonsize {
+    width: 140px;
+}
+
+.icon {
+    height: 143px;
+    width: 143px;
+}
+
+a:hover #button {
+    background-color: #FF0;
+    border: 1px solid #FF0;
+    color: #0080FF;
+}

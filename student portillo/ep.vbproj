@@ -1,0 +1,692 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{B3682157-21FE-496C-8F83-8835E97C95BC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ep</RootNamespace>
+    <AssemblyName>ep</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ep.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ep.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.7.607, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="button.css" />
+    <Content Include="button1.css" />
+    <Content Include="Director\CategoryWeight.aspx" />
+    <Content Include="Director\home.aspx" />
+    <Content Include="Director\homepage.aspx" />
+    <Content Include="Director\studentInfo.aspx" />
+    <Content Include="ep.Publish.xml" />
+    <Content Include="images\1361842383381.jpg" />
+    <Content Include="images\abroad.png" />
+    <Content Include="images\academic.png" />
+    <Content Include="images\analysisGraph.png" />
+    <Content Include="images\attu.png" />
+    <Content Include="images\award.png" />
+    <Content Include="images\background.gif" />
+    <Content Include="images\background5.jpg" />
+    <Content Include="images\backgroundLogin.gif" />
+    <Content Include="images\betten.png" />
+    <Content Include="images\bg-ad-top.png" />
+    <Content Include="images\bg-body.png" />
+    <Content Include="images\bg-feed.gif" />
+    <Content Include="images\bg-footer.jpg" />
+    <Content Include="images\bg-header.jpg" />
+    <Content Include="images\bg-menu-hover.png" />
+    <Content Include="images\bg-menu.png" />
+    <Content Include="images\bg-sidebar-bottom.gif" />
+    <Content Include="images\bg1.jpg" />
+    <Content Include="images\bigstock_old_map_and_compass_concepts_61330781.jpg" />
+    <Content Include="images\button-feed.png" />
+    <Content Include="images\career.gif" />
+    <Content Include="images\career_analysis.gif" />
+    <Content Include="images\career_background.gif" />
+    <Content Include="images\categoryWeight.png" />
+    <Content Include="images\certificateUpload.png" />
+    <Content Include="images\charts.png" />
+    <Content Include="images\charts2.png" />
+    <Content Include="images\church.gif" />
+    <Content Include="images\commu.png" />
+    <Content Include="images\commuhover.png" />
+    <Content Include="images\community-service.gif" />
+    <Content Include="images\Compass-Map.jpg" />
+    <Content Include="images\current_ability.gif" />
+    <Content Include="images\cv.png" />
+    <Content Include="images\education.png" />
+    <Content Include="images\eport_analysis.gif" />
+    <Content Include="images\eport_currentanalysis.gif" />
+    <Content Include="images\FullView_16x16_72.png" />
+    <Content Include="images\g.jpg" />
+    <Content Include="images\gp.jpg" />
+    <Content Include="images\gp1.jpg" />
+    <Content Include="images\home.png" />
+    <Content Include="images\icon-comment.png" />
+    <Content Include="images\image1.jpg" />
+    <Content Include="images\intership.png" />
+    <Content Include="images\itil.jpg" />
+    <Content Include="images\learning-records.gif" />
+    <Content Include="images\Learning.gif" />
+    <Content Include="images\learningAtt2.png" />
+    <Content Include="images\logout.png" />
+    <Content Include="images\match.png" />
+    <Content Include="images\meg.png" />
+    <Content Include="images\meghover.png" />
+    <Content Include="images\message_board.gif" />
+    <Content Include="images\message_board_background.gif" />
+    <Content Include="images\monograph.png" />
+    <Content Include="images\page.jpg" />
+    <Content Include="images\penning.png" />
+    <Content Include="images\penninghover.png" />
+    <Content Include="images\personal.png" />
+    <Content Include="images\photo.gif" />
+    <Content Include="images\pic.jpg" />
+    <Content Include="images\porfile.png" />
+    <Content Include="images\porfilehover.png" />
+    <Content Include="images\Professional.png" />
+    <Content Include="images\profile.gif" />
+    <Content Include="images\Rcdgrd9c9.jpeg" />
+    <Content Include="images\Rcdgrd9c9.png" />
+    <Content Include="images\Rcdgrd9c92.png" />
+    <Content Include="images\Rcdgrd9c94.png" />
+    <Content Include="images\reading.png" />
+    <Content Include="images\record.png" />
+    <Content Include="images\recordhover.png" />
+    <Content Include="images\ReportPic.jpg" />
+    <Content Include="images\Samiar2.png" />
+    <Content Include="images\Scholarship.png" />
+    <Content Include="images\seami.png" />
+    <Content Include="images\seminar.png" />
+    <Content Include="images\studens.png" />
+    <Content Include="images\StudentProfile.gif" />
+    <Content Include="images\studentWork1.jpg" />
+    <Content Include="images\studentWork2.gif" />
+    <Content Include="images\student_works.gif" />
+    <Content Include="images\tantap_rev.png" />
+    <Content Include="images\Trend.png" />
+    <Content Include="images\update.png" />
+    <Content Include="images\User.png" />
+    <Content Include="images\user2.png" />
+    <Content Include="images\weight.gif" />
+    <Content Include="images\work.png" />
+    <Content Include="images\workhover.png" />
+    <Content Include="images\worksUpload.png" />
+    <Content Include="item\Link.aspx" />
+    <Content Include="link.css" />
+    <Content Include="login.aspx" />
+    <Content Include="login.css" />
+    <Content Include="ProgrammeCoordinator\CategoryWeight.aspx" />
+    <Content Include="ProgrammeCoordinator\home.aspx" />
+    <Content Include="ProgrammeCoordinator\homepage.aspx" />
+    <Content Include="ProgrammeCoordinator\studentInfo.aspx" />
+    <Content Include="remFunction.js" />
+    <Content Include="Student\AdviserRemark.aspx" />
+    <Content Include="Student\Attribute.aspx" />
+    <Content Include="Student\Career.aspx" />
+    <Content Include="Student\Community.aspx" />
+    <Content Include="Student\CurriculumVitae.aspx" />
+    <Content Include="Student\home.aspx" />
+    <Content Include="Student\homepage.aspx" />
+    <Content Include="Student\images\abroad.png" />
+    <Content Include="Student\images\academic.png" />
+    <Content Include="Student\images\analysisGraph.png" />
+    <Content Include="Student\images\award.png" />
+    <Content Include="Student\images\background.gif" />
+    <Content Include="Student\images\backgroundLogin.gif" />
+    <Content Include="Student\images\career.gif" />
+    <Content Include="Student\images\career_analysis.gif" />
+    <Content Include="Student\images\career_background.gif" />
+    <Content Include="Student\images\categoryWeight.png" />
+    <Content Include="Student\images\certificateUpload.png" />
+    <Content Include="Student\images\church.gif" />
+    <Content Include="Student\images\community-service.gif" />
+    <Content Include="Student\images\current_ability.gif" />
+    <Content Include="Student\images\cv.png" />
+    <Content Include="Student\images\education.png" />
+    <Content Include="Student\images\eport_analysis.gif" />
+    <Content Include="Student\images\eport_currentanalysis.gif" />
+    <Content Include="Student\images\FullView_16x16_72.png" />
+    <Content Include="Student\images\home.png" />
+    <Content Include="Student\images\intership.png" />
+    <Content Include="Student\images\itil.jpg" />
+    <Content Include="Student\images\learning-records.gif" />
+    <Content Include="Student\images\Learning.gif" />
+    <Content Include="Student\images\logout.png" />
+    <Content Include="Student\images\match.png" />
+    <Content Include="Student\images\message_board.gif" />
+    <Content Include="Student\images\message_board_background.gif" />
+    <Content Include="Student\images\monograph.png" />
+    <Content Include="Student\images\personal.png" />
+    <Content Include="Student\images\photo.gif" />
+    <Content Include="Student\images\Professional.png" />
+    <Content Include="Student\images\profile.gif" />
+    <Content Include="Student\images\reading.png" />
+    <Content Include="Student\images\Scholarship.png" />
+    <Content Include="Student\images\seminar.png" />
+    <Content Include="Student\images\StudentProfile.gif" />
+    <Content Include="Student\images\studentWork1.jpg" />
+    <Content Include="Student\images\studentWork2.gif" />
+    <Content Include="Student\images\student_works.gif" />
+    <Content Include="Student\images\Trend.png" />
+    <Content Include="Student\images\update.png" />
+    <Content Include="Student\images\weight.gif" />
+    <Content Include="Student\images\worksUpload.png" />
+    <Content Include="Student\Learning.aspx" />
+    <Content Include="Student\LearningRecordAttribute.aspx" />
+    <Content Include="Student\schoolStaff.aspx" />
+    <Content Include="Student\SimulatedJobMatching.aspx" />
+    <Content Include="Student\StudentAtribute.aspx" />
+    <Content Include="Student\studentProfile.aspx" />
+    <Content Include="Student\studentWorks.aspx" />
+    <Content Include="style.css" />
+    <Content Include="SystemAdmin\accountManagement.aspx" />
+    <Content Include="SystemAdmin\home.aspx" />
+    <Content Include="SystemAdmin\homepage.aspx" />
+    <Content Include="SystemAdmin\LearningRecordAttribute.aspx" />
+    <Content Include="SystemAdmin\seminar.aspx" />
+    <Content Include="SystemAdmin\SeminarAdd.aspx" />
+    <Content Include="SystemAdmin\seminarManagement.aspx" />
+    <Content Include="SystemAdmin\SeminarMark.aspx" />
+    <Content Include="SystemAdmin\SeminarReg.aspx" />
+    <Content Include="SystemAdmin\userAccount.aspx" />
+    <Content Include="SystemAdmin\userGroup.aspx" />
+    <Content Include="Teacher\CategoryWeight.aspx" />
+    <Content Include="Teacher\home.aspx" />
+    <Content Include="Teacher\homepage.aspx" />
+    <Content Include="Teacher\studentInfo.aspx" />
+    <Content Include="verify.aspx" />
+    <Content Include="YearTutor\CategoryWeight.aspx" />
+    <Content Include="YearTutor\home.aspx" />
+    <Content Include="YearTutor\homepage.aspx" />
+    <Content Include="YearTutor\studentInfo.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Director\CategoryWeight.aspx.designer.vb">
+      <DependentUpon>CategoryWeight.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Director\CategoryWeight.aspx.vb">
+      <DependentUpon>CategoryWeight.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Director\home.aspx.designer.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Director\home.aspx.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Director\homepage.aspx.designer.vb">
+      <DependentUpon>homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Director\homepage.aspx.vb">
+      <DependentUpon>homepage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Director\studentInfo.aspx.designer.vb">
+      <DependentUpon>studentInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Director\studentInfo.aspx.vb">
+      <DependentUpon>studentInfo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="item\Link.aspx.designer.vb">
+      <DependentUpon>Link.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="item\Link.aspx.vb">
+      <DependentUpon>Link.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ProgrammeCoordinator\CategoryWeight.aspx.designer.vb">
+      <DependentUpon>CategoryWeight.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProgrammeCoordinator\CategoryWeight.aspx.vb">
+      <DependentUpon>CategoryWeight.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ProgrammeCoordinator\home.aspx.designer.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProgrammeCoordinator\home.aspx.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ProgrammeCoordinator\homepage.aspx.designer.vb">
+      <DependentUpon>homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProgrammeCoordinator\homepage.aspx.vb">
+      <DependentUpon>homepage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ProgrammeCoordinator\studentInfo.aspx.designer.vb">
+      <DependentUpon>studentInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProgrammeCoordinator\studentInfo.aspx.vb">
+      <DependentUpon>studentInfo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Student\AdviserRemark.aspx.designer.vb">
+      <DependentUpon>AdviserRemark.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student\AdviserRemark.aspx.vb">
+      <DependentUpon>AdviserRemark.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Student\Attribute.aspx.designer.vb">
+      <DependentUpon>Attribute.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student\Attribute.aspx.vb">
+      <DependentUpon>Attribute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Student\Career.aspx.designer.vb">
+      <DependentUpon>Career.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student\Career.aspx.vb">
+      <DependentUpon>Career.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Student\Community.aspx.designer.vb">
+      <DependentUpon>Community.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student\Community.aspx.vb">
+      <DependentUpon>Community.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Student\CurriculumVitae.aspx.designer.vb">
+      <DependentUpon>CurriculumVitae.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student\CurriculumVitae.aspx.vb">
+      <DependentUpon>CurriculumVitae.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Student\EPDataSet.Designer.vb">
+      <DependentUpon>EPDataSet.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Student\home.aspx.designer.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student\home.aspx.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Student\homepage.aspx.designer.vb">
+      <DependentUpon>homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student\homepage.aspx.vb">
+      <DependentUpon>homepage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Student\Learning.aspx.designer.vb">
+      <DependentUpon>Learning.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student\Learning.aspx.vb">
+      <DependentUpon>Learning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Student\LearningRecordAttribute.aspx.designer.vb">
+      <DependentUpon>LearningRecordAttribute.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student\LearningRecordAttribute.aspx.vb">
+      <DependentUpon>LearningRecordAttribute.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Student\schoolStaff.aspx.designer.vb">
+      <DependentUpon>schoolStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student\schoolStaff.aspx.vb">
+      <DependentUpon>schoolStaff.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Student\SimulatedJobMatching.aspx.designer.vb">
+      <DependentUpon>SimulatedJobMatching.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student\SimulatedJobMatching.aspx.vb">
+      <DependentUpon>SimulatedJobMatching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Student\StudentAtribute.aspx.designer.vb">
+      <DependentUpon>StudentAtribute.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student\StudentAtribute.aspx.vb">
+      <DependentUpon>StudentAtribute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Student\studentProfile.aspx.designer.vb">
+      <DependentUpon>studentProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student\studentProfile.aspx.vb">
+      <DependentUpon>studentProfile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Student\studentWorks.aspx.designer.vb">
+      <DependentUpon>studentWorks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student\studentWorks.aspx.vb">
+      <DependentUpon>studentWorks.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SystemAdmin\accountManagement.aspx.designer.vb">
+      <DependentUpon>accountManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemAdmin\accountManagement.aspx.vb">
+      <DependentUpon>accountManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemAdmin\home.aspx.designer.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemAdmin\home.aspx.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SystemAdmin\homepage.aspx.designer.vb">
+      <DependentUpon>homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemAdmin\homepage.aspx.vb">
+      <DependentUpon>homepage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SystemAdmin\LearningRecordAttribute.aspx.designer.vb">
+      <DependentUpon>LearningRecordAttribute.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemAdmin\LearningRecordAttribute.aspx.vb">
+      <DependentUpon>LearningRecordAttribute.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SystemAdmin\seminar.aspx.designer.vb">
+      <DependentUpon>seminar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemAdmin\seminar.aspx.vb">
+      <DependentUpon>seminar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SystemAdmin\SeminarAdd.aspx.designer.vb">
+      <DependentUpon>SeminarAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemAdmin\SeminarAdd.aspx.vb">
+      <DependentUpon>SeminarAdd.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SystemAdmin\seminarManagement.aspx.designer.vb">
+      <DependentUpon>seminarManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemAdmin\seminarManagement.aspx.vb">
+      <DependentUpon>seminarManagement.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SystemAdmin\SeminarMark.aspx.designer.vb">
+      <DependentUpon>SeminarMark.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemAdmin\SeminarMark.aspx.vb">
+      <DependentUpon>SeminarMark.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SystemAdmin\SeminarReg.aspx.designer.vb">
+      <DependentUpon>SeminarReg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemAdmin\SeminarReg.aspx.vb">
+      <DependentUpon>SeminarReg.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SystemAdmin\userAccount.aspx.designer.vb">
+      <DependentUpon>userAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemAdmin\userAccount.aspx.vb">
+      <DependentUpon>userAccount.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SystemAdmin\userGroup.aspx.designer.vb">
+      <DependentUpon>userGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemAdmin\userGroup.aspx.vb">
+      <DependentUpon>userGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teacher\CategoryWeight.aspx.designer.vb">
+      <DependentUpon>CategoryWeight.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher\CategoryWeight.aspx.vb">
+      <DependentUpon>CategoryWeight.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Teacher\home.aspx.designer.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher\home.aspx.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Teacher\homepage.aspx.designer.vb">
+      <DependentUpon>homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher\homepage.aspx.vb">
+      <DependentUpon>homepage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Teacher\studentInfo.aspx.designer.vb">
+      <DependentUpon>studentInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher\studentInfo.aspx.vb">
+      <DependentUpon>studentInfo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="verify.aspx.designer.vb">
+      <DependentUpon>verify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="verify.aspx.vb">
+      <DependentUpon>verify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YearTutor\CategoryWeight.aspx.designer.vb">
+      <DependentUpon>CategoryWeight.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YearTutor\CategoryWeight.aspx.vb">
+      <DependentUpon>CategoryWeight.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="YearTutor\home.aspx.designer.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YearTutor\home.aspx.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="YearTutor\homepage.aspx.designer.vb">
+      <DependentUpon>homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YearTutor\homepage.aspx.vb">
+      <DependentUpon>homepage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="YearTutor\studentInfo.aspx.designer.vb">
+      <DependentUpon>studentInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YearTutor\studentInfo.aspx.vb">
+      <DependentUpon>studentInfo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\Report1.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\CurriculumVitae.pdf" />
+    <None Include="images\Jasper Document.doc" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Student\EPDataSet.xsc">
+      <DependentUpon>EPDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Student\EPDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EPDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Student\EPDataSet.xss">
+      <DependentUpon>EPDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Student\images\CurriculumVitae.pdf" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Student\StudentImages\" />
+    <Folder Include="Student\UploadFile\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>60509</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

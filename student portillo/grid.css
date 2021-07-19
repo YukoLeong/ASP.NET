@@ -1,0 +1,88 @@
+.GridViewStyle
+  {  
+  width:1024px;
+ border-style: none;
+  font-family: calibri;
+  font-size: small;
+ border-collapse: collapse;
+
+ }
+
+
+.GridViewHeaderStyle
+{
+    background-color:#0095CD;
+     height:40px;
+     font-family: calibri;
+     font-weight:bold;
+     font-size: Large;
+     color :#FFFFFF;
+     border-bottom: 1px solid gray;
+}
+.GridViewSortHeaderStyle
+{    
+     background-color:#0095CD;
+     height:40px;
+     font-family: calibri;
+     font-weight:bold;
+     font-size: Large;
+     color :#FFFFFF;
+     border-bottom: 1px solid gray;
+}
+.GridViewSortStyle
+{    
+     background-color: #ACDAEB;
+     height:40px;
+   border-bottom: 1px solid  gray;
+   
+}
+.GridViewSelectRowStyle
+{    
+     background-color: #D1DDF1;
+       height:40px
+  
+}
+
+.GridViewRowStyle
+{    
+     background-color: #ACDAEB;
+     height:40px;
+   border-bottom: 1px solid gray;
+    height:40px
+}
+.GridViewRowStyle:hover 
+{ 
+    background-color: #FFFFFF;
+}
+
+.GridViewAlternatingRowStyle
+{
+     background-color: #F5F5F5;
+     border-bottom: 1px solid gray;
+     height:40px
+}
+.GridViewAlternatingRowStyle:hover
+{
+     background-color: #FFFFFF;
+   
+}
+
+.GridViewPagerStyle
+{
+     background-color:#0095CD;
+     color :#FFFFFF;
+}
+
+.GridViewRowStyle2
+{    
+     background-color: #ACDAEB;
+     height:40px;
+   border-bottom: 1px solid gray;
+    height:40px
+}
+.GridViewAlternatingRowStyle2
+{
+     background-color: #F5F5F5;
+     height:40px;
+     border-bottom: 1px solid gray;
+}

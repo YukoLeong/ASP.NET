@@ -1,0 +1,82 @@
+﻿@charset "utf-8";
+
+a { outline: 0;}
+
+
+/*----------------------------------------------------
+	Reset
+----------------------------------------------------*/
+*{zoom:1;}
+
+
+html {
+width: 100%; 
+overflow-y: scroll;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+margin: 0;
+padding: 0;
+}
+
+
+address,caption,cite,code,dfn,em,strong,th,var {
+font-style: normal;
+}
+
+
+hr,legend {
+display: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-size: 100%;
+}
+
+img,abbr,acronym,fieldset {
+border: 0;
+}
+
+li {
+list-style-type: none;
+}
+
+img {
+vertical-align: bottom; 
+}
+
+
+html , body {
+height: 100%;
+}
+
+
+/*----------------------------------------------------
+	Base
+----------------------------------------------------*/
+
+body {
+background: url(../../img/bg2.jpg) center top;
+color: #5f3521;
+font-size: 15px;
+font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+line-height: 1.5;
+text-align: center;
+margin: 0 auto;
+min-width: 1200px;
+}
+
+* + html body {
+font-family: "メイリオ","Meiryo";
+}
+
+
+/*----------------------------------------------------
+	Link
+----------------------------------------------------*/
+
+a { text-decoration: none; }
+a:link { color: #ff509a; }
+a:visited { color: #f53486; }
+a:hover { color: #ff8ebe; }
+a:active { color: #ff8ebe; }

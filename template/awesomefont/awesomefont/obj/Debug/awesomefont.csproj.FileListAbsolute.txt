@@ -1,0 +1,11 @@
+D:\Dropbox\kanon\Visual Studio 2013\Projects\awesomefont\awesomefont\bin\awesomefont.dll.config
+D:\Dropbox\kanon\Visual Studio 2013\Projects\awesomefont\awesomefont\bin\awesomefont.dll
+D:\Dropbox\kanon\Visual Studio 2013\Projects\awesomefont\awesomefont\bin\awesomefont.pdb
+D:\Dropbox\kanon\Visual Studio 2013\Projects\awesomefont\awesomefont\obj\Debug\awesomefont.dll
+D:\Dropbox\kanon\Visual Studio 2013\Projects\awesomefont\awesomefont\obj\Debug\awesomefont.pdb
+D:\Dropbox\kanon\dat file\ASP work\template\awesomefont\awesomefont\bin\awesomefont.dll.config
+D:\Dropbox\kanon\dat file\ASP work\template\awesomefont\awesomefont\bin\awesomefont.dll
+D:\Dropbox\kanon\dat file\ASP work\template\awesomefont\awesomefont\bin\awesomefont.pdb
+D:\Dropbox\kanon\dat file\ASP work\template\awesomefont\awesomefont\obj\Debug\awesomefont.csprojResolveAssemblyReference.cache
+D:\Dropbox\kanon\dat file\ASP work\template\awesomefont\awesomefont\obj\Debug\awesomefont.dll
+D:\Dropbox\kanon\dat file\ASP work\template\awesomefont\awesomefont\obj\Debug\awesomefont.pdb

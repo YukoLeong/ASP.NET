@@ -1,0 +1,861 @@
+﻿@charset "utf-8";
+
+/*@import "http://fonts.googleapis.com/css?family=Montaga";*/
+
+@font-face {
+  font-family: 'Montaga';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montaga'), local('Montaga-Regular'), url(http://www.ipm.edu.mo/fonts/Montaga-Regular.woff) format('woff');
+}
+
+/************** main visual **************/
+#mainvis_zone {
+	height: 564px;
+	min-width:980px;
+	overflow:hidden;
+	background:none;
+	/*background-image:url(../../images/common/home_mainvis_zone_bg.jpg);*/
+/*	background-repeat: repeat-x;
+	background-position: center top;*/
+	/*background-color:#8ce1e9;*/
+	z-index:100;
+	position:relative;
+}
+#mainvis_container{ 
+	position:relative; 
+	margin:0 auto; 
+	overflow:hidden;
+/*	background-image:url(../../images/common/home_mainvis_zone_bg.jpg);
+	background-position:50% 0; 
+	background-repeat:repeat-x;*/
+/*	width:2200px;*/
+}
+#container_bg{
+	position:absolute;
+	width:100%;
+	background: transparent url(../../images/common/home_mainvis_zone_bg.gif) no-repeat 50% 0;
+	height:512px;
+	opacity:0;
+	filter:alpha(opacity=0);
+	left:0;
+	top:0;
+	z-index:100;
+}
+#index_highlight{
+	background:url(../../images/common/index_highlight_bg.png) no-repeat 0 0;
+	font-size:0.7em;
+	line-height:30px;
+	text-align:center;
+	width:920px;
+	height:30px;
+	margin:0 auto;
+	position:relative;
+	z-index:500;
+	margin-top:-30px;
+}
+#index_highlight a{
+	color:#98104a;
+	text-decoration:none;
+}
+#index_highlight a:hover{
+	color:#98104a;
+	text-decoration:underline;
+}
+#mainvis {
+	width: 2100px;
+	height:534px;
+	margin-left:0;
+	position:relative;
+	background-image:url(../../images/common/home_mainvis.png);
+	background-repeat: no-repeat;
+	background-position: 50% top;
+	left:-600px;
+	z-index:500;
+/*	opacity:0;
+	filter:alpha(opacity=0);*/
+}
+#mainvis .mainvis_txt, #mainvis .mainvis_nav{ z-index:500; visibility:hidden;}
+#mainvis_bg{	
+	z-index:1000;
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	background: transparent url(../../images/common/home_mainvis_zone_bg.gif) no-repeat 50% 0;
+	height:512px;
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+#mainvis_bg img{
+	background: transparent url(../../images/common/blk.gif); repeat;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE8 */   
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);   /* IE6 & 7 */      
+	zoom: 1;	
+}
+
+#mainvis .mainvis_txt {	
+	display:block;
+	position:absolute;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+#mainvis .mainvis_nav {
+	width: 155px;
+	position:absolute;
+	background-repeat: no-repeat;
+}
+#mainvis .mainvis_nav.admission ul li.title {
+	height:60px;
+	background-repeat: no-repeat;
+	background-position: right 0;
+}
+#mainvis .mainvis_nav.admission {
+	top:145px;
+	left:540px;
+	background-image:url(../../images/common/mainvis_admission_img.png);
+	background-position: right 5px;
+}
+#mainvis .mainvis_nav.academic ul li.title {
+	height:60px;
+	background-repeat: no-repeat;
+	background-position: right 0;
+}
+#mainvis .mainvis_nav.academic {
+	top:177px;
+	left:1160px;
+	background-image:url(../../images/common/mainvis_academic_img.png);
+	background-position: right 17px;
+}
+#mainvis .mainvis_nav.more ul li.title {
+	height:74px;
+	background-repeat: no-repeat;
+	background-position: right 0;
+}
+#mainvis .mainvis_nav.more {
+	top:179px;
+	left:1670px;
+	background-image:url(../../images/common/mainvis_more_img.png);
+	background-position: right 16px;
+}
+
+#mainvis .mainvis_nav > ul > li > a{
+	height:36px;
+	width:169px;
+	display:block;
+	margin-right:-17px;
+	background-repeat: no-repeat;
+}
+#mainvis .mainvis_nav > ul > li:hover .mainvis_subnav{ display:block!important;}
+#mainvis .mainvis_subnav {
+	width: 200px;
+	position:absolute;
+	display:none;
+	background:url(../../images/common/index_center_layer_bg_top.png) no-repeat 0 0;
+	padding-top:5px;
+	font-size:.75em;
+	right:-214px;
+	top:-30px;
+}
+#mainvis .mainvis_subnav ul{
+	background:url(../../images/common/index_center_layer_bg.png) no-repeat 0 100%;
+	padding:2px 10px 8px 12px;
+}
+#mainvis .mainvis_subnav ul li{
+}
+#mainvis .mainvis_subnav ul li a{
+	padding:5px 0 5px 8px;
+	line-height:17px;
+	color:#c9f9ad;
+	display:block;
+	background:url(../../images/common/index_center_layer_bullet.gif) no-repeat 0 .85em;
+}
+#mainvis .mainvis_subnav ul li a:hover{ color:#FFF;	background:url(../../images/common/index_center_layer_bullet_hover.gif) no-repeat 0 0.85em;}
+
+/************** highlights / news **************/
+#middle_zone{
+	height:106px;
+	width:100%;
+	background-image:url(../../images/common/home_middle_zone_bg.gif);
+	background-repeat: repeat-x;
+	background-position: center top;
+	position:relative;
+	z-index:3000;
+	line-height:18px;
+}
+#content {
+	width:980px;
+	height:130px;
+	margin: 0 auto;
+}
+#content .title {
+	height:30px;
+}
+
+#content #highlights_wrap .title {
+	padding-left:30px
+}
+#content #news_wrap  .title {
+	padding-left:10px
+}
+#content .title img{
+	float:left; 
+	z-index:2;	
+	position: relative;
+}
+#content .title a.btn_more{
+	height:30px;
+	width:65px;
+	margin-left:-13px;
+	float:left;
+	display:block;
+	z-index:3;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color:transparent;	
+}
+#content .title a.btn_more:hover{
+	background-position: left bottom;
+}
+
+/*** highlights ***/
+#highlights_wrap{
+	width:670px;
+	margin-top:-24px;
+	float:left;
+}
+#highlights_wrap .btn_arrow_prev,
+#highlights_wrap .btn_arrow_next {
+	float:left;
+	margin-top:12px;
+}
+#highlights_wrap .highlights {
+	position: relative;
+	overflow:hidden;
+	float:left;
+	margin-top:12px;
+	width:670px;
+}
+#highlights_wrap ul li{
+	width:286px;
+	height:56px;
+	margin: 0 10px 0 0;
+	padding: 7px;
+	display:inline-block;
+	float:left;
+	background-color:#027150;
+}
+#highlights_wrap ul li img {
+	float:left;
+	margin: -7px 10px -7px -7px;
+	border-width: 1px;
+	border-style: solid;
+}
+#highlights_wrap ul li a{
+	color:#C9F9AD;
+}
+#highlights_wrap ul li a span{
+	height:56px;
+	overflow:hidden;
+	display:block;
+}
+#highlights_wrap ul li a:hover{
+	color:#FFF;
+	text-decoration: none;	
+}
+
+#highlights_wrap ul li a img{
+	border-color: #104a7b;
+	width:118px;
+	height:68px;
+}
+
+#highlights_wrap ul li p {
+	float:left;
+}
+/***news ***/
+#news_wrap{
+	width:450px;        /*跑馬燈寬*/
+	height:200px;       /*跑馬燈高*/
+	margin-top:-24px;
+	float:left;
+	background-image:url(../../images/common/home_news_bg2.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;	
+}
+#news_wrap .news{
+	height:150px;       /*跑馬燈文字高*/
+	width:450px;        /*跑馬燈文字寬*/
+	margin-top:15px;
+	float:left;
+	overflow:hidden;
+	color:#FFF;
+}
+#news_wrap .news a{
+	color:#FFF;
+}
+#news_wrap .news a:hover{
+	color:#C9F9AD;
+	text-decoration: none;	
+}
+
+#news_wrap .news ul li {
+	margin-bottom:15px;
+	width:240px;
+}
+#news_wrap .news h4{
+	color: #c9f9ad;
+}
+
+
+/*#news_wrap .scrollbar{
+	height:70px;
+	width:29px;
+	float:left;
+}
+#news_wrap .scrollbar a.btn_scroll{
+	height:30px;
+	width:12px;
+	display:block;
+	background-image:url(../../images/common/btn_scroll.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#news_wrap .scrollbar a:hover.btn_scroll{
+	background-position: right top;
+}*/
+#news_wrap ul {
+	margin-left:15px;
+}
+#news_wrap ul li {
+	padding: 0 10px;
+	background-image:url(../../images/common/bullet1.gif);
+	background-repeat: no-repeat;
+	background-position: left 5px;
+}
+
+
+/************** Promobanner **************/
+#promobanner_wrap_zone{
+	height: 68px;
+	padding:8px 0 0;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #87a4bd;
+	background-color:#104a7b;
+}
+#promobanner_wrap{
+	height: 76px;
+/*	width:980px;*/
+	width:920px;
+	margin:0 auto;
+}
+
+#promobanner_wrap a img{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #006940;
+}
+#promobanner_wrap a:hover img{
+	border-color: #8ce1e9;
+}
+#promobanner_wrap .btn_arrow_next,
+#promobanner_wrap .btn_arrow_prev {
+	float:left;
+}
+#promobanner {
+	width:980px;
+	height:60px;
+	float:left;
+	overflow:hidden;
+}
+#promobanner ul {
+	margin:0;
+	padding:0;
+}
+#promobanner ul li{
+	float:left;
+	display:inline;
+	margin:0 10px 0 0 ;
+}
+.promobanner_group{
+	width:300px;
+	float:left;
+	margin-left:10px;
+}
+.promobanner_group:first-child{
+	margin-left:0px;
+}
+
+/************** Calendar **************/
+#activ_cal_wrap{
+	width:194px;
+	right:-170px;
+	top:0;
+	position:absolute;
+	height:738px;
+	z-index:2000;
+	overflow:hidden;
+	font-size: .75em;
+}
+#cal_wrapper{
+	width:150px;	
+	height:100%;
+	overflow:hidden;
+	padding: 65px 10px 0;
+	position:relative;
+	line-height:18px;
+}
+#activ_cal_wrap a.btn_activ_cal{
+	float:left;
+	display:block;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color:transparent;		
+}
+#activ_cal_wrap a.btn_activ_cal:hover{ 
+	background-position: -24px top;
+}
+#activ_cal_wrap a.btn_activ_cal.active{ 
+	background-position: -48px top;
+}
+#activ_cal_wrap a.btn_activ_cal.active:hover{ 
+	background-position: -72px top;
+}
+#activ_cal_wrap #cal_wrap, #activ_cal_wrap #cal_event_wrap{ 
+	width:150px;
+	padding: 70px 10px 0;
+	height:668px;
+	background-color:#98104a;
+	position:absolute;
+	top:0;
+	right:0;
+	
+}
+#activ_cal_wrap #cal_event_wrap{ right:-170px;}
+#cal_wrap .cal_month {
+	width:146px;
+	padding: 0 2px;
+	margin-bottom:15px;
+	float:left;
+	color:#a88e5a;
+	font-weight:400;
+	font-size:1.5em;
+	line-height:18px;
+	font-family: 'Montaga', serif, Times New Roman;
+}
+
+
+
+#cal_wrap .cal_month a.btn_prev,
+#cal_wrap .cal_month a.btn_next {
+	width:20px;
+	height:22px;
+	margin-top:-1px;
+	display:block;
+	float:left;
+	background-image: url(../../images/common/btn_cal_arrow.gif);
+	background-repeat:no-repeat;
+}
+
+#cal_wrap .cal_month a.btn_prev{background-position: left top;}
+#cal_wrap .cal_month a.btn_next{background-position: right top;}
+#cal_wrap .cal_month a.btn_prev:hover{background-position: left bottom;}
+#cal_wrap .cal_month a.btn_next:hover{background-position: right bottom;}
+#cal_wrap .cal_month span {
+	height:22px;
+	width:106px;
+	float:left;
+	text-align: center;	
+}
+
+#cal_wrap .cal_week {
+	width:31px;
+	margin:0 8px 0 24px;
+	float:left;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #ad406e;	
+}
+#cal_wrap .cal_day {
+	width:56px;
+	margin-right:24px;
+	padding-top:5px;
+	float:left;
+}
+
+#cal_wrap .cal_day ul {
+	float:left;
+	margin-right:3px;
+}
+#cal_wrap .cal_day ul li { 
+	width:25px;
+	height:25px;
+	display:block;
+	background-repeat: no-repeat;
+}
+#cal_wrap .cal_day ul li a {
+	width:25px;
+	height:25px;
+	display:block;
+	cursor:default;
+	background-image: url(../../images/common/cal_date.png);
+	background-color:transparent;			
+	background-repeat: no-repeat;
+}
+/*#cal_wrap ul li.today,
+#cal_wrap ul li.today.event{
+	background-image: url(../../images/common/cal_highlight_day.png);
+	background-position: 0 -25px;
+}*/
+#cal_wrap ul li.event{
+	background-image: url(../../images/common/cal_highlight_day.png);
+	background-position: 0 0; 
+}
+#cal_wrap ul li.event:hover{
+	background-position: -25px 0; 
+}
+#cal_wrap ul li.today.event:hover {
+	background-position: -25px 0; 
+}
+#cal_wrap ul li.today a{ cursor:default;}
+#cal_wrap ul li.event a{ cursor:pointer;}
+#cal_wrap ul li.date1 a { background-position: left 0; }
+#cal_wrap ul li.date2 a { background-position: left -25px; }
+#cal_wrap ul li.date3 a { background-position: left -50px; }
+#cal_wrap ul li.date4 a { background-position: left -75px; }
+#cal_wrap ul li.date5 a { background-position: left -100px; }
+#cal_wrap ul li.date6 a { background-position: left -125px; }
+#cal_wrap ul li.date7 a { background-position: left -150px; }
+#cal_wrap ul li.date8 a { background-position: left -175px; }
+#cal_wrap ul li.date9 a { background-position: left -200px; }
+#cal_wrap ul li.date10 a { background-position: left -225px; }
+#cal_wrap ul li.date11 a { background-position: left -250px; }
+#cal_wrap ul li.date12 a { background-position: left -275px; }
+#cal_wrap ul li.date13 a { background-position: left -300px; }
+#cal_wrap ul li.date14 a { background-position: left -325px; }
+#cal_wrap ul li.date15 a { background-position: left -350px; }
+#cal_wrap ul li.date16 a { background-position: left -375px; }
+#cal_wrap ul li.date17 a { background-position: left -400px; }
+#cal_wrap ul li.date18 a { background-position: left -425px; }
+#cal_wrap ul li.date19 a { background-position: left -450px; }
+#cal_wrap ul li.date20 a { background-position: left -475px; }
+#cal_wrap ul li.date21 a { background-position: left -500px; }
+#cal_wrap ul li.date22 a { background-position: left -525px; }
+#cal_wrap ul li.date23 a { background-position: left -550px; }
+#cal_wrap ul li.date24 a { background-position: left -575px; }
+#cal_wrap ul li.date25 a { background-position: left -600px; }
+#cal_wrap ul li.date26 a { background-position: left -625px; }
+#cal_wrap ul li.date27 a { background-position: left -650px; }
+#cal_wrap ul li.date28 a { background-position: left -675px; }
+#cal_wrap ul li.date29 a { background-position: left -700px; }
+#cal_wrap ul li.date30 a { background-position: left -725px; }
+#cal_wrap ul li.date31 a { background-position: left -750px; }
+
+#cal_wrap ul li.today.date1 a { background-position: right 0; }
+#cal_wrap ul li.today.date2 a { background-position: right -25px; }
+#cal_wrap ul li.today.date3 a { background-position: right -50px; }
+#cal_wrap ul li.today.date4 a { background-position: right -75px; }
+#cal_wrap ul li.today.date5 a { background-position: right -100px; }
+#cal_wrap ul li.today.date6 a { background-position: right -125px; }
+#cal_wrap ul li.today.date7 a { background-position: right -150px; }
+#cal_wrap ul li.today.date8 a { background-position: right -175px; }
+#cal_wrap ul li.today.date9 a { background-position: right -200px; }
+#cal_wrap ul li.today.date10 a { background-position: right -225px; }
+#cal_wrap ul li.today.date11 a { background-position: right -250px; }
+#cal_wrap ul li.today.date12 a { background-position: right -275px; }
+#cal_wrap ul li.today.date13 a { background-position: right -300px; }
+#cal_wrap ul li.today.date14 a { background-position: right -325px; }
+#cal_wrap ul li.today.date15 a { background-position: right -350px; }
+#cal_wrap ul li.today.date16 a { background-position: right -375px; }
+#cal_wrap ul li.today.date17 a { background-position: right -400px; }
+#cal_wrap ul li.today.date18 a { background-position: right -425px; }
+#cal_wrap ul li.today.date19 a { background-position: right -450px; }
+#cal_wrap ul li.today.date20 a { background-position: right -475px; }
+#cal_wrap ul li.today.date21 a { background-position: right -500px; }
+#cal_wrap ul li.today.date22 a { background-position: right -525px; }
+#cal_wrap ul li.today.date23 a { background-position: right -550px; }
+#cal_wrap ul li.today.date24 a { background-position: right -575px; }
+#cal_wrap ul li.today.date25 a { background-position: right -600px; }
+#cal_wrap ul li.today.date26 a { background-position: right -625px; }
+#cal_wrap ul li.today.date27 a { background-position: right -650px; }
+#cal_wrap ul li.today.date28 a { background-position: right -675px; }
+#cal_wrap ul li.today.date29 a { background-position: right -700px; }
+#cal_wrap ul li.today.date30 a { background-position: right -725px; }
+#cal_wrap ul li.today.date31 a { background-position: right -750px; }
+
+
+#cal_event_wrap #cal_event_wrap{}
+#cal_event_wrap .event_date {
+	width:142px;
+	text-align:center;
+	padding: 0 4px;
+	margin-bottom:15px;
+/*	float:left;*/
+	color:#a88e5a;
+	font-weight:400;
+	font-size:1.5em;
+	line-height:18px;
+	font-family: 'Montaga', serif, Times New Roman;
+}
+#cal_event_wrap .event_date span {
+	height:22px;
+	width:100%;
+	text-align: center;	
+}
+#cal_event_wrap .cal_detail {
+	padding: 0 5px;
+	height:560px;
+	overflow:hidden;
+}
+#cal_event_wrap .cal_detail a {
+	color:#EACFDB;
+}
+#cal_event_wrap .cal_detail a:hover {
+	color:#fff;
+	text-decoration:underline;
+}
+
+#cal_event_wrap .cal_detail ul li {
+	margin-bottom:15px;
+	padding-top:10px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #ad406e;	
+}
+#cal_event_wrap .cal_detail ul li:first-child{
+	padding:0;
+	border:none;
+}
+#cal_event_wrap .cal_detail h4 {
+	color:#EACFDB;
+	font-size:1.15em; /*14px;*/
+}
+#cal_event_wrap .btn_back{ position:absolute; bottom:25px; left:15px;  background-color:#a88f59; padding-left:15px; padding-right:5px; color:#98104A; font-size: .85em;}
+#cal_event_wrap .btn_back:hover{ color:#fff;}
+#cal_event_wrap .btn_back span{background: url(../../images/common/btn_cal_back_arrow.gif) no-repeat 0 50%; width:9px; height:100%; position:absolute; left:5px; top:0;}
+#cal_event_wrap .btn_back:hover span{ background-position:-9px 50%;}
+#cal_legends{ position:absolute; bottom:20px; left:10px; width:150px; text-align:center;}
+#cal_legends span{ background-image: url(../../images/common/cal_legend.png); width:16px; height:16px; background-repeat:no-repeat; padding-left:16px;  color:#EACFDB; font-size: .98em;letter-spacing:0;}
+#cal_legends span.today_legend{ background-position:0 0; margin-right:10px;}
+#cal_legends span.event_legend{ background-position:0 -16px;}
+
+
+
+
+/* jcarousel css starts */
+/** highlight **/
+
+/** Carousel **/
+#highlights_wrap .jcarousel {
+	position: relative;
+	left:30px;
+	overflow: hidden;
+	height: 70px;
+	width: 610px;
+}
+#highlights_wrap .jcarousel ul {
+	width: 20000em;
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#highlights_wrap .jcarousel li {
+    float: left;
+}
+/** Carousel Controls **/
+#highlights_wrap .jcarousel-control-prev,
+#highlights_wrap .jcarousel-control-next {
+	font-size:0;
+	text-indent:-9999px;
+	cursor: pointer;
+	width:30px;
+	height:70px;
+}
+#highlights_wrap .jcarousel-control-prev {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background:url(../../images/common/btn_arrow.gif) no-repeat 0 0;
+}
+#highlights_wrap .jcarousel-control-prev:hover {
+    background-position: 0 -70px;
+}
+
+#highlights_wrap .jcarousel-control-next {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background:url(../../images/common/btn_arrow.gif) no-repeat 100% 0;
+}
+#highlights_wrap .jcarousel-control-next:hover {
+    background-position: 100% -70px;
+}
+
+#highlights_wrap .jcarousel-control-prev:hover span,
+#highlights_wrap .jcarousel-control-next:hover span {
+    display: block;
+}
+
+#highlights_wrap .jcarousel-control-prev.inactive,
+#highlights_wrap .jcarousel-control-next.inactive {
+    cursor: default;
+}
+#highlights_wrap .jcarousel-control-next.inactive {
+    background-position: 100% -140px;
+}
+#highlights_wrap .jcarousel-control-prev.inactive {
+    background-position: 0 -140px;
+}
+
+/** cal_event **/
+/** Carousel **/
+#cal_event_wrap .jcarousel {
+	position: relative;
+	/*left:30px;*/
+	top: 30px;
+	overflow: hidden;
+	height:480px;
+}
+#cal_event_wrap .jcarousel ul {
+	height: 36em;
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#cal_event_wrap .jcarousel li {
+    float: left;
+}
+/** Carousel Controls **/
+#cal_event_wrap .jcarousel-control-prev,
+#cal_event_wrap .jcarousel-control-next {
+	font-size:0;
+	text-indent:-9999px;
+	cursor: pointer;
+	width:20px;
+	height:18px;
+}
+#cal_event_wrap .jcarousel-control-prev {
+	position: absolute;
+	top: 104px;
+	left: 70px;
+	background:url(../../images/common/btn_cal_date_arrow.gif) no-repeat 0 0;
+}
+#cal_event_wrap .jcarousel-control-prev:hover {
+    background-position: -21px 0;
+}
+
+#cal_event_wrap .jcarousel-control-next {
+	position: absolute;
+	top: 645px;
+	right: 70px;
+	background:url(../../images/common/btn_cal_date_arrow.gif) no-repeat 0 -18px;
+}
+#cal_event_wrap .jcarousel-control-next:hover {
+    background-position: -21px -18px;
+}
+
+#cal_event_wrap .jcarousel-control-prev:hover span,
+#cal_event_wrap .jcarousel-control-next:hover span {
+    display: block;
+}
+
+#cal_event_wrap .jcarousel-control-prev.inactive,
+#cal_event_wrap .jcarousel-control-next.inactive {
+    cursor: default;
+}
+#cal_event_wrap .jcarousel-control-next.inactive {
+    background-position: -42px -18px;
+}
+#cal_event_wrap .jcarousel-control-prev.inactive {
+    background-position: -42px 0;
+}
+
+/* jcarousel css ends */
+
+/* CSS Styles for jScrollPane */
+.jspContainer{overflow:hidden;position:relative}
+.jspPane{position:absolute}
+.jspVerticalBar{position:absolute;top:0;right:0;width:12px;height:100%;}
+.jspHorizontalBar{position:absolute;bottom:0;left:0;width:100%;height:16px;}
+.jspVerticalBar *,.jspHorizontalBar *{margin:0;padding:0}
+.jspCap{display:none}
+.jspHorizontalBar .jspCap{float:left}
+.jspTrack{position:relative}
+.jspDrag{	background-image:url(../../images/common/btn_scroll.gif);
+	background-repeat: no-repeat;
+	background-position: left top;position:relative;top:0;left:0;cursor:pointer}
+.jspHorizontalBar .jspTrack,.jspHorizontalBar .jspDrag{float:left;height:100%}
+.jspHorizontalBar .jspTrack{background:#dde}
+.jspHorizontalBar .jspDrag{background:#bbd}
+.jspArrow{background:#50506d;text-indent:-20000px;display:block;cursor:pointer}
+.jspArrow.jspDisabled{cursor:default;background:#80808d}
+.jspVerticalBar .jspArrow{height:16px;width:10px}
+.jspHorizontalBar .jspArrow{width:16px;float:left;height:100%}
+.jspVerticalBar .jspArrow:focus{outline:none}
+.jspCorner{background:#eeeef4;float:left;height:100%}
+* html .jspCorner{margin:0 -3px 0 0}/*CSS Hack for IE6 3 pixel bug */
+.dragLeft{background:red!important}
+.dragRight{background:blue!important}
+/* CSS Styles for jScrollPane ends */
+
+
+
+#news_wrap .scrollbar{
+	height:70px;
+	width:29px;
+	float:left;
+}
+#news_wrap .scrollbar a.btn_scroll{
+	height:30px;
+	width:12px;
+	display:block;
+	background-image:url(../../images/common/btn_scroll.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#news_wrap .scrollbar a:hover.btn_scroll{
+	background-position: right top;
+}
+
+/* popup overlay */
+#popup_trigger{
+	display:none;
+}
+#popup_content{
+	display:none;
+	min-width:300px;
+	min-height:100px;
+	max-width:600px;
+	max-height:400px;
+	overflow:auto;
+	overflow-x:hidden;
+}
+
+/*news*/
+#news_wrap{
+	position:relative;
+}
+#a_up,
+#a_down{
+	width:15px;
+	height:10px;
+	display:block;
+	position:absolute;
+	right:15px;
+}
+#a_up{
+	background:url(../../images/common/btn_index_scroll_up.gif) no-repeat 0 0;
+	top:45px;;
+}
+#a_down{
+	background:url(../../images/common/btn_index_scroll_down.gif) no-repeat 0 0;
+	bottom:15px;
+}
+#a_up:hover,
+#a_down:hover{
+	background-position:left bottom;
+}

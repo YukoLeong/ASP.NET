@@ -1,0 +1,193 @@
+c:\users\cma\documents\visual studio 2010\projects\ep\ep\bin\ep.dll
+c:\users\cma\documents\visual studio 2010\projects\ep\ep\bin\ep.pdb
+c:\users\cma\documents\visual studio 2010\projects\ep\ep\bin\ep.xml
+c:\users\cma\documents\visual studio 2010\projects\ep\ep\obj\Debug\ResolveAssemblyReference.cache
+c:\users\cma\documents\visual studio 2010\projects\ep\ep\obj\Debug\ep.Resources.resources
+c:\users\cma\documents\visual studio 2010\projects\ep\ep\obj\Debug\GenerateResource.read.1.tlog
+c:\users\cma\documents\visual studio 2010\projects\ep\ep\obj\Debug\GenerateResource.write.1.tlog
+c:\users\cma\documents\visual studio 2010\projects\ep\ep\obj\Debug\ep.dll
+c:\users\cma\documents\visual studio 2010\projects\ep\ep\obj\Debug\ep.xml
+c:\users\cma\documents\visual studio 2010\projects\ep\ep\obj\Debug\ep.pdb
+C:\Users\cma\Documents\Visual Studio 2010\Projects\ep\ep\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\cma\Documents\Visual Studio 2010\Projects\ep\ep\bin\AjaxControlToolkit.pdb
+C:\Users\cma\Documents\Visual Studio 2010\Projects\ep\ep\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\cma\Documents\Visual Studio 2010\Projects\ep\ep\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\cma\Documents\Visual Studio 2010\Projects\ep\ep\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\cma\Documents\Visual Studio 2010\Projects\ep\ep\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\cma\Documents\Visual Studio 2010\Projects\ep\ep\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\cma\Documents\Visual Studio 2010\Projects\ep\ep\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\cma\Documents\Visual Studio 2010\Projects\ep\ep\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\cma\Documents\Visual Studio 2010\Projects\ep\ep\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\cma\Documents\Visual Studio 2010\Projects\ep\ep\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\cma\Documents\Visual Studio 2010\Projects\ep\ep\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\cma\Documents\Visual Studio 2010\Projects\ep\ep\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\cma\Documents\Visual Studio 2010\Projects\ep\ep\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\cma\Documents\Visual Studio 2010\Projects\ep\ep\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\cma\Documents\Visual Studio 2010\Projects\ep\ep\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\cma\Documents\Visual Studio 2010\Projects\ep\ep\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\cma\Documents\Visual Studio 2010\Projects\ep\ep\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\cma\Documents\Visual Studio 2010\Projects\ep\ep\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\ep\ep\bin\ep.dll
+C:\ep\ep\bin\ep.pdb
+C:\ep\ep\bin\ep.xml
+C:\ep\ep\bin\Microsoft.WindowsAzure.Storage.dll
+C:\ep\ep\bin\AjaxControlToolkit.pdb
+C:\ep\ep\bin\Microsoft.WindowsAzure.Storage.xml
+C:\ep\ep\bin\ar\AjaxControlToolkit.resources.dll
+C:\ep\ep\bin\cs\AjaxControlToolkit.resources.dll
+C:\ep\ep\bin\de\AjaxControlToolkit.resources.dll
+C:\ep\ep\bin\es\AjaxControlToolkit.resources.dll
+C:\ep\ep\bin\fr\AjaxControlToolkit.resources.dll
+C:\ep\ep\bin\he\AjaxControlToolkit.resources.dll
+C:\ep\ep\bin\hi\AjaxControlToolkit.resources.dll
+C:\ep\ep\bin\it\AjaxControlToolkit.resources.dll
+C:\ep\ep\bin\ja\AjaxControlToolkit.resources.dll
+C:\ep\ep\bin\ko\AjaxControlToolkit.resources.dll
+C:\ep\ep\bin\nl\AjaxControlToolkit.resources.dll
+C:\ep\ep\bin\pt\AjaxControlToolkit.resources.dll
+C:\ep\ep\bin\ru\AjaxControlToolkit.resources.dll
+C:\ep\ep\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\ep\ep\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\ep\ep\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\ep\ep\obj\Debug\ResolveAssemblyReference.cache
+C:\ep\ep\obj\Debug\ep.Resources.resources
+C:\ep\ep\obj\Debug\GenerateResource.read.1.tlog
+C:\ep\ep\obj\Debug\GenerateResource.write.1.tlog
+C:\ep\ep\obj\Debug\ep.dll
+C:\ep\ep\obj\Debug\ep.xml
+C:\ep\ep\obj\Debug\ep.pdb
+C:\pro\ep\ep\bin\ep.dll
+C:\pro\ep\ep\bin\ep.pdb
+C:\pro\ep\ep\bin\ep.xml
+C:\pro\ep\ep\obj\Debug\ResolveAssemblyReference.cache
+C:\pro\ep\ep\obj\Debug\ep.Resources.resources
+C:\pro\ep\ep\obj\Debug\GenerateResource.read.1.tlog
+C:\pro\ep\ep\obj\Debug\GenerateResource.write.1.tlog
+C:\pro\ep\ep\obj\Debug\ep.dll
+C:\pro\ep\ep\obj\Debug\ep.xml
+C:\pro\ep\ep\obj\Debug\ep.pdb
+C:\pro\ep\ep\obj\Debug\RdlCompile.cache
+C:\pro\ep\ep\obj\Debug\RdlCompile.compiled
+C:\VB\App_Code\ep\ep\bin\ep.dll
+C:\VB\App_Code\ep\ep\bin\ep.pdb
+C:\VB\App_Code\ep\ep\bin\ep.xml
+C:\VB\App_Code\ep\ep\obj\Debug\ResolveAssemblyReference.cache
+C:\VB\App_Code\ep\ep\obj\Debug\ep.Resources.resources
+C:\VB\App_Code\ep\ep\obj\Debug\GenerateResource.read.1.tlog
+C:\VB\App_Code\ep\ep\obj\Debug\GenerateResource.write.1.tlog
+C:\VB\App_Code\ep\ep\obj\Debug\RdlCompile.cache
+C:\VB\App_Code\ep\ep\obj\Debug\RdlCompile.compiled
+C:\VB\App_Code\ep\ep\obj\Debug\ep.dll
+C:\VB\App_Code\ep\ep\obj\Debug\ep.xml
+C:\VB\App_Code\ep\ep\obj\Debug\ep.pdb
+C:\Users\User\Desktop\ep\ep\bin\ep.dll
+C:\Users\User\Desktop\ep\ep\bin\ep.pdb
+C:\Users\User\Desktop\ep\ep\bin\ep.xml
+C:\Users\User\Desktop\ep\ep\obj\Debug\ep.vbprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\ep\ep\obj\Debug\ep.Resources.resources
+C:\Users\User\Desktop\ep\ep\obj\Debug\ep.vbproj.GenerateResource.Cache
+C:\Users\User\Desktop\ep\ep\obj\Debug\RdlCompile.cache
+C:\Users\User\Desktop\ep\ep\obj\Debug\RdlCompile.compiled
+C:\Users\User\Desktop\ep\ep\obj\Debug\ep.dll
+C:\Users\User\Desktop\ep\ep\obj\Debug\ep.xml
+C:\Users\User\Desktop\ep\ep\obj\Debug\ep.pdb
+C:\Users\User\Desktop\新增資料夾 (33)\ep\ep\bin\ep.dll
+C:\Users\User\Desktop\新增資料夾 (33)\ep\ep\bin\ep.pdb
+C:\Users\User\Desktop\新增資料夾 (33)\ep\ep\bin\ep.xml
+C:\Users\User\Desktop\新增資料夾 (33)\ep\ep\obj\Debug\ep.vbprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\新增資料夾 (33)\ep\ep\obj\Debug\ep.Resources.resources
+C:\Users\User\Desktop\新增資料夾 (33)\ep\ep\obj\Debug\ep.vbproj.GenerateResource.Cache
+C:\Users\User\Desktop\新增資料夾 (33)\ep\ep\obj\Debug\RdlCompile.cache
+C:\Users\User\Desktop\新增資料夾 (33)\ep\ep\obj\Debug\RdlCompile.compiled
+C:\Users\User\Desktop\新增資料夾 (33)\ep\ep\obj\Debug\ep.dll
+C:\Users\User\Desktop\新增資料夾 (33)\ep\ep\obj\Debug\ep.xml
+C:\Users\User\Desktop\新增資料夾 (33)\ep\ep\obj\Debug\ep.pdb
+C:\usbwebsever\ep\ep\bin\ep.dll
+C:\usbwebsever\ep\ep\bin\ep.pdb
+C:\usbwebsever\ep\ep\bin\ep.xml
+C:\usbwebsever\ep\ep\obj\Debug\ResolveAssemblyReference.cache
+C:\usbwebsever\ep\ep\obj\Debug\ep.Resources.resources
+C:\usbwebsever\ep\ep\obj\Debug\GenerateResource.read.1.tlog
+C:\usbwebsever\ep\ep\obj\Debug\GenerateResource.write.1.tlog
+C:\usbwebsever\ep\ep\obj\Debug\RdlCompile.cache
+C:\usbwebsever\ep\ep\obj\Debug\RdlCompile.compiled
+C:\usbwebsever\ep\ep\obj\Debug\ep.dll
+C:\usbwebsever\ep\ep\obj\Debug\ep.xml
+C:\usbwebsever\ep\ep\obj\Debug\ep.pdb
+C:\Users\User\Desktop\新增資料夾 (4)\ep\ep\obj\Debug\ep.vbprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\新增資料夾 (4)\ep\ep\obj\Debug\ep.Resources.resources
+C:\Users\User\Desktop\新增資料夾 (4)\ep\ep\obj\Debug\ep.vbproj.GenerateResource.Cache
+C:\Users\User\Desktop\新增資料夾 (4)\ep\ep\obj\Debug\RdlCompile.cache
+C:\Users\User\Desktop\新增資料夾 (4)\ep\ep\obj\Debug\RdlCompile.compiled
+C:\Users\User\Desktop\新增資料夾 (4)\ep\ep\obj\Debug\ep.dll
+C:\Users\User\Desktop\新增資料夾 (4)\ep\ep\obj\Debug\ep.xml
+C:\Users\User\Desktop\新增資料夾 (4)\ep\ep\obj\Debug\ep.pdb
+C:\Users\User\Desktop\新增資料夾 (4)\ep\ep\bin\ep.dll
+C:\Users\User\Desktop\新增資料夾 (4)\ep\ep\bin\ep.pdb
+C:\Users\User\Desktop\新增資料夾 (4)\ep\ep\bin\ep.xml
+C:\Users\User\Desktop\original\ep\ep\bin\ep.dll
+C:\Users\User\Desktop\original\ep\ep\bin\ep.pdb
+C:\Users\User\Desktop\original\ep\ep\bin\ep.xml
+C:\Users\User\Desktop\original\ep\ep\obj\Debug\ep.vbprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\original\ep\ep\obj\Debug\ep.Resources.resources
+C:\Users\User\Desktop\original\ep\ep\obj\Debug\ep.vbproj.GenerateResource.Cache
+C:\Users\User\Desktop\original\ep\ep\obj\Debug\RdlCompile.cache
+C:\Users\User\Desktop\original\ep\ep\obj\Debug\RdlCompile.compiled
+C:\Users\User\Desktop\original\ep\ep\obj\Debug\ep.dll
+C:\Users\User\Desktop\original\ep\ep\obj\Debug\ep.xml
+C:\Users\User\Desktop\original\ep\ep\obj\Debug\ep.pdb
+C:\Users\User\Desktop\新增資料夾 (11)\ep\ep\bin\ep.dll
+C:\Users\User\Desktop\新增資料夾 (11)\ep\ep\bin\ep.pdb
+C:\Users\User\Desktop\新增資料夾 (11)\ep\ep\bin\ep.xml
+C:\Users\User\Desktop\新增資料夾 (11)\ep\ep\obj\Debug\ep.vbprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\新增資料夾 (11)\ep\ep\obj\Debug\ep.Resources.resources
+C:\Users\User\Desktop\新增資料夾 (11)\ep\ep\obj\Debug\ep.vbproj.GenerateResource.Cache
+C:\Users\User\Desktop\新增資料夾 (11)\ep\ep\obj\Debug\RdlCompile.cache
+C:\Users\User\Desktop\新增資料夾 (11)\ep\ep\obj\Debug\RdlCompile.compiled
+C:\Users\User\Desktop\新增資料夾 (11)\ep\ep\obj\Debug\ep.dll
+C:\Users\User\Desktop\新增資料夾 (11)\ep\ep\obj\Debug\ep.xml
+C:\Users\User\Desktop\新增資料夾 (11)\ep\ep\obj\Debug\ep.pdb
+C:\Users\User\Desktop\新增資料夾 (12)\ep\ep\bin\ep.dll
+C:\Users\User\Desktop\新增資料夾 (12)\ep\ep\bin\ep.pdb
+C:\Users\User\Desktop\新增資料夾 (12)\ep\ep\bin\ep.xml
+C:\Users\User\Desktop\新增資料夾 (12)\ep\ep\obj\Debug\ep.vbprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\新增資料夾 (12)\ep\ep\obj\Debug\ep.Resources.resources
+C:\Users\User\Desktop\新增資料夾 (12)\ep\ep\obj\Debug\ep.vbproj.GenerateResource.Cache
+C:\Users\User\Desktop\新增資料夾 (12)\ep\ep\obj\Debug\RdlCompile.cache
+C:\Users\User\Desktop\新增資料夾 (12)\ep\ep\obj\Debug\RdlCompile.compiled
+C:\Users\User\Desktop\新增資料夾 (12)\ep\ep\obj\Debug\ep.dll
+C:\Users\User\Desktop\新增資料夾 (12)\ep\ep\obj\Debug\ep.xml
+C:\Users\User\Desktop\新增資料夾 (12)\ep\ep\obj\Debug\ep.pdb
+C:\Users\User\Desktop\新增資料夾 (17)\ep\ep\bin\ep.dll
+C:\Users\User\Desktop\新增資料夾 (17)\ep\ep\bin\ep.pdb
+C:\Users\User\Desktop\新增資料夾 (17)\ep\ep\bin\ep.xml
+C:\Users\User\Desktop\新增資料夾 (17)\ep\ep\obj\Debug\ep.vbprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\新增資料夾 (17)\ep\ep\obj\Debug\ep.Resources.resources
+C:\Users\User\Desktop\新增資料夾 (17)\ep\ep\obj\Debug\ep.vbproj.GenerateResource.Cache
+C:\Users\User\Desktop\新增資料夾 (17)\ep\ep\obj\Debug\RdlCompile.cache
+C:\Users\User\Desktop\新增資料夾 (17)\ep\ep\obj\Debug\RdlCompile.compiled
+C:\Users\User\Desktop\新增資料夾 (17)\ep\ep\obj\Debug\ep.dll
+C:\Users\User\Desktop\新增資料夾 (17)\ep\ep\obj\Debug\ep.xml
+C:\Users\User\Desktop\新增資料夾 (17)\ep\ep\obj\Debug\ep.pdb
+C:\Users\User\Desktop\新增資料夾 (10)\ep\ep\bin\ep.dll
+C:\Users\User\Desktop\新增資料夾 (10)\ep\ep\bin\ep.pdb
+C:\Users\User\Desktop\新增資料夾 (10)\ep\ep\bin\ep.xml
+C:\Users\User\Desktop\新增資料夾 (10)\ep\ep\obj\Debug\ep.vbprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\新增資料夾 (10)\ep\ep\obj\Debug\ep.Resources.resources
+C:\Users\User\Desktop\新增資料夾 (10)\ep\ep\obj\Debug\ep.vbproj.GenerateResource.Cache
+C:\Users\User\Desktop\新增資料夾 (10)\ep\ep\obj\Debug\RdlCompile.cache
+C:\Users\User\Desktop\新增資料夾 (10)\ep\ep\obj\Debug\RdlCompile.compiled
+C:\Users\User\Desktop\新增資料夾 (10)\ep\ep\obj\Debug\ep.dll
+C:\Users\User\Desktop\新增資料夾 (10)\ep\ep\obj\Debug\ep.xml
+C:\Users\User\Desktop\新增資料夾 (10)\ep\ep\obj\Debug\ep.pdb
+C:\Users\User\Desktop\新增資料夾 (15)\ep\ep\bin\ep.dll
+C:\Users\User\Desktop\新增資料夾 (15)\ep\ep\bin\ep.pdb
+C:\Users\User\Desktop\新增資料夾 (15)\ep\ep\bin\ep.xml
+C:\Users\User\Desktop\新增資料夾 (15)\ep\ep\obj\Debug\ep.vbprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\新增資料夾 (15)\ep\ep\obj\Debug\ep.Resources.resources
+C:\Users\User\Desktop\新增資料夾 (15)\ep\ep\obj\Debug\ep.vbproj.GenerateResource.Cache
+C:\Users\User\Desktop\新增資料夾 (15)\ep\ep\obj\Debug\RdlCompile.cache
+C:\Users\User\Desktop\新增資料夾 (15)\ep\ep\obj\Debug\RdlCompile.compiled
+C:\Users\User\Desktop\新增資料夾 (15)\ep\ep\obj\Debug\ep.dll
+C:\Users\User\Desktop\新增資料夾 (15)\ep\ep\obj\Debug\ep.xml
+C:\Users\User\Desktop\新增資料夾 (15)\ep\ep\obj\Debug\ep.pdb

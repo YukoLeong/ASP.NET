@@ -1,0 +1,6 @@
+D:\Dropbox\kanon\Visual Studio 2013\Projects\WizardControl\WizardControl\bin\WizardControl.dll.config
+D:\Dropbox\kanon\Visual Studio 2013\Projects\WizardControl\WizardControl\bin\WizardControl.dll
+D:\Dropbox\kanon\Visual Studio 2013\Projects\WizardControl\WizardControl\bin\WizardControl.pdb
+D:\Dropbox\kanon\Visual Studio 2013\Projects\WizardControl\WizardControl\obj\Debug\WizardControl.csprojResolveAssemblyReference.cache
+D:\Dropbox\kanon\Visual Studio 2013\Projects\WizardControl\WizardControl\obj\Debug\WizardControl.dll
+D:\Dropbox\kanon\Visual Studio 2013\Projects\WizardControl\WizardControl\obj\Debug\WizardControl.pdb

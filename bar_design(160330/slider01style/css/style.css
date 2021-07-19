@@ -1,0 +1,286 @@
+﻿@charset "utf-8";
+
+
+
+
+/*----------------------------------------------------
+	汎用class
+----------------------------------------------------*/
+
+.FloatEnd {clear:both;}
+
+a.hv {
+    background-color:#f8f6f1;
+    display:block;
+    }
+a.hv img{
+    transition:all 0.3s ease;
+    }
+a:hover.hv img{
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    }
+
+.khk1 {
+margin: 0 0 15px 0;
+}
+
+.text1 {
+margin: 3px 25px;
+}
+.text2 {
+margin: 3px 10px;
+}
+
+
+ul#leftli li {
+background: url(../../img/icon.html) no-repeat 4px 8px;
+padding: 5px 5px 5px 22px;
+border-top: 1px dashed #72cff2;
+}
+ul#leftli li:first-child {
+border: none;
+}
+
+
+h1, h2 {
+font-size: 40px;
+font-family: 'Noticia Text', serif;
+padding: 20px 0 20px 100px;
+text-align: left;
+}
+
+h1 {
+width: 680px;
+background: url(../../img/news_md.png) no-repeat center center;
+}
+
+h2 {
+width: 1100px;
+background: url(../../img/md_bg.png) no-repeat center center;
+}
+
+h3 {
+border-bottom: 3px #5f3521 solid;
+border-left: 8px #c1155e solid;
+padding: 0 0 0 10px;
+margin: 0 0 5px 0;
+}
+
+#mainbox #boxR p,
+#mainbox p {
+margin: 0 0 3px 10px;
+}
+
+/*----------------------------------------------------
+	#page
+----------------------------------------------------*/
+
+#page {
+width: 100%;
+height: auto !important;
+height: 100%;
+min-height: 100%;
+}
+.area {
+width: 1200px;
+margin: 0 auto;
+}
+
+/*----------------------------------------------------
+	#header
+----------------------------------------------------*/
+
+#header {
+background: #fff;
+height: 95px;
+padding: 15px 0 0 0;
+}
+
+#header .logo{
+width: 284px;
+height: 80px;
+float: left;
+}
+
+#header ul {
+width: 916px;
+float: left;
+}
+#header ul li {
+height: 80px;
+float: left;
+}
+
+#headerline {
+background: url(../../img/header_bottom_bg.png) repeat-x center top;
+height: 15px;
+clear: both;
+}
+
+/*----------------------------------------------------
+	#navi
+----------------------------------------------------*/
+
+#navi {
+background: url(../../img/navi_bg.html) no-repeat center top;
+width: 1200px;
+height: 76px;
+margin: 0 0 10px 0;
+}
+#navi ul {
+width: 1076px;
+margin: 0 auto;
+}
+#navi ul li {
+float: left;
+}
+
+/*----------------------------------------------------
+	#topvisual
+----------------------------------------------------*/
+#tvbox {
+paddin: 20px 0;
+}
+
+#topvisual {
+width: 1200px;
+height: 580px;
+margin: 0 auto;
+background:#fff;
+overflow: hidden;
+-moz-box-shadow: 0px 0px 4px #d9ccc5;
+-webkit-box-shadow: 0px 0px 4px #d9ccc5;
+box-shadow: 0px 0px 4px #d9ccc5;
+}
+
+/*----------------------------------------------------
+	#contents
+----------------------------------------------------*/
+
+#contents {
+background: url(../../img/bg1.gif) center top;
+padding: 10px 0 20px 0;
+}
+
+#contentsL {
+width: 400px;
+float: left;
+padding: 20px 0 0 0;
+}
+
+#contentsR {
+width: 780px;
+float: right;
+padding: 10px 0 0 0;
+}
+
+#tbox1 {
+width: 400px;
+height: 53px;
+background: url(../../img/twitter_header.png) no-repeat center top;
+}
+#tbox2 {
+width: 400px;
+background: url(../../img/twitter_inner.gif) repeat-y center top;
+}
+#tbox3 {
+width: 400px;
+height: 30px;
+background: url(../../img/twitter_bottom.png) no-repeat center top;
+}
+#tbox2 .inner {
+width: 370px;
+margin: 0 auto;
+}
+
+#news {
+width: 720px;
+margin: 0 0 30px 60px;
+text-align: left;
+}
+
+#topbanner {
+width: 780px;
+}
+#topbanner ul {
+list-style: none;
+margin: 0 -16px 0 0;
+width: 796px;
+overflow: hidden;
+}
+#topbanner ul li {
+margin: 0 16px 15px 0;
+float: left;
+}
+
+
+#mainbox {
+width: 1100px;
+margin: 0 auto 20px;
+background:#fff;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+-moz-box-shadow: 0px 0px 3px #d9ccc5;
+-webkit-box-shadow: 0px 0px 3px #d9ccc5;
+box-shadow: 0px 0px 3px #d9ccc5;
+}
+#mainbox .inner {
+text-align: left;
+width: 1020px;
+margin: 0 auto;
+padding: 30px 0;
+}
+
+#mainbox #boxL {
+width: 283px;
+float: left;
+}
+#mainbox #boxR {
+width: 710px;
+float: right;
+}
+
+/*----------------------------------------------------
+	#footer
+----------------------------------------------------*/
+
+#footerline {
+width: 100%;
+background: url(../../img/footer_top_bg.png) repeat-x center top;
+height: 7px;
+}
+
+#footer {
+width: 100%;
+padding: 25px 0;
+}
+
+#footer .area {
+text-align: center;
+width: 1200px;
+margin: 0 auto;
+}
+
+
+/*----------------------------------------------------
+	#gallery
+----------------------------------------------------*/
+
+#galleryBox {
+height: 800px;
+}
+
+/*----------------------------------------------------
+	#infomation
+----------------------------------------------------*/
+
+#mailbox {
+width: 700px;
+margin: 0 auto;
+}
+
+
+
+

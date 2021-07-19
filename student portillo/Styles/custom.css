@@ -1,0 +1,79 @@
+﻿.form-header
+{
+    font-size:13px;
+    text-align:center; 
+}
+
+.app-footer
+{
+    font-size:12px;
+}
+
+
+.app-header
+{
+    
+}
+
+.step-bar
+{
+    color:White;
+    font-size:13.5px;
+    text-align:center;  
+    background-color:#006633;    
+    font-weight:bold;
+    text-shadow: 0 1px 0 #151313;
+}
+
+.alert-msg
+{
+    color:Red;
+    font-size:14px;
+    opacity:0;
+}
+
+.desc-msg
+{
+    color:#006699;
+    font-size:12px;
+}
+
+.field-container-cust
+{
+    border-bottom-color: rgba(0,0,0,.15);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-top-color: rgba(0,0,0,.15);
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding: .8em 0;
+}
+
+.field-container-cust-2
+{
+    border-top-color: rgba(0,0,0,.15);
+    border-top-width: 2px;
+    border-top-style: solid;
+    padding: .8em 0;
+}
+
+.ui-mobile .input-label
+{
+   font-weight:bold;
+}
+
+.notic-details ol
+{   
+    font-size:14px;
+}
+.notic-details
+{
+    padding: .8em 0;
+    color:black;
+    background-color:#FFECB0;
+    
+    border-color: rgba(0,0,0,.15);
+    border-width: 1px;
+    border-style: solid;
+    padding: .8em 0;    
+}

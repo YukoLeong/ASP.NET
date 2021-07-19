@@ -1,0 +1,66 @@
+
+ul#nav{
+	margin: 0 auto;
+	padding:0;		
+	width:915px;
+	z-index:500;
+}
+ul#nav li{
+	margin:0;
+	padding:0;
+	float:left;
+	list-style-type: none;
+	display: inline-block;
+}
+
+ul#nav li a{
+	height:31px;
+	display:block;
+	background-image:url(../../images/en/nav.gif);
+	background-repeat: no-repeat;
+}
+
+ul#nav li.about_mpi a {
+	width:109px; 
+	background-position:0 top;
+}
+ul#nav li.prospective_students a {
+	width:194px; 
+	background-position:-109px top;
+}
+ul#nav li.teaching_learning a {
+	width:190px; 
+	background-position:-303px top;
+}
+ul#nav li.research a {
+	width:97px; 
+	background-position:-493px top;
+}
+ul#nav li.library a {
+	width:83px; 
+	background-position:-590px top;
+}
+ul#nav li.facilities a {
+	width:97px; 
+	background-position:-673px top;
+}
+ul#nav li.academic_units a {
+	width:145px; 
+	background-position:-770px top;
+}
+
+ul#nav li.about_mpi a:hover,
+ul#nav li.about_mpi a.selected, ul#nav li.about_mpi a.active {background-position:0 bottom;}
+ul#nav li.prospective_students a:hover,
+ul#nav li.prospective_students a.selected, ul#nav li.prospective_students a.active {background-position:-109px bottom;}
+ul#nav li.teaching_learning a:hover,
+ul#nav li.teaching_learning a.selected, ul#nav li.teaching_learning a.active {background-position:-303px bottom;}
+ul#nav li.research a:hover,
+ul#nav li.research a.selected, ul#nav li.research a.active{background-position:-493px bottom;}
+ul#nav li.library a:hover,
+ul#nav li.library a.selected, ul#nav li.library a.active {background-position:-590px bottom;}
+ul#nav li.facilities a:hover,
+ul#nav li.facilities a.selected, ul#nav li.facilities a.active {background-position:-673px bottom;}
+ul#nav li.academic_units a:hover,
+ul#nav li.academic_units a.selected, ul#nav li.academic_units a.active  {background-position:-770px bottom;}
+

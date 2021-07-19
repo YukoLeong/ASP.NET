@@ -1,0 +1,43 @@
+﻿.ui-navbar li .ui-btn
+{
+    font-size:12px;
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;    
+}
+
+.ui-listview .school-name-dev
+{
+    font-size:17px;
+    text-align:center;
+    padding:10px 0px 10px 0px;
+    background-color:#156AEB;
+    color:white;
+    text-shadow: 0 1px 0 #151313;
+    
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
+}
+
+
+.ui-listview .curs-chosen
+{    
+    color:Gray;
+    padding-left: 2.5em !important;
+    padding-right: 1em !important;    
+}
+
+.c2-clear-btn
+{
+    color:red;
+    font-size:12px;
+}
+
+.ui-listview .curs-list
+{
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
+}
+

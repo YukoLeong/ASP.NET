@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/* Selectbox Styles
+=================================*/
+
+a.sctble_display {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	color: #262626;
+	text-decoration: none;
+	cursor: default;
+}
+
+	a.sctble_display span {
+		font-family:MS UI Gothic, "‚l‚r ‚oƒSƒVƒbƒN", Osaka, "ƒqƒ‰ƒMƒmŠpƒS Pro W3";
+		display: block;
+		width: 117px;
+		cursor: default;
+	}
+	
+
+/* Pulldown Mat (Basis)
+=================================*/
+
+div.sctble_mat {
+	/*border: solid #dfdfdf 1px;*/
+	border-top: none;
+	border-left: none;
+	background: #eee;
+}
+
+	div.sctble_mat dl {
+		margin: 0;
+		border: solid #999 1px;
+		border-top: none;
+		border-left: none;
+		padding: 1em 1em 0;
+	}
+	
+		div.sctble_mat dl dt {
+			float: left;
+			margin: 0 0 1em 0 !important;
+			border: none !important;
+			padding: 0 !important;
+			width: 4.5em;
+			color: #333;
+			font-weight: bold;
+		}
+		
+		div.sctble_mat dl dd {
+			margin: 0 0 1em 4.5em !important;
+			border-left: solid #333 2px !important;
+			padding: 0 0 0 1.5em !important;
+		}
+
+	div.sctble_mat a {
+		font-family:MS UI Gothic, "‚l‚r ‚oƒSƒVƒbƒN", Osaka, "ƒqƒ‰ƒMƒmŠpƒS Pro W3";
+		display:block;
+		width:160px;
+		float:left;
+		color: #1972ea;
+		font-weight: normal;
+	}
+	/*
+	div.sctble_mat a {
+		padding-right:20px;
+		color: #1972ea;
+		font-weight: normal;
+	}
+	*/
+	
+	div.sctble_mat a.selected {
+		color: #333;
+		text-decoration: none;
+		cursor: default;
+	}
+	
+/* Pulldown Mat (No Optgroups)
+=================================*/
+	
+div.sctble_mat.nooptg p {
+	border: solid #999 1px;
+	border-top: none;
+	border-left: none;
+	padding: .5em 1em;
+	line-height: 1.9;
+}
+
+
+
+
+

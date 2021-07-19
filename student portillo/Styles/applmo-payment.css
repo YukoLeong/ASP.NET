@@ -1,0 +1,26 @@
+﻿        .confirm-msg
+        {
+            border-style:solid;
+            padding-right:3px;
+            padding-left:3px;
+            padding-bottom:0px;
+            border-color: rgba(0,0,0,.15);
+            border-width: 1px;
+            border-style: solid; 
+            color:#1D71EF;  
+        }
+        
+        .show-fee
+        {
+            font-size:14px;
+        }
+        .appl-fee-1
+        {
+           font-weight:bold;
+           border-bottom:1px;           
+           border-style:solid;
+        }        
+        .appl-fee-2
+        {
+           font-weight:bold;
+        }     

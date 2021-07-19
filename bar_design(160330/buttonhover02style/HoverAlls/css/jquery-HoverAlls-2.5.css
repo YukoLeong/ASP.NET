@@ -1,0 +1,267 @@
+/*********************************************************************************************/
+/* $HoverAlls v2.5.1 || Crusader 12 || Exclusive to CodeCanyon								 */
+/* HOVERALLS MASTER STYLES
+/*********************************************************************************************/	
+@charset "utf-8"; 
+.hv_B, .hv_text, .hv_PN, .hv_TSP, .hv_TT, #hv_O, .hv_LB, .hv_AL, .hv_LB_img {
+-o-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0);
+-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;}
+.hv_C { overflow:hidden; position:relative; padding:0px; }  
+.hv_B { position:absolute; } 
+.hv_text { margin-top:0px;	margin-bottom:0px; position:relative; } 
+.hv_PN { margin:0px; position:fixed; z-index:999999999; }
+.hv_TSP { padding:0px 10px; } 
+.hv_TT { position:absolute; z-index:999998; } 
+#hv_O {	width:100%;	height:100%; position:fixed; top:0px; left:0px; z-index:999999999; visibility:hidden; cursor:pointer; opacity:0; filter:alpha(opacity=0); } 
+.hv_LB, .hv_AL { position:fixed; z-index:999999999999; visibility:hidden; opacity:0; filter:alpha(opacity=0); }
+.hv_LB_img { max_width:1000px; position:absolute; }
+/*********************************************************************************************/
+/* EDIT BELOW THIS LINE																		 */
+/*********************************************************************************************/	
+@font-face {font-family: 'open_sanslight';
+    src: url('fonts/opensans-light-webfont.eot');
+    src: url('fonts/opensans-light-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-light-webfont.woff') format('woff'),
+         url('fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;font-style: normal;}
+	
+
+/*********************************************************************************************/
+/* CAPTIONS 																				 */
+/*********************************************************************************************/	
+/* DIMENSIONS */
+.hv_caption_cont5 { width:230px; height:215px; }
+.hv_caption_bg1 { width:100%;  height:60px;  }
+.hv_caption_bg2 { width:100%;  height:50px;  }
+.hv_caption_bg3 { width:100%;  height:100%;  }
+.hv_caption_bg4 { width:100%;  height:100%;  }
+.hv_caption_bg5  { width:200px; height:30px;  }
+.hv_caption_bg6  { width:100%;  height:100%;  }
+.hv_caption_bg7  { width:100%;  height:100%;  }
+.hv_caption_bg8  { width:250px; height:250px; }
+.hv_caption_bg9  { width:100%;  height:100%;  }
+.hv_caption_bg10 { width:100%;  height:100%;  }
+.hv_caption_bg11 { width:100%;  height:100%;  }
+.hv_caption_bg12 { width:100%;  height:215px; }
+.hv_caption_bg13 { width:50%;   height:50px;  }
+.hv_caption_txt3  { width:80%; }
+.hv_caption_txt4  { width:80%; }
+.hv_caption_txt5  { width:200px; }
+.hv_caption_txt8  { width:150px; }
+.hv_caption_txt11 { height:20px; }
+.hv_caption_txt12 { height:20px; }
+
+/* CONTAINER STYLES */
+.hv_caption_bg5  { border-radius:8px; padding:5px; }
+.hv_caption_bg6  { background:url('../../img/mouse6bw.png') no-repeat; }
+.hv_caption_bg7  { background:transparent url('../../img/censored.png') no-repeat; border:0; }
+.hv_caption_bg8  { border-radius:250px; padding-top:285px; padding-left:320px; }
+.hv_caption_bg9  { background:url('../../img/arrow-right.png') no-repeat; }
+.hv_caption_bg10 { background:url('../../img/upperrightarrow.png') no-repeat; }
+.hv_caption_bg11 { background:url('../../img/enlarge.png') no-repeat; }
+.hv_caption_bg12 { background:url('../../img/viewicon.png') no-repeat; overflow:hidden; }
+.hv_caption_bg13 { border-radius:15px; }
+.hv_caption_txt3 { padding:20px 0 0 32px; }
+.hv_caption_txt4 { padding:20px 0 0 25px; }
+.hv_caption_txt6 { padding-top:50px; }
+.hv_caption_txt8 { padding-top:10px; }
+.hv_caption_txt12 { padding:6px 15px; border-radius:5px; border:2px solid #fff; }
+
+/* COLOR */
+.hv_caption_bg1  { background:#5cb5ff; border-top:2px solid #b2deff; }
+.hv_caption_bg2  { background:#5cb5ff; border-bottom:2px solid #b2deff; }
+.hv_caption_bg3  { background:#5cb5ff; border-left:2px solid #b2deff; }
+.hv_caption_bg4  { background:#5cb5ff; border-right:2px solid #b2deff; }
+.hv_caption_bg5  { background:#5cb5ff; box-shadow:4px 3px 9px rgba(133,133,133,0.5); border:2px solid #b2deff; }
+.hv_caption_bg8  { background:#5cb5ff; box-shadow:0px 2px 5px rgba(133,133,133,0.5); border:2px solid #b2deff; }
+.hv_caption_bg13 { background:#5cb5ff; }
+.hv_caption_txt1 { color:#fff; }
+.hv_caption_txt2 { color:#fff; }
+.hv_caption_txt3 { color:#FFF; }
+.hv_caption_txt4 { color:#FFF; }
+.hv_caption_txt5 { color:#fff; }
+.hv_caption_txt6 { color:#000; }
+.hv_caption_txt7 { color:#807c73; }
+.hv_caption_txt8 { color:#fff; }
+.hv_caption_txt9 { color:#7c7c7c; }
+.hv_caption_txt11 { color:#7f7a77; }
+.hv_caption_txt12 { background-color:#5cb5ff; color:#fff;}
+.hv_caption_txt13 { color:#fff; }
+
+/* FONTS */
+.hv_caption_txt1  { font-family:'open_sanslight', sans-serif; font-size:20px; line-height:45px; text-align:center; }
+.hv_caption_txt2  { font-family:'open_sanslight', sans-serif; font-size:20px; line-height:52px; text-align:center; }
+.hv_caption_txt3  { font-family:'open_sanslight', sans-serif; font-size:18px; line-height:27px; text-align:left; }
+.hv_caption_txt4  { font-family:'open_sanslight', sans-serif; font-size:18px; line-height:27px; text-align:left; }
+.hv_caption_txt5  { font-family:'open_sanslight', sans-serif; font-size:21px; line-height:25px; text-align:left; }
+.hv_caption_txt6  { font-family:'open_sanslight', sans-serif; font-size:20px; line-height:19px; text-align:center;}
+.hv_caption_txt7  { font-family:'open_sanslight', sans-serif; font-size:16px; line-height:22px; }
+.hv_caption_txt8  { font-family:'open_sanslight', sans-serif; font-size:18px; line-height:25px; }
+.hv_caption_txt9  { font-family:'open_sanslight', sans-serif; font-size:28px; text-align:center; }
+.hv_caption_txt11 { font-family:'open_sanslight', sans-serif; font-size:14px; letter-spacing:0px; font-weight:bold; text-transform:uppercase; }
+.hv_caption_txt12 { font-family:'open_sanslight', sans-serif; font-size:15px; text-transform:uppercase; font-weight:bold; }
+.hv_caption_txt13 { font-family:'open_sanslight', sans-serif; font-size:20px; line-height:52px; text-align:center; }
+
+
+
+
+
+/*********************************************************************************************/
+/* TOOLTIPS 																				 */
+/*********************************************************************************************/	
+/* DIMENSIONS */
+.hv_tooltip_bg1 { width:250px; height:135px; }
+.hv_tooltip_bg2 { width:250px; height:35px;  }
+.hv_tooltip_bg3 { width:150px; height:35px;  }
+.hv_tooltip_bg4 { width:400px; height:185px; }
+.hv_tooltip_bg5 { width:250px; height:135px; }
+.hv_tooltip_txt3 { height:35px; }
+
+/* CONTAINER STYLES */
+.hv_tooltip_bg1 { background:url('../../img/tooltip1.png') no-repeat; }
+.hv_tooltip_bg2 { padding:5px; border-radius:10px; }
+.hv_tooltip_bg3 { border-radius:10px; padding:5px;overflow:hidden;padding-left:50px; }
+.hv_tooltip_bg4 { border-radius:10px; padding:5px; overflow:hidden; }
+.hv_tooltip_bg5 { border-radius:10px; overflow:hidden; }
+.hv_tooltip_txt1 { margin-left:30px; padding-top:38px; padding-right:10px; }
+.hv_tooltip_txt2 { padding-top:5px; }
+.hv_tooltip_txt3 { padding-top:5px; white-space:nowrap; }
+.hv_tooltip_txt4 { margin-left:15px; padding-top:38px; padding-right:10px; }
+
+/* COLOR */
+.hv_tooltip_bg2 { background:#5cb5ff; border:solid 2px #fff; box-shadow:3px 3px 5px rgba(133,133,133,0.35); }
+.hv_tooltip_bg3 { background:#5cb5ff; border:solid 2px #fff; box-shadow:3px 3px 5px rgba(133,133,133,0.35); }
+.hv_tooltip_bg4 { background:#fff;    border:solid 3px #5cb5ff; box-shadow:3px 3px 5px rgba(133,133,133,0.35); }
+.hv_tooltip_bg5 { background:#5cb5ff; border:2px solid rgba(255,255,255,0.15); box-shadow:0px 5px 3px 2px rgba(51,51,51,0.15); }
+.hv_tooltip_txt1 { color:#66635b; }
+.hv_tooltip_txt2 { color:#fff; }
+.hv_tooltip_txt3 { color:#fff; }
+.hv_tooltip_txt4 { color:#FFFFFF; }
+
+/* FONTS */
+.hv_tooltip_txt1 { font-family:'open_sanslight', sans-serif; font-size:16px; line-height:23px; }
+.hv_tooltip_txt2 { font-family:'open_sanslight', sans-serif; font-size:19px; text-align:center; line-height:23px; }
+.hv_tooltip_txt3 { font-family:'open_sanslight', sans-serif; font-size:22px; text-align:center; line-height:23px; }
+.hv_tooltip_txt4 { font-family:'open_sanslight', sans-serif; font-size:24px; line-height:36px; }
+
+
+
+
+
+/*********************************************************************************************/
+/* SLIDING PANELS 																			 */
+/*********************************************************************************************/	
+/* DIMENSIONS */
+.hv_panel_bg1 { width:100%;  height:60px;  }
+.hv_panel_bg2 { width:110px; height:550px; }
+.hv_panel_bg3 { width:320px; height:520px; }
+.hv_panel_bg4 { width:100%;  height:350px; }
+.hv_panel_txt3 { width:300px; }
+
+/* CONTAINER STYLES */
+.hv_panel_bg3 { padding:20px; border-radius:5px; }
+.hv_panel_bg4 { padding:0; }
+.hv_panel_txt1 { padding-top:13px; }
+
+/* COLORS */
+.hv_panel_bg1 { background-color:#5cb5ff; border-bottom:5px solid #fff; }
+.hv_panel_bg2 { background-color:#FFFFFF; border-radius:5px;box-shadow:4px 4px 8px rgba(133,133,133,0.25); }
+.hv_panel_bg3 { background-color:#fff; border:3px solid #5cb5ff; box-shadow:4px 4px 8px rgba(133,133,133,0.35); }
+.hv_panel_bg4 { background-color:#fff; border-bottom:8px solid #5cb5ff; box-shadow:4px 4px 0px #DDDBDB; } 
+.hv_panel_txt1 { color:#fff; }
+.hv_panel_txt3 { color:#66635b; }
+
+/* FONTS */
+.hv_panel_txt1 { font-family:'open_sanslight', sans-serif; text-align:center; font-size:22px; }
+.hv_panel_txt3 { font-family:'ColaborateLightRegular', serif; line-height:28px; font-size:18px; text-align:left; }
+
+
+
+
+/*********************************************************************************************/
+/* LIGHTBOXES AND MODALS 																	 */
+/*********************************************************************************************/	
+/* DIMENSIONS */
+.hv_lightbox_bg1 { width:450px; height:550px; }
+.hv_lightbox_bg2 { width:575px; height:575px; }
+.hv_lightbox_bg3 { width:980px; height:333px; }
+.hv_lightbox_bg4 { width:900px; height:400px; }
+.hv_lightbox_bg5 { width:700px; height:800px; }
+.hv_lightbox_bg6 { width:700px; height:825px; }
+.hv_lightbox_txt1 { width:390px; }
+.hv_lightbox_txt2 { width:390px; }
+.hv_lightbox_txt5 { width:650px; }
+.hv_lightbox_txt6 { width:650px; }
+
+/* CONTAINER STYLES */
+.hv_lightbox_bg1 { border-radius:8px; padding:10px; overflow:hidden; }
+.hv_lightbox_bg2 { border-radius:351px; padding:10px; overflow:hidden; }
+.hv_lightbox_bg3 { overflow:hidden; }
+.hv_lightbox_bg4 { border-radius:11px; padding:10px; }
+.hv_lightbox_bg5 { border-radius:11px; }
+.hv_lightbox_bg6 { border-radius:11px; }
+
+/* COLORS */
+.hv_lightbox_bg1 { background:#5cb5ff; border:solid 2px #b2deff; box-shadow:3px 3px 5px rgba(133,133,133,0.35); }
+.hv_lightbox_bg2 { background:#FFFFFF url('../../img/mouse14alarge.png') no-repeat; border-left:solid 10px #b2deff; border-right:solid 10px #b2deff; box-shadow:6px 6px 15px rgba(133,133,133,0.35); }
+.hv_lightbox_bg3 { background:#FFF url('../../img/lightbox3.png'); border:solid 5px #5cb5ff; box-shadow:5px 5px 5px rgba(133,133,133,0.5); }
+.hv_lightbox_bg4 { background:#fff url('../../img/catalert.png') no-repeat; border:solid 5px #5cb5ff; box-shadow:3px 3px 5px #rgba(133,133,133,0.5); }
+.hv_lightbox_bg5 { background:#fff; border:solid 5px #5cb5ff; box-shadow:3px 3px 5px rgba(133,133,133,0.5); } 
+.hv_lightbox_bg6 { background:#fff; border:solid 5px #5cb5ff; box-shadow:3px 3px 5px rgba(133,133,133,0.5); }
+.hv_lightbox_txt1 { color:#fff; }
+.hv_lightbox_txt2 { color:#000;}
+.hv_lightbox_txt5 { color:#807C73; }
+.hv_lightbox_txt6 { color:#807C73; } 
+
+/* FONTS */
+.hv_lightbox_txt1 { font-family:'open_sanslight', sans-serif; font-size:22px; line-height:32px; }
+.hv_lightbox_txt2 { font-family:'open_sanslight', sans-serif; font-size:18px; letter-spacing:1px; line-height:22px; }
+.hv_lightbox_txt5 { font-family:'open_sanslight', sans-serif; font-size:22px; line-height:32px; }
+.hv_lightbox_txt6 { font-family:'open_sanslight', sans-serif; font-size:22px; line-height:32px; }
+
+/* OVERLAYS */
+.hv_lightbox_overlay1 {background-color:#fff;}
+.hv_lightbox_overlay2 {background: #5cb5ff;}
+.hv_lightbox_overlay3 {background-color:#fff;}
+.hv_lightbox_overlay5 {background: #5cb5ff;} 
+.hv_lightbox_overlay6 {background-color:#4f4f4f;} 
+
+
+
+
+
+/*********************************************************************************************/
+/* TICKERS 																					 */
+/*********************************************************************************************/	
+/* DIMENSIONS */
+.hv_ticker_bg1 { width:230px; height:215px; }
+.hv_ticker_bg2 { width:230px; height:215px; }
+.hv_ticker_bg3 { width:230px; height:30px; }
+.hv_ticker_bg4 { width:945px; height:20px; }
+.hv_ticker_txt1 { width:1500px; }
+.hv_ticker_txt3 { width:500px; }
+.hv_ticker_txt4 { width:1500px; }
+
+
+/* CONTAINER STYLES */
+.hv_ticker_bg1 { padding-top:10px; }
+.hv_ticker_bg2 { padding:0px; }
+.hv_ticker_bg3 { padding-top:10px; overflow:hidden; border-radius:10px;}
+.hv_ticker_bg4 { margin-bottom:10px; border-radius:5px; margin-left:10px; padding-top:10px; padding-bottom:10px; overflow:hidden; }
+
+/* COLORS */
+.hv_ticker_bg1 { background:#5cb5ff; border-top:2px solid #b2deff; } 
+.hv_ticker_bg2 { background-color:#fff; } 
+.hv_ticker_bg3 { background:#5cb5ff; border:3px solid #FFFFFF; box-shadow:4px 4px 8px rgba(133,133,133,0.25); }
+.hv_ticker_bg4 { background-color:#dfdede; border-bottom:3px solid #d5d5d5; }
+.hv_ticker_txt1 { color:#fff; }
+.hv_ticker_txt2 { color:#d2ccc8; }
+.hv_ticker_txt3 { color:#fff; }
+.hv_ticker_txt4 { color:#807C73; }
+
+/* FONTS */
+.hv_ticker_txt1 { font-size:18px; font-family:'open_sanslight', sans-serif; }
+.hv_ticker_txt2 { font-size:160px; font-family:'open_sanslight', sans-serif; }
+.hv_ticker_txt3 { font-size:20px; font-family:'open_sanslight',sans-serif; }
+.hv_ticker_txt4 { font-family:'open_sanslight',sans-serif; font-size:20px; }

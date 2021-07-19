@@ -1,0 +1,266 @@
+/*= CORE CSS */
+.eventsCalendar-list-wrap {
+	display:none;
+}
+.eventsCalendar-currentTitle {
+	font-weight: bold;
+	width:100%;
+	position:relative;
+	padding:5px 0;
+	height:18px;
+	border-top:1px solid #115478;
+	border-bottom:1px solid #FFF;
+	background:#509f7f;
+}
+.monthTitle {
+	width:100%!important;
+	height:100%!important;
+	background:transparent;
+	text-align:center;
+	color:#FFF;
+	font-size:1.2em;	
+	line-height:20px;	
+}
+
+/* arrow next/prev */
+.eventCalendar-wrap .arrow {
+	display:block;
+	position:absolute;
+	width:14px;
+	height:28px;
+	font-size:0;
+	top:10px;
+}
+.eventCalendar-wrap .arrow.prev {
+	background:url(../../images/common/calendar_arrow_left.gif) no-repeat 50% 0;
+	left:15px;
+}
+.eventCalendar-wrap .arrow.next {
+	background:url(../../images/common/calendar_arrow_right.gif) no-repeat 50% 0;
+	right:15px;
+}
+.eventCalendar-wrap .arrow:hover{ background-position: 50% 100%!important;}
+.eventCalendar-wrap .arrow.prev span,
+.eventCalendar-wrap .arrow.next span {
+	height:0px;width:0px; /*display:inline-block;*/ visibility:hidden; overflow:hidden; margin:0;padding:0;font-size:0;
+}
+
+/* day list */
+.eventsCalendar-monthWrap {
+	/*background:#a4cfbd;*/
+}
+
+.eventsCalendar-daysList {
+}
+#content .eventsCalendar-daysList li {
+		box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;		
+	background:#fff;
+/*	padding-top:4px;
+	padding-bottom:5px;
+	margin-right:9px;
+	line-height:22px;
+	display:block;*/
+	text-align:center;
+	vertical-align:middle;
+}
+#content .eventsCalendar-daysList li.eventsCalendar-day-header {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	position: relative;
+	float: left;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	color: #666;
+	margin-top:0px!important;
+	border-left:1px solid #d8eaa9!important;
+	border-right:1px solid #d8eaa9!important;	
+	border-style: solid;
+	border-width: 0;
+	border-color: #888;
+	height:30px;
+	font-size:1em; 
+	line-height:14px;
+	background-color:#d8eaa9!important;
+	padding-top:8px;
+	color:#198666;
+	width:75px;	
+}
+
+#content .eventsCalendar-daysList li.eventsCalendar-day{
+	border-right:1px solid #a4cfbd;
+	border-bottom:1px solid #a4cfbd;
+	width:75px;
+	height:60px;
+}
+.eventsCalendar-day-sunday {
+	color:#fb0000;
+}
+
+/* Special */
+#content .eventsCalendar-daysList  li.dayWithEvents {
+	font-weight:bold;
+/*	color: #007868;
+	*/
+/*	background: url(../../images/common/diary_mark_red.png) top no-repeat #fff;*/
+	
+}
+
+
+
+
+
+#calendarContainer{
+	position:relative;	
+}
+#showCalendar{	width:524px; float:left;}
+#calendarKeys { background:#FFF; padding:10px; border:1px solid #a4cfbd;}
+#calendarKeys ul{ margin-bottom:0!important;}
+#calendarKeys ul li{ float:left; width:152px; margin-bottom:0!important; background:none!important;}
+#calendarKeys ul li span{ display:block; float:left; height:15px; width:15px; margin-right:5px;
+margin-top:2px;}
+#calendarKeys ul li.conferences span{ background-color:#ff8100;}
+#calendarKeys ul li.contests span{ background-color:#d72747;}
+#calendarKeys ul li.ceremonies span{ background-color:#00b73d;}
+#calendarKeys ul li.staff-recruitment span{ background-color:#c7bc00;}
+#calendarKeys ul li.tenders span{ background-color:#078284;}
+#calendarKeys ul li.students span{ background-color:#0c05e8;}
+#calendarKeys ul li.seminars span{ background-color:#47b997;}
+#calendarKeys ul li.activity span{ background-color:#ff4066;}
+#calendarKeys ul li.workshop span{ background-color:#9d852f;}
+#calendarKeys ul li.external-events span{ background-color:#672bb5;}
+#calendarKeys ul li.exhibitions span{ background-color:#f749ba;}
+#calendarKeys ul li.staff_development{ width:335px;}
+#mainCalendar{/*border:1px solid #a4cfbd;*/ margin-bottom:10px;}
+.eventCalendar-wrap { 
+	position:relative; 
+}
+.eventCalendar-wrap .arrow { 
+	position:absolute; 
+	z-index:5; 
+	top:1px;
+}
+	.eventCalendar-wrap .prev {
+		left:3px;
+	}
+	.eventCalendar-wrap .next {
+		right:3px;
+	}
+	
+.eventsCalendar-currentTitle .monthTitle {
+	display:block;
+	text-align:center;
+}
+	.eventsCalendar-monthWrap {
+		position:absolute;
+		top:0; left:0;
+		z-index:2;
+	}
+		.eventsCalendar-monthWrap.currentMonth { 
+			z-index:1;
+		}	
+.eventsCalendar-daysList { 
+	margin:0 auto;
+}
+	.eventsCalendar-daysList.showAsWeek {
+		display:block;
+		margin-bottom:0!important;
+	}
+	
+	#content .eventsCalendar-daysList li {		
+		padding:0;
+		margin:0;
+	}
+		#content .eventsCalendar-daysList li.empty{background:#f0fbfc!important;}
+		#content .eventsCalendar-daysList li.dayWithEvents {
+			cursor:pointer;
+		} 
+		#content .eventsCalendar-daysList li.dayWithEvents:hover{
+			color:#930;			
+		}
+		#content .eventsCalendar-daysList li.dayWithEvents .outline{width:72px; height:58px; }
+		#content .eventsCalendar-daysList li.dayWithEvents:hover .outline, #content .eventsCalendar-daysList li.dayWithEvents.selected .outline{border:1px solid #104a7a;}
+		#content .eventsCalendar-daysList li.dayWithEvents .key_box{ position:absolute; bottom:4px; left:0; width:100%; height:10px;}
+		#content .eventsCalendar-daysList li.dayWithEvents .key_box span{ position:relative; float:right; top:0; left:0; margin-right:4px;}
+		#content .eventsCalendar-daysList li.dayWithEvents span.conferences{ width:10px; height:10px; background-color: #FF8100;}
+		#content .eventsCalendar-daysList li.dayWithEvents span.contests{ width:10px; height:10px; background-color: #D72747;}
+		#content .eventsCalendar-daysList li.dayWithEvents span.ceremonies{ width:10px; height:10px; background-color: #00B73D;}
+		#content .eventsCalendar-daysList li.dayWithEvents span.staff-recruitment{ width:10px; height:10px; background-color: #C7BC00;}
+		#content .eventsCalendar-daysList li.dayWithEvents span.tenders{ width:10px; height:10px; background-color: #078284;}
+		#content .eventsCalendar-daysList li.dayWithEvents span.students{ width:10px; height:10px; background-color: #0C05E8;}
+		#content .eventsCalendar-daysList li.dayWithEvents span.seminars{ width:10px; height:10px; background-color: #47B997;}				
+		#content .eventsCalendar-daysList li.dayWithEvents span.activity{ width:10px; height:10px; background-color: #FF4066;}		
+		#content .eventsCalendar-daysList li.dayWithEvents span.workshop{ width:10px; height:10px; background-color: #9D852F;}
+		#content .eventsCalendar-daysList li.dayWithEvents span.external-events{ width:10px; height:10px; background-color: #672BB5;}
+		#content .eventsCalendar-daysList li.dayWithEvents span.exhibitions{ width:10px; height:10px; background-color: #F749BA;}
+
+		#content .eventsCalendar-daysList li.today .isToday{ color:#198666; font-size:.8em; background:#e6e6e6; text-align:right; font-weight:400; padding-right:5px; position:absolute; width:67px; left:1px; top:1px; z-index:1;}
+		#content .eventsCalendar-daysList li.current {
+			background:rgba(0,0,0,0.35);
+		} 
+		#content .eventsCalendar-daysList.showAsWeek li {
+			display:block;
+			float:left;
+			/*height:60px;*/
+			background-color:#FFF;
+/*			width:73px;
+			border-right:1px solid #a4cfbd;
+			border-bottom:1px solid #a4cfbd;*/
+			position:relative;
+			font-weight:700;
+		}
+		#content .eventsCalendar-daysList.showAsWeek li span{ position:absolute; left:5px; top:0; z-index:100; }
+/*		#content .eventsCalendar-daysList.showAsWeek li:nth-child(7n+1),*/ 
+#content .eventsCalendar-daysList.showAsWeek li.eventsCalendar-day-sunday{border-left:1px solid #a4cfbd; 	width:74px;}
+	#content .eventsCalendar-daysList li > a {
+		padding:0;
+		display:block;
+		text-align:center;
+		min-width:7px;
+	}
+#content .eventsCalendar-daysList.showAsWeek li.eventsCalendar-day-sunday.selected .outline, #content .eventsCalendar-daysList.showAsWeek li.eventsCalendar-day-sunday:hover .outline{width:70px;}
+.eventsCalendar-loading {
+	display:block;
+	min-width:100px;
+	height:40px;
+	line-height:40px;
+}	
+.eventsCalendar-list {
+	position:relative;
+	z-index:1;
+	
+}	
+	.eventsCalendar-list.oldEventList {
+		z-index:2;
+	}
+	.eventsCalendar-subtitle {
+		padding-left:5px;
+		font-weight:bold;
+		font-size:120%;
+	}
+/* end of core CSS */	
+	
+.events_box{ display:none;}
+
+
+
+/*List view*/
+#showActivities{ float:left; width:266px; margin-left:24px; padding-left:15px; background-color:#d2eeec; }
+#activitiesList{ padding-top:30px; }
+#activitiesList p{ margin-bottom:0!important;display:table; padding-left:6px; width:280px; border-bottom:1px solid #a4cfbd;}
+#activitiesList p.date{ color:#104a7b; font-weight:bold; font-size:1em; padding:5px 0; width:286px;}
+#activitiesList p.conferences{ background-color:#00B73D; }
+#activitiesList p.contests{ background-color:#FF8100; }
+#activitiesList p.ceremonies{ background-color:#D72747; }
+#activitiesList p.staff-recruitment{ background-color:#C7BC00; }
+#activitiesList p.tenders{ background-color:#078284; }
+#activitiesList p.students{ background-color:#0C05E8; }
+#activitiesList p.seminars{ background-color:#47B997; }
+#activitiesList p.activity{ background-color:#FF4066; }
+#activitiesList p.workshop{ background-color:#9D852F; }
+#activitiesList p.external-events{ background-color:#672BB5; }
+#activitiesList p.exhibitions{ background-color:#F749BA; }
+#activitiesList p a{ background-color:#FFF; height:50px; vertical-align:middle; display:table-cell; padding:0 10px 0 5px; }

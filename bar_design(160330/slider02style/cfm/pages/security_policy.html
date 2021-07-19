@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ja" xml:lang="ja">
+
+<!-- Mirrored from www.crypton.co.jp/cfm/pages/security_policy by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Apr 2015 03:31:30 GMT -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" />
+<meta name="description" content="クリプトン・フューチャー・メディア（株）のセキュリティーポリシーです">
+<meta name="keywords" content="クリプトン, CRYPTON FUTURE MEDIA, セキュリティーポリシー">
+<meta name="format-detection" content="telephone=no">
+<title>クリプトン｜セキュリティーポリシー</title>
+<link href="../css/normalizeee0f.css?23789456" rel="stylesheet">
+<link href="../css/standardee0f.css?23789456" rel="stylesheet">
+<link href="../css/responsive59bc.css?23574662" rel="stylesheet">
+<link href="../js/mmenufd1a.css?23181697" rel="stylesheet">
+<link href="../js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+
+<!--font awesome-->
+<link rel="stylesheet" href="../js/fontawesome/css/font-awesome.css" />
+<link rel="shortcut icon" href="../../favicon.ico">
+
+<script type="text/javascript" src="../../../ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="../js/page_link_scroll/jquery.easingscroll.js"></script>
+<script type="text/javascript" src="../js/css_browser_selector.js"></script>
+<script type="text/javascript" src="../js/jquery.mmenu.min.js"></script>
+<script type="text/javascript" src="../js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="../js/jquery.champagne.min.js"></script>
+
+<!--[if lte IE 8]>
+    <script type="text/javascript">
+		$(function(){
+			$(".line:nth-child(odd)").addClass('odd');
+			$(".line:nth-child(even)").addClass('even');
+			$(".contactbox:nth-child(odd)").addClass('contactbox_odd');
+		});
+	</script>
+	<script type="text/javascript" src="/cfm/js/ie.separate.js"></script>
+	
+	<script type="text/javascript" src="/cfm/js/jquery.backgroundSize.js"></script>
+	<script>
+	$(function() {
+		$(".deskthum").css( "background-size", "cover" );
+	});
+	</script>
+	
+<![endif]-->
+
+<script type="text/javascript">
+$(function(){
+
+	$('.backtotop').hide();
+	$('.backtotop').click(function() {
+		$('body,html').animate({
+			scrollTop:0
+		})
+		return false
+	});
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 200) {
+			$('.backtotop').fadeIn();
+		} else {
+			$('.backtotop').fadeOut();
+		}
+	});
+	
+	$("a[href*='#']:not(.gmenu_icon)").easingScroll({
+		easing: "easeOutQuad",
+		duration: 400
+	});
+	
+});
+</script>
+
+<script type="text/javascript">
+	function menu_slide(){
+		var ww = $(window).width();
+		if (ww <= 768){
+			$(".gmenu").addClass('gmenu_mobile');
+			$(".fancybox").addClass('fancybox_mobile');
+			$(".fancybox").removeClass('fancybox');
+		}
+		else{
+			$(".gmenu").removeClass('gmenu_mobile mm-menu mm-opened');
+			$(".gmenu > div").removeClass('mm-inner');
+		}
+	}
+	$(function() {
+		menu_slide();
+		$('.gmenu_mobile').mmenu();
+	});
+	$(window).resize(function(){
+		menu_slide();
+		$('.gmenu_mobile').mmenu();
+	});
+</script>
+
+<script type="text/javascript">
+	
+	$(document).ready(function() {
+		$("a#fancybox, a.fancybox").fancybox({
+			'overlayColor' : '#111111',
+			'speedOut' : 80,
+			'overlayOpacity' : 0.8,
+			'margin' : 100,
+			'titlePosition': 'inside'
+		});
+	});
+	
+	$(document).ready(function() {
+		$("a.fancybox_mobile").fancybox({
+			'overlayColor' : '#111111',
+			'speedOut' : 80,
+			'overlayOpacity' : 0.8,
+			'autoScale' : true,
+			'showCloseButton' : false,
+			'padding' : 0,
+			'margin' : 20
+		});
+	});
+	
+</script>
+
+<!-- Google Analytics Tracking Code -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  var pluginUrl = '../../../www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-45206138-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<!-- Google Analytics Social Button Tracking -->
+<script type="text/javascript" src="../js/ga_social_tracking.js"></script>
+
+<!-- Load Twitter JS-API asynchronously -->
+<script type="text/javascript" charset="utf-8">
+  window.twttr = (function (d,s,id) {
+    var t, js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+    js.src="../../../platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+    return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+  }(document, "script", "twitter-wjs"));
+  // Wait for the asynchronous resources to load
+  twttr.ready(function(twttr) {
+      _ga.trackTwitter(); //Google Analytics tracking
+  });
+</script>
+
+</head>
+<body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+
+
+	<ul class="gmenu gmenu_nml" id="gmenu">
+		<li><a href="../../index.html">TOP</a></li>
+		<li><a class="" href="project.html">事業内容</a></li>
+		<li class="lv2"><a href="project_dtm.html">サウンド素材・ソフト音源</a></li>
+		<li class="lv2"><a href="project_fxbgm.html">効果音・BGM</a></li>
+		<li class="lv2"><a href="project_mobile.html">モバイルコンテンツ</a></li>
+		<li class="lv2"><a href="project_character.html">キャラクター</a></li>
+		<li class="lv2"><a href="project_other.html">その他</a></li>
+		<li><a class="" href="aboutus.html">会社概要</a></li>
+		<li><a class="" href="../news.html">ニュースリリース</a></li>
+		<li><a class="" href="recruit.html">採用情報</a></li>
+		<li class="lv2"><a href="recruit.html">クリプトンってどんな会社？</a></li>
+		<li class="lv2"><a href="recruit_info.html">募集職種/要項</a></li>
+	</ul>
+
+	<div class="wrapper">
+
+		<div class="header">
+			<a href="../../index.html" class="siteid site_id_bk" title="クリプトン・フューチャー・メディア（株）｜音で発想するチーム"></a>
+			<a class="gmenu_icon" href="#gmenu"><i class="icon-reorder"></i></a>
+		</div>
+	
+		<div class="pageheader">
+			<h1 class="pagetitle">セキュリティーポリシー</h1>
+		</div>
+	
+		<div class="plain_whole">
+			
+			<div class="plain_title">はじめに</div>
+			<p>クリプトン・フューチャー・メディア株式会社（以下「クリプトン」という）では、プライバシーの保護を最重要視しています。そのため、お客様が当社サイト（www.crypton.co.jp）を閲覧する場合、インターネット上のお客様に関する個人データをお客様が登録変更など保守管理されるための手段をご提供します。</p>
+			
+			<p class="br_t_s">以下に、お客様に関する当社サイト（www.crypton.co.jp）を閲覧中にお客様から提供される情報の保護に関して当社が実際に使用しているガイドラインを掲載致します。ただし、当社サイト内にて別途ガイドラインが示されているときは、そちらが優先されます。</p>
+			
+			<!--<p class="br_t">以下に、お客様に関する当社サイト（www.crypton.co.jp）を閲覧中にお客様から提供される情報の保護に関して当社が実際に使用しているガイドラインを掲載致します。</p>-->
+			
+			<p class="br_t_s"><a href="privacy_policy.html">プライバシー保護に関する方針はこちら&nbsp;<i class="icon-double-angle-right"></i></a></p>
+			
+			<div class="plain_title br_t_l">個人向けサービス</div>
+			<p>一部の当社サイトでは、サイトの閲覧をより効率的にしたり、閲覧頂いたお客様に対してフォローアップするために、お客様に対して情報の提供をお願いしています。情報を提供するかどうかは、完全にお客様ご自身に選択して頂くものです。</p>
+			<p class="br_t">たとえば、以下のような場合に情報提供をお願いしています。</p>
+			<ul class="list_nml br_t_s">
+				<li>当社サイトに登録して頂く場合</li>
+				<li class="br_t_s">オンライン上の調査においてご意見をお寄せ頂く場合</li>
+				<li class="br_t_s">ニュースレターの購読をお申し込み頂く場合</li>
+			</ul>
+			
+			<p class="br_t">上に挙げた場合には、お客様のお名前及びe-mailアドレス並びに、その他の関連する個人情報でサービスご利用のための登録または購読申し込みに必要なもののご提供をお願いしております。ニュースレターまたはメーリングリストの場合、これらの購読を取り消すことができます。</p>
+			<p class="br_t">お客様にご提供いただいた情報は機密扱いされ、お客様とクリプトンとの顧客関係に役立てるために使用されます。お客様またはお客様のご注文および購入製品に関する情報は、外部組織においてマーケティングまたは勧誘に使用することを目的として外部組織に対して提供され、または、売却されることはありません。</p>
+			
+		</div>
+		
+		<div class="footer">
+			<ul class="footer_link">
+				<li><a href="rule.html">利用条件</a></li>
+				<li><a href="security_policy.html">セキュリティーポリシー</a></li>
+				<li><a href="privacy_policy.html">プライバシーポリシー</a></li>
+				<li><a href="inquiry.html">お問い合わせ</a></li>
+				<li><a href="../../mp/pages/aboutus/aboutus_en.html">ENGLISH</a></li>
+			</ul>
+			<div class="footer_lang"><span>日本語</span><a href="#">ENGLISH</a></div>
+			<div class="footer_copyright">&copy; Crypton Future Media, INC.</div>
+			
+		</div>
+	</div>
+	<div class="backtotop"><i class="icon-chevron-up"></i></div>
+</body>
+
+<!-- Mirrored from www.crypton.co.jp/cfm/pages/security_policy by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Apr 2015 03:31:30 GMT -->
+</html>

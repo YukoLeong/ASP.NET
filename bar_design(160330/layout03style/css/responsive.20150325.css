@@ -1,0 +1,490 @@
+@charset "utf-8";
+
+@media screen and (min-width: 1680px){
+}
+
+
+@media screen and (max-width: 1439px){
+.page_indonesia .wrapper_inner:before	{right:-100px;}
+}
+
+@media screen and (max-width: 1024px){
+}
+
+
+@media screen and (max-width: 768px){
+}
+
+
+
+@media screen and (max-width: 640px){
+
+
+/************************ html,body ************************/
+html				{min-height:100px;}
+body				{font: 12px/1.3 Helvetica, Arial, Verdana, sans-serif;}
+
+
+/************************ common ************************/
+
+/************************ web font ************************/
+
+/************************ text size ************************/
+.txt_xl							{font-size:30px;}
+.txt_ll							{font-size:18px;}
+.txt_l							{font-size:15px;}
+.txt_l2							{font-size:14px;}
+.txt_m							{font-size:12px;}
+.txt_s							{font-size:7px;}
+
+
+/************************ global menu ************************/
+.gmenu_icon						{display:block;}
+.gmenu							{box-sizing:border-box; background-color:#202020 !important; min-width:10px; height: auto;}
+.gmenu_main						{list-style-type:none; margin:0; padding:0; font-size:0; text-align:left; box-sizing:border-box; min-width:none; display:block !important; min-width:10px;}
+.gmenu_main li					{display:block; margin-right:0; border-bottom:1px solid #333333;}
+/*.gmenu_main li:last-child		{border-bottom:none;}*/
+.gmenu a						{padding:0; display:block; border-bottom:none; color:#cccccc; font-weight:bold; line-height:45px;}
+.gmenu_main .past				{color:#8d8d8d !important; padding-left: 20px; font-weight: bold;}
+.gmenu a.now					{border-bottom:none !important;}
+.gmenu li:nth-child(1)			{display:block;}
+.gmenu ul li.tba				{display:none;}
+
+
+/************************ global sub menu ************************/
+.gmenu_sub						{height:auto; background:none !important; padding:0 !important; border-bottom:none; min-width:10px; text-align:left; position:static; border-top:1px solid #333333;}
+.gmenu_sub li					{padding-left:20px !important;}
+.gmenu_sub li:last-child		{border-bottom:none;}
+.gmenu_sub li a					{line-height:auto; height:auto;}
+.menu_on > a:after				{display:none;}
+.sub_now a						{color:rgba( 255, 255, 255, 0.5 ) !important;}
+.sub_now a div					{border-bottom:none;}
+
+.gmenu_sub.past {
+	display: block !important;
+}
+
+
+.past_sub li											{margin-right:0; padding: 0; width:auto;}
+.past_sub li a, .pastmenu.open .past_sub li span		{line-height:40px; height:40px;}
+.past_sub li a.p2014_ind								{background: none;}
+.past_sub li a.p2014_la									{background: none;}
+.past_sub li a.p2014_ny									{background: none;}
+
+
+/************************ for mmenu ************************/
+
+
+/************************ site id ************************/
+.siteid							{width:140px; left:15px; padding-top:16px;}
+.siteid_page					{display:none;}
+
+
+/************************ wrapper ************************/
+.wrapper						{min-width:10px;}
+
+/************************ Header ************************/
+.header							{min-width:10px;}
+
+/************************ wrapper inner ************************/
+.wrapper_inner					{min-width:10px;}
+
+
+/************************ vertical position ************************/
+
+/************************ footer ************************/
+.footer					{padding:10px 10px; text-align:left;}
+.credit					{margin-bottom:10px; font-size:0; line-height:1.8;}
+.credit span			{margin:0 5px 0 0;}
+.copy span				{margin:0 5px 0 0;}
+.copy_piapro			{background:url(../images/logo_piapro.png) no-repeat right center; background-size:40px auto; padding-right:45px; display:inline-block; margin-left:0;}
+.logo_miku				{background:url(../images/logo_miku.png) no-repeat center; background-size:contain; width:40px; height:17px; position:absolute; bottom:6px; right:10px; display:block;}
+
+
+/************************ jump_pagetop ************************/
+.backtotop		{display:none !important;}
+
+
+/************************ section ************************/
+.section_whole										{min-width:10px;}
+.section_inner										{padding:45px 20px;}
+.section_inner_low									{padding:45px 20px;}
+.sect_half1_r										{padding-left:45px;}
+.sect_half1_l 										{padding-right:45px;}
+.sect_half2_whole .sect_half2_50:nth-child(odd)		{padding-right:20px;}
+.sect_half2_whole .sect_half2_50:nth-child(even)	{padding-left:20px;}
+
+.sect_half2_50												{float:none; width:100%;}
+.sect_half2_whole .sect_half2_50:nth-child(odd)				{padding-right:0;}
+.sect_half2_whole .sect_half2_50:nth-child(even)			{padding-left:0; margin-top: 20px;}
+
+.item_thum_whole		{margin:10px 0 0 0;}
+.item_thum				{width:100%; float:none; margin-right:0; margin-top:20px;}
+.item_thum:nth-child(3)	{float:none; margin-right:0;}
+.item_thum_doudle		{width:100%; float:none; margin-right:0; margin-top:20px;}
+
+.sect_half4_whole		{}
+.sect_half4_left		{float:none; width:100%; padding-right:0;}
+.sect_half4_right		{margin-left:0; margin-top: 20px;}
+
+.sect_half5_whole		{}
+.sect_half5_right		{float:none; width:100%; padding-left:0;}
+.sect_half5_left		{margin-right:0; margin-top: 20px;}
+
+.sect_half6_whole		{}
+.sect_half6_left		{float:none; width:100%;}
+.sect_half6_right		{margin-left:0; margin-top: 45px;}
+
+.item_thum_whole6		{margin:20px 0 0 0;}
+.item_thum6				{width:30%; float:none; margin-right:0; display:inline-block; margin-bottom:10px;}
+.item_thum6:nth-child(6){float:none; margin-right:0;}
+.item_name6				{margin-top:5px;}
+.item_img6				{background:none;}
+
+.item_thum_l_center				{width:100%; float:none; margin-left:0; margin-left:0;}
+.item_thum_r_center				{width:100%; float:none; margin-right:0;  margin-top:20px;}
+
+.sect_title					{margin-bottom:15px;}
+
+.sect_spacer	{padding-top:100px; padding-bottom:100px;}
+
+
+/************************ page_whole ************************/
+.page_whole										{padding-top:40px; min-width:10px;}
+.page_whole_inner								{min-width:10px; background-size:40%; /*background-attachment:scroll;*/}
+.page_whole_inner_inner							{padding:15px 10px;}
+
+
+
+/************************ pages ************************/
+.page_txt_box			{display:none;}
+
+/* news */
+.page_news				{margin-top:10px; width:100%; padding:10px; border:none; background:rgba(0, 0, 0, 0.9);}
+.page_news span			{margin-right:0; display:block; font-weight:normal;}
+
+/* txt bnr */
+.page_txt_bnr			{margin-top:5px; width:100%; padding:10px; background:rgba(0, 0, 0, 0.9);}
+
+.bnr_fb					{width:80px; height:80px; position:absolute; top:-80px; left:20px;}
+
+/* timeline */
+.timeline						{margin-top:15px;}
+.box_schedule					{border:3px solid #ffffff; padding:15px;}
+.box_schedule_h					{float:none; width:100%; padding:0 0 30px; border-right:none; border-bottom: 3px solid #ffffff;}
+.box_schedule_cont				{margin-left:0; /*border-top:3px solid #ffffff;*/ padding:0; padding-top:15px; margin-top:15px; min-height:10px;}
+.box_schedule_label				{margin-right:0; display:block;}
+
+/* ticket */
+.ticketlist						{text-align:left; border:3px solid #ffffff;}
+.ticket_ctg						{float:none; width:100%; border-right:0; border-bottom:3px solid #ffffff;}
+.ticket_note1					{margin-left:0; padding:15px;}
+.ticket_ctg_inner:last-child	{border-top:3px solid #ffffff;}
+.ticket_ctg_inner_inner			{float:left; width:50%;}
+.ticket_note2					{margin-left:50%; padding:10px;}
+.ticket_name_price				{padding:20px 15px; font-weight:bold;}
+.ticket_name_price:last-child	{border-top:1px solid #ffffff;}
+.ticket_name					{float:none; width:100%;}
+.ticket_price					{margin-left:0; margin-top:5px;}
+.ticket_price .txt_l			{font-size:12px;}
+
+.btn_ticket						{margin-top:30px;}
+.btn_ticket a					{padding:0 20px; line-height:40px;}
+.btn_ticket span				{padding:0 20px; line-height:40px;}
+
+/* bnr_ticket */
+.bnr_ticket						{font-size:12px;}
+
+/* stage */
+.seat_whole		{width:100%;}
+
+/* faq */
+.faq							{border:3px solid #ffffff; border-bottom:none; padding:15px;}
+.faq:last-child					{border-bottom:3px solid #ffffff;}
+.faq_q							{float:none; width:100%; padding-right:0; border-right:none; border-bottom:1px solid #ffffff; padding-bottom:15px; margin-bottom:15px;}
+.faq_a							{margin-left:0;}
+
+/* map */
+.map_bg							{background:url(../images/map_bg.gif) repeat left top; height:300px; position:relative;}
+.map							{background:url(../images/map.png) no-repeat center; height:inherit; position:relative; background-size:contain;}
+.map_inner						{height:inherit; background-position:center bottom; background-repeat:no-repeat; display:none;}
+.map_menu1			{display:none;}
+.map_menu2			{display:none;}
+
+
+
+.ticket_vip_thum6				{width:100%; border:2px solid #ffffff; float:none; margin-right:0; margin-bottom:10px; padding:10px; color:#ffffff; text-align:center; min-height:10px; line-height:1.2;}
+.ticket_vip_thum6_icon			{padding:0 45px;}
+.ticket_vip_thum6_dum			{display:none;}
+
+
+
+/************************ top ************************/
+.page_top						{background-size:75%;}
+.page_top .for_mmenu			{height:auto; min-height:100%; position:relative;}
+.page_top .wrapper				{max-height:none;}
+.page_top .wrapper_inner		{min-width:10px;}
+.movie_mask						{display:none;}
+.page_top .fixedbox_cell_inner	{width:90%;}
+.logo_top						{width:90%; padding-top:110px;}
+
+/* country */
+.top_menubox            {width:100%; margin:30px auto 0 auto; display:flex; -webkit-flex-direction:column; flex-direction:column; -webkit-justify-content:flex-start; justify-content:flex-start;}
+.top_menu               {float:none; width:100%; margin-right:0; margin-bottom:15px; padding:20px; min-height:10px; background:rgba(255,255,255, 0.5);}
+.top_menu_indonesia     {background:rgba(0,0,0, 0.5); -webkit-order:4; order:4;}
+.top_menu_la		    {background:rgba(156, 26, 94, 0.5); -webkit-order:2; order:2;}
+.top_menu_ny		    {background:rgba(52, 162, 178, 0.5); -webkit-order:3; order:3;}
+.top_menu_soon		    {-webkit-order:1; order:1;}
+.comingsoon             {text-align:center; line-height:40px; color:rgba(0,0,0, 0.7); width:auto; height:auto; position:relative; left:0; top:0; margin-top:0;}
+/*
+.top_menubox            {width:100%; margin:60px auto 0 auto;}
+.top_menu               {float:none; width:100%; margin-right:0; margin-bottom:15px; padding:20px; min-height:10px; background:rgba(255,255,255, 0.5);}
+.top_menu_indonesia     {background:rgba(0,0,0, 0.5);}
+.top_menu_la		    {background:rgba(156, 26, 94, 0.5);}
+.top_menu_ny		    {background:rgba(52, 162, 178, 0.5);}
+*/
+.logo_mikuexpo			{display:none;}
+
+.bnr_closed				{width:60px; height:60px; background-size:contain; background-position:left top; top:-3px; left:-3px;}
+
+
+
+
+
+
+/* help us find you */
+.top_mikubook           {width:100%; margin:0 auto 0 auto;}
+.top_mikubook_inner     {display:block; width:100%; margin:0 auto; padding:60px 15px 15px 15px; border-radius:10px;
+                        background:rgba(0,0,0, 0.6) url(../images/logo_mikubook.png) no-repeat center 20px;
+						background-size:120px auto;}
+
+/* sns */
+.snsbox_top				{margin-top:15px; margin-bottom:30px;}
+
+/* piapro.net */
+.btn_whois				{width:80px; height:80px; top:50px; right:30px; background-size:contain;}
+
+
+.top_menu_ny_dvd					{width:100%; min-height: 10px; background:#ffffff url(../images/us/bnr_dvd_ny_mobile.jpg) no-repeat center; -webkit-order:2; order:2; height: 206px; background-size: contain;}
+.top_menu_ny_dvd:after {
+	display: none;
+}
+
+
+
+/************************ indonesia ************************/
+.page_indonesia							{min-width: 10px;}
+.page_indonesia .wrapper				{min-height:480px; max-height:600px;}
+.page_indonesia .wrapper_inner:before	{background:url(../images/bg_indonesia.jpg) no-repeat right top; background-size:100% auto; left:0px; top:0px; height:100%;}
+.page_indonesia .fixedbox_cell_inner	{padding:0 20px; width:100%; position:absolute; bottom:0; left:0; margin-left:0;}
+
+.section_about_indonesia							{background:url(../images/bg_section_indonesia_m.jpg) no-repeat center bottom; padding-bottom:100px;
+													background-size:contain;}
+.section_about_indonesia:before						{display:none;}
+.section_about_indonesia:after						{display:none;}
+
+.link_fb_indonesia									{line-height:20px; padding:0 10px; top:10px; right:0;}
+.link_fb_indonesia i								{margin-right:6px;}
+
+.badge_cosplay					{display:none;}
+.email_asia						{height:16px; top:3px;}
+
+.section_cosplay_top			{background-image:none;}
+
+.section_karent_top .section_inner				{background-image:url(../images/karent_shot_s.png); background-position:center bottom; padding-right:20px; padding-bottom:400px; background-size:80%;}
+
+.exhibition_box_img				{width:40%; position:absolute; top:10px; left:10px;}
+.exhibition_box_txt				{padding:10px; margin-left:45%;}
+
+.item_thum_exhibition .soon_txt	{padding:30px 0;}
+
+.info_closed					{position:relative; bottom:350px; left:50%; width:100%; margin-left:-50%; border-radius:6px;
+								box-shadow:3px 3px 0 rgba(0,0,0, 0.1);}
+
+
+.thum_map_img					{}
+.thum_map_double_img			{display: none;}
+.thum_map_double_img_mobile		{display:block; overflow: hidden;}
+.thum_map_txt					{padding: 20px;}
+.thum_map_no					{font-size: 45px; line-height: 45px; margin-bottom: -45px; text-align: right;}
+.thum_map_title					{margin-bottom: 30px; font-weight: bold; padding-right: 60px;}
+
+
+.mapicon_la03_img, .mapicon_la05, .mapicon_la07_1, .mapicon_la07_2, .mapicon_la_cat				{display: none;}
+.mapicon_la08_img				{background:none;}
+.mapicon_la03_txt				{padding-right: 0; padding-bottom: 0;}
+.mapicon_la08_txt				{padding-bottom: 0;}
+
+
+/************************ LA ************************/
+.page_la						{min-width: 10px;}
+.page_la .wrapper				{min-height:10px; max-height:600px;}
+.page_la .wrapper_auto			{min-height:10px; max-height:600px;}
+
+.page_la .wrapper_outer_auto	{margin-top:40px;}
+.page_la .wrapper_inner_auto	{background:url(../images/us/bg_color_main3.jpg) no-repeat -300px top; background-size:auto 500px;}
+.top_la							{width:100%; min-height:10px; height:auto; padding:190px 9% 10px 9%; margin-top:0;
+background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,0) 20%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(20%,rgba(255,255,255,0)), color-stop(60%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 20%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 20%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 20%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 20%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ccffffff',GradientType=0 ); /* IE6-9 */
+
+								}
+.top_la .center img				{width:100%; height:auto;}
+.page_la .wrapper_inner:after	{display:none;}
+.page_la .snsbox_top .snsbtn	{display:inline-block; line-height:1; vertical-align:top; position:relative; overflow:hidden; margin-bottom:5px;}
+
+.section_inner_la_goods_ca						{padding:20px 0 45px;}
+.section_inner_la_goods_ca_inner				{background: #c1c1c1; padding:0 20px 20px;}
+.title_ca		{background:url(../images/us/goods/img_ca.png) no-repeat center top; padding-top: 160px; position: relative; top:-45px; margin-bottom: -45px;}
+.goods_area		{font-weight: bold; text-align: center;}
+
+.section_inner_la_goods_hs						{padding:20px 0 45px;}
+.section_inner_la_goods_hs_inner				{background: #363636; padding:20px;}
+
+/*.section_candy				{padding-bottom: 30px; background-size: 150% !important;}*/
+
+.section_candy				{background-image: none !important; padding-bottom: 0;}
+.section_candy_top			{background-image: none !important; padding-top: 0;}
+.section_theater			{background-image: none !important;}
+.section_party				{background:url(../images/us/bg_party.gif) repeat center !important;}
+
+
+
+
+
+/************************ NY ************************/
+.page_ny						{min-width: 10px;}
+.page_ny .wrapper				{min-height:10px; max-height:600px;}
+.page_ny .wrapper_auto			{min-height:10px; max-height:600px;}
+
+.page_ny .wrapper_outer_auto	{margin-top:40px;}
+.page_ny .wrapper_inner_auto	{background:url(../images/us/bg_color_main3.jpg) no-repeat -300px top; background-size:auto 500px;}
+.top_ny							{width:100%; min-height:10px; height:auto; padding:190px 9% 10px 9%; margin:0;
+background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,0) 20%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(20%,rgba(255,255,255,0)), color-stop(60%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 20%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 20%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 20%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 20%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ccffffff',GradientType=0 ); /* IE6-9 */
+
+								}
+.top_ny .center img				{width:100%; height:auto;}
+.page_ny .wrapper_inner:after	{display:none;}
+.page_ny .snsbox_top .snsbtn	{display:inline-block; line-height:1; vertical-align:top; position:relative; overflow:hidden; margin-bottom:5px;}
+
+
+
+.badge_nendo		{width:120px; height:120px; position: absolute; top:-70px; right:10px;}
+.badge_nendo img	{width:100%; height:auto;}
+
+.section_halloween					{padding:60px 0;}
+.section_ny_exh						{padding:60px 0; background-color:#0b0c10 !important; background-image: none;}
+
+
+
+.areamap_us					{border: 4px solid #f08200; padding: 10px;}
+.box_wanted_livepaint		{padding:15px;}
+
+.logo_halloween_goods		{width:60%;}
+.logo_hs_goods				{width:70%;}
+
+
+.artist_icon				{width:110px; height:110px; margin-bottom: 5px;}
+.miku_figure				{width:327px; height:300px; background:url(../images/us/miku_figure.png) no-repeat center; background-size: contain; position: absolute; top:auto; bottom:-10px; right:-80px;}
+
+.box_event_la_tokidoki		{background:#555; padding:20px;}
+.box_event_la_nycc			{background:#2f2f2f; padding:20px 20px 300px;}
+
+.nycc_tshirt				{width:260px; height:260px; top:auto; right:auto; bottom: 20px; left:20px;}
+
+.box_event_la_book			{background:#2f2f2f; padding:20px 20px 300px;}
+
+.book_postcard				{width:260px; height:260px; position: absolute; top:auto; bottom:20px; left:20px;}
+
+
+.bnr_david					{width:197px; height:197px; position: absolute; bottom:70px; right:-160px;}
+.bnr_dvd_ny					{width:130px; height:130px; position: absolute; top:60px; left:20px; bottom:auto; right:auto; display: block;}
+
+.ft_logo					{}
+.ft_logo_inner				{padding:10px 15px;}
+
+
+.theater_song				{padding: 20px; margin-top: 45px;}
+.la_party_dj				{padding: 20px; margin-top: 45px;}
+.la_prof_m					{padding: 15px;}
+
+
+
+
+.section_ny_pkg_top						{background:#ffffff url(../images/us/ny_pkg_bg_mobile.jpg) no-repeat center top !important; width: 100%; padding: 0; margin: 0 auto; background-size: auto 200px !important;}
+.section_ny_pkg_top:after				{display:none;}
+.section_ny_pkg_top .toptxt				{padding-right: 0; position: relative; padding-top: 160px;}
+.btn_dvd								{padding:16px 0; line-height:16px; border-radius:2px; text-align: center; font-size: 12px;}
+.section_ny_pkg_info .section_inner {
+	padding: 30px 20px;
+}
+.section_ny_pkg_info:after {
+	top:-20px;
+	margin-left: -10px;
+}
+.ny_pkg_badge					{width:100px; height:100px; position: absolute; bottom:auto; right:0px; top:50px; display: block;}
+
+.ny_pkg_info_desc span {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.ny_pkg_info_desc {
+	padding-right: 0;
+}
+.ny_pkg_info_desc.br_t_s {
+	margin-top: 4px;
+}
+
+.ny_dvd_tracks ul {
+	list-style-type: none;
+	border-bottom: 1px solid #cccccc;
+}
+.ny_dvd_tracks ul li {
+	padding: 6px 0;
+	border-top: 1px solid #cccccc;
+}
+.ny_dvd_tracks .ny_dvd_tr {
+	display: inline-block;
+	min-width: 10px;
+}
+.ny_dvd_tracks .ny_dvd_song {
+	display: inline-block;
+	min-width: 10px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.ny_dvd_tracks .ny_dvd_artist {
+	display: inline-block;
+	color: #666666;
+}
+
+.section_ny_pkg_info .img100 {
+	width:50%;
+	display: block;
+	margin: 0 auto;
+}
+
+.section_ny_pkg_info .right {
+	text-align: left;
+}
+
+
+
+
+}
+
+
+
+
+
